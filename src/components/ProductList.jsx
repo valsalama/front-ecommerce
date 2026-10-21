@@ -1,83 +1,54 @@
-
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import productos from '../data/products.json'
-import { useAuth } from '../context/useAuth'
-import { useFavorites } from '../context/FavoritesContext'
-import CardProductos from './CardProductos'
+import { useEffect, useState } from 'react'
+import ButtonLink from './ui/ButtonLink'
+import FeedbackMessage from './ui/FeedbackMessage'
+import LoadingState from './ui/LoadingState'
+import ProductGrid from './productos/ProductGrid'
+import { getProducts } from '../services/productService'
 import './ProductList.css'
 
-function ProductList() {
-  const { isAuthenticated } = useAuth()
-  const { isFavorite, toggleFavorite, busyProductIds } = useFavorites()
-  const [feedback, setFeedback] = useState('')
+// Destacados del inicio: GET /api/productos?conStock=true (primeras prendas
+// disponibles). Reutiliza la misma grilla y tarjeta que el catálogo.
+function ProductList({ limit = 6 }) {
+  const [products, setProducts] = useState([])
+  const [status, setStatus] = useState('loading')
+  const [error, setError] = useState('')
 
-  const handleToggleFavorite = async (productoId) => {
-    setFeedback('')
-
-    if (!isAuthenticated) {
-      setFeedback('Iniciá sesión para guardar prendas en favoritos.')
-      return
-    }
-
-    try {
-      await toggleFavorite(productoId)
-    } catch (error) {
-      setFeedback(error.message || 'No se pudo actualizar el favorito.')
-    }
-  }
+  useEffect(() => {
+    const controller = new AbortController()
+    getProducts({ conStock: true, signal: controller.signal })
+      .then((items) => {
+        setProducts(items.slice(0, limit))
+        setStatus('success')
+      })
+      .catch((requestError) => {
+        if (requestError.name === 'AbortError') return
+        setError(requestError.message)
+        setStatus('error')
+      })
+    return () => controller.abort()
+  }, [limit])
 
   return (
-    <section
-      className="product-list"
-      id="productos"
-      aria-labelledby="product-list-title"
-    >
+    <section className="product-list" id="productos" aria-labelledby="product-list-title">
       <div className="product-list__heading">
         <div>
           <p className="product-list__eyebrow">Selección de temporada</p>
-          <h2 id="product-list-title">Nuestros productos</h2>
+          <h2 id="product-list-title">Prendas destacadas</h2>
         </div>
-
-        <p>{productos.length} prendas</p>
+        <ButtonLink to="/productos" secondary>Ver todo el catálogo</ButtonLink>
       </div>
 
-      {feedback && (
-        <p className="favorites-feedback" role="status">
-          {feedback}{' '}
-          {!isAuthenticated && <Link to="/login">Ingresar</Link>}
-        </p>
+      {status === 'loading' && <LoadingState label="Cargando prendas…" />}
+      {status === 'error' && (
+        <FeedbackMessage type="error" title="No pudimos mostrar los destacados">{error}</FeedbackMessage>
       )}
-
-      <div className="products-grid">
-        {productos.map((producto) => (
-          <CardProductos
-            key={producto.id}
-            productoId={producto.id}
-            nombre={producto.nombre}
-            descripcion={producto.descripcion}
-            precio={producto.precio}
-            categoria={producto.categoria}
-            imagen={producto.imagen}
-            stock={producto.stock}
-            isFavorite={isAuthenticated && isFavorite(producto.id)}
-            favoriteBusy={busyProductIds.includes(producto.id)}
-            onToggleFavorite={handleToggleFavorite}
-          >
-            {producto.entregaGratis && (
-              <span className="product-badge product-badge--shipping">
-                Entrega gratis
-              </span>
-            )}
-
-            {producto.compraInternacional && (
-              <span className="product-badge product-badge--international">
-                Compra internacional
-              </span>
-            )}
-          </CardProductos>
-        ))}
-      </div>
+      {status === 'success' && products.length === 0 && (
+        <div className="empty-state"><div className="empty-state__content">
+          <h2>No hay prendas disponibles</h2>
+          <p>Volvé pronto: estamos reponiendo la colección.</p>
+        </div></div>
+      )}
+      {status === 'success' && products.length > 0 && <ProductGrid products={products} />}
     </section>
   )
 }

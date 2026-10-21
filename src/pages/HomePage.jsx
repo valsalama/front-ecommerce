@@ -18,7 +18,7 @@ function HomePage() {
             acompañarte temporada tras temporada.
           </p>
           <div className="hero-actions">
-            <ButtonLink to="/#productos">Ver colección</ButtonLink>
+            <ButtonLink to="/productos">Ver colección</ButtonLink>
             {!isAuthenticated && (
               <ButtonLink to="/registro" secondary>
                 Crear una cuenta
