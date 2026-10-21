@@ -3,6 +3,6 @@
   "estado": 404,
   "error": "Not Found",
   "mensaje": "Producto no encontrado",
-  "ruta": "/api/productos/{id}",
+  "ruta": "/api/productos/99",
   "errores": null
 }

@@ -3,66 +3,108 @@
     "id": 1,
     "nombre": "Remera Essential",
     "descripcion": "Remera de algodón peinado, corte recto y cuello redondo reforzado.",
-    "precio": 28900,
-    "categoria": "Remeras",
-    "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85",
+    "precio": 28900.00,
     "stock": 18,
-    "entregaGratis": true,
-    "compraInternacional": false
+    "categoriaId": 1,
+    "categoria": "Remeras",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 1,
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
   },
   {
     "id": 2,
     "nombre": "Camisa Lino Arena",
     "descripcion": "Camisa liviana de lino y algodón con calce relajado y botones naturales.",
-    "precio": 64900,
-    "categoria": "Camisas",
-    "imagen": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=900&q=85",
+    "precio": 64900.00,
     "stock": 9,
-    "entregaGratis": true,
-    "compraInternacional": true
+    "categoriaId": 2,
+    "categoria": "Camisas",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 2,
+        "url": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
   },
   {
     "id": 3,
     "nombre": "Jean Wide Leg",
     "descripcion": "Jean de tiro alto en denim rígido, pierna amplia y lavado azul medio.",
-    "precio": 78900,
-    "categoria": "Pantalones",
-    "imagen": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=85",
+    "precio": 78900.00,
     "stock": 12,
-    "entregaGratis": true,
-    "compraInternacional": false
+    "categoriaId": 3,
+    "categoria": "Pantalones",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 3,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
   },
   {
     "id": 4,
     "nombre": "Campera Urban",
     "descripcion": "Campera de abrigo con cuello alto, bolsillos laterales y terminación repelente.",
-    "precio": 124500,
-    "categoria": "Abrigos",
-    "imagen": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85",
+    "precio": 124500.00,
     "stock": 5,
-    "entregaGratis": false,
-    "compraInternacional": true
+    "categoriaId": 4,
+    "categoria": "Abrigos",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 4,
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
   },
   {
     "id": 5,
     "nombre": "Buzo Studio",
     "descripcion": "Buzo unisex de frisa premium, hombro caído y terminaciones acanaladas.",
-    "precio": 69500,
-    "categoria": "Buzos",
-    "imagen": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
+    "precio": 69500.00,
     "stock": 0,
-    "entregaGratis": false,
-    "compraInternacional": false
+    "categoriaId": 5,
+    "categoria": "Buzos",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 5,
+        "url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
   },
   {
     "id": 6,
     "nombre": "Zapatilla Nómade",
     "descripcion": "Zapatilla urbana de cuero vacuno con suela flexible y plantilla acolchada.",
-    "precio": 118000,
-    "categoria": "Calzado",
-    "imagen": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85",
+    "precio": 118000.00,
     "stock": 7,
-    "entregaGratis": true,
-    "compraInternacional": true
+    "categoriaId": 6,
+    "categoria": "Calzado",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 6,
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
   }
 ]
