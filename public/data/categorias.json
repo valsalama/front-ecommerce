@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Remeras" },
+  { "id": 2, "nombre": "Camisas" },
+  { "id": 3, "nombre": "Pantalones" },
+  { "id": 4, "nombre": "Abrigos" },
+  { "id": 5, "nombre": "Buzos" },
+  { "id": 6, "nombre": "Calzado" }
+]
