@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T17:30:00",
+  "estado": 409,
+  "error": "Conflict",
+  "mensaje": "No se puede eliminar la categoría porque tiene productos asociados",
+  "ruta": "/api/categorias/{id}",
+  "errores": null
+}
