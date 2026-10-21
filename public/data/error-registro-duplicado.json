@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 409,
+  "error": "Conflict",
+  "mensaje": "Ya existe un usuario registrado con ese mail o nombre de usuario",
+  "ruta": "/api/usuarios/registro",
+  "errores": null
+}
