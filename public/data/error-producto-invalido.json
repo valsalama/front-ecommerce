@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T19:00:00",
+  "estado": 400,
+  "error": "Bad Request",
+  "mensaje": "El precio minimo no puede ser mayor al precio maximo",
+  "ruta": "/api/productos/buscar",
+  "errores": null
+}
