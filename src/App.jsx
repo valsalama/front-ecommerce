@@ -4,6 +4,9 @@ import AdminRoute from './components/routing/AdminRoute'
 import ProtectedRoute from './components/routing/ProtectedRoute'
 import AccessDeniedPage from './pages/AccessDeniedPage'
 import CartPage from './pages/CartPage'
+import CategoriesPage from './pages/CategoriesPage'
+import CategoryDetailPage from './pages/CategoryDetailPage'
+import CategoryFormPage from './pages/CategoryFormPage'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import NotFoundPage from './pages/NotFoundPage'
@@ -30,6 +33,10 @@ function App() {
 
         <Route element={<AdminRoute />}>
           <Route path="usuarios" element={<UsersPage />} />
+          <Route path="categorias" element={<CategoriesPage />} />
+          <Route path="categorias/nueva" element={<CategoryFormPage />} />
+          <Route path="categorias/:id" element={<CategoryDetailPage />} />
+          <Route path="categorias/:id/editar" element={<CategoryFormPage />} />
         </Route>
 
         <Route path="sin-permiso" element={<AccessDeniedPage />} />

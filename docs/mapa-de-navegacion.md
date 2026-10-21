@@ -9,7 +9,7 @@ Este documento reúne los mockups de todos los módulos y el mapa de navegación
 | Módulo | Responsable | Mockup | Estado |
 | --- | --- | --- | --- |
 | Usuarios y estructura | Benja | [mockups-usuarios.svg](mockups-usuarios.svg) | Entregado |
-| Categorías | Julieta | A completar | Pendiente |
+| Categorías | Julieta | [mockups-categorias.svg](mockups-categorias.svg) | Entregado |
 | Catálogo y productos | Alan | A completar | Pendiente |
 | Fotos de productos | Julian | A completar | Pendiente |
 | Carrito | Ian | [mockups-carrito.svg](mockups-carrito.svg) | Entregado |
@@ -109,7 +109,7 @@ flowchart LR
 | `/usuarios/:id` | Detalle de usuario | Benja | Hecho |
 | `/productos/:productoId/resenias` | Reseñas de un producto | Valu | Hecho |
 | A confirmar | Detalle de producto | Alan | Pendiente |
-| A confirmar | Categorías | Julieta | Pendiente |
+| `/categorias`, `/categorias/nueva`, `/categorias/:id`, `/categorias/:id/editar` | Categorías | Julieta | Implementado |
 | A confirmar | Fotos | Julian | Pendiente |
 | `/carrito` | Carrito | Ian | Hecho |
 | A confirmar | Checkout, confirmación e historial | Julián Casella | Pendiente |
@@ -132,12 +132,12 @@ Fuente: controladores del backend. Son 35 endpoints. Cada responsable completa l
 
 | Endpoint | Pantalla o acción | Estado |
 | --- | --- | --- |
-| `GET /api/categorias` | A completar | Pendiente |
-| `GET /api/categorias/{id}` | A completar | Pendiente |
-| `GET /api/categorias/buscar` | A completar | Pendiente |
-| `POST /api/categorias` | A completar | Pendiente |
-| `PUT /api/categorias/{id}` | A completar | Pendiente |
-| `DELETE /api/categorias/{id}` | A completar | Pendiente |
+| `GET /api/categorias` | Listado | Implementado |
+| `GET /api/categorias/{id}` | Detalle y búsqueda por ID | Implementado |
+| `GET /api/categorias/buscar` | Búsqueda exacta por nombre | Implementado |
+| `POST /api/categorias` | Formulario de alta | Implementado |
+| `PUT /api/categorias/{id}` | Formulario de edición | Implementado |
+| `DELETE /api/categorias/{id}` | Confirmación de baja y conflicto por categoría en uso | Implementado |
 
 ### Productos · Alan
 
@@ -202,3 +202,7 @@ Fuente: controladores del backend. Son 35 endpoints. Cada responsable completa l
 - Encabezado y pie reutilizables en todas las rutas.
 - Cada pantalla muestra sus estados: datos, lista vacía, carga y error.
 - Adaptable a escritorio (más de 900 px) y a celular, con una sola columna por debajo de 900 px.
+
+### Diseño de categorías
+
+Mockup: [categorías](mockups-categorias.svg). Rutas, contratos y recorrido de revisión: [diseño de categorías](categorias-diseno.md).

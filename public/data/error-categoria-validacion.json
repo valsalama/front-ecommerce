@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T17:30:00",
+  "estado": 400,
+  "error": "Bad Request",
+  "mensaje": "El nombre de la categoría es obligatorio",
+  "ruta": "/api/categorias",
+  "errores": null
+}
