@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 401,
+  "error": "Unauthorized",
+  "mensaje": "Usuario o contraseña incorrectos",
+  "ruta": "/api/usuarios/login",
+  "errores": null
+}

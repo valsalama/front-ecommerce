@@ -1,0 +1,11 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9.demo-usuario.firma-simulada",
+  "tipo": "Bearer",
+  "usuario": {
+    "id": 1,
+    "nombreUsuario": "benja",
+    "mail": "benja@trama.com",
+    "nombre": "Benjamín",
+    "apellido": "Bondio"
+  }
+}

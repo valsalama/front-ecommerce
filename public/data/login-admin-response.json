@@ -1,0 +1,11 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9.demo-admin.firma-simulada",
+  "tipo": "Bearer",
+  "usuario": {
+    "id": 4,
+    "nombreUsuario": "admin.trama",
+    "mail": "admin@trama.com",
+    "nombre": "Valentina",
+    "apellido": "Salama"
+  }
+}

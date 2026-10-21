@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombreUsuario": "benja",
+    "mail": "benja@trama.com",
+    "nombre": "Benjamín",
+    "apellido": "Bondio"
+  },
+  {
+    "id": 2,
+    "nombreUsuario": "jdefino",
+    "mail": "julieta@trama.com",
+    "nombre": "Julieta",
+    "apellido": "Defino"
+  },
+  {
+    "id": 3,
+    "nombreUsuario": "alanst",
+    "mail": "alan@trama.com",
+    "nombre": "Alan",
+    "apellido": "Stelmaczonek"
+  },
+  {
+    "id": 4,
+    "nombreUsuario": "admin.trama",
+    "mail": "admin@trama.com",
+    "nombre": "Valentina",
+    "apellido": "Salama"
+  },
+  {
+    "id": 5,
+    "nombreUsuario": "nachosc",
+    "mail": "nacho@trama.com",
+    "nombre": "Ignacio",
+    "apellido": "Scervino"
+  }
+]
