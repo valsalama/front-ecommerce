@@ -32,6 +32,11 @@ function Header() {
         </NavLink>
       )}
       {isAuthenticated && <CartLink />}
+      {isAuthenticated && (
+        <NavLink to="/favoritos" className={getNavClass}>
+         Favoritos
+        </NavLink>
+      )}
     </>
   )
 
