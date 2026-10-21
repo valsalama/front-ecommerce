@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "calificacion": 5,
+    "comentario": "Muy buena calidad, el algodón es suave y no se deforma después del lavado.",
+    "productoId": 1,
+    "usuarioId": 2
+  },
+  {
+    "id": 2,
+    "calificacion": 4,
+    "comentario": "Calza bien, aunque el cuello me quedó un poco justo.",
+    "productoId": 1,
+    "usuarioId": 1
+  },
+  {
+    "id": 3,
+    "calificacion": 5,
+    "comentario": "Excelente básico, ya pedí otra en otro color.",
+    "productoId": 1,
+    "usuarioId": 3
+  },
+  {
+    "id": 4,
+    "calificacion": 4,
+    "comentario": "Liviana y fresca para el verano. El lino arruga, pero es parte del estilo.",
+    "productoId": 2,
+    "usuarioId": 5
+  },
+  {
+    "id": 5,
+    "calificacion": 3,
+    "comentario": "Linda tela, pero el talle viene más chico de lo esperado.",
+    "productoId": 2,
+    "usuarioId": 2
+  },
+  {
+    "id": 6,
+    "calificacion": 5,
+    "comentario": "El denim es firme y el corte wide leg queda perfecto.",
+    "productoId": 3,
+    "usuarioId": 3
+  },
+  {
+    "id": 7,
+    "calificacion": 4,
+    "comentario": "Se ve igual que en las fotos y el largo es ideal.",
+    "productoId": 3,
+    "usuarioId": 1
+  },
+  {
+    "id": 8,
+    "calificacion": 2,
+    "comentario": "Abriga bien, pero el cierre se trabó a la segunda semana.",
+    "productoId": 4,
+    "usuarioId": 5
+  },
+  {
+    "id": 9,
+    "calificacion": 5,
+    "comentario": null,
+    "productoId": 4,
+    "usuarioId": 1
+  }
+]
