@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "usuarioId": 1,
+    "items": [
+      {
+        "id": 1,
+        "productoId": 1,
+        "producto": "Remera Essential",
+        "precioUnitario": 28900.00,
+        "cantidad": 2,
+        "subtotal": 57800.00
+      },
+      {
+        "id": 2,
+        "productoId": 3,
+        "producto": "Jean Wide Leg",
+        "precioUnitario": 78900.00,
+        "cantidad": 1,
+        "subtotal": 78900.00
+      },
+      {
+        "id": 3,
+        "productoId": 4,
+        "producto": "Campera Urban",
+        "precioUnitario": 124500.00,
+        "cantidad": 4,
+        "subtotal": 498000.00
+      }
+    ],
+    "total": 634700.00
+  },
+  {
+    "id": 2,
+    "usuarioId": 2,
+    "items": [],
+    "total": 0
+  },
+  {
+    "id": 3,
+    "usuarioId": 3,
+    "items": [],
+    "total": 0
+  },
+  {
+    "id": 4,
+    "usuarioId": 4,
+    "items": [
+      {
+        "id": 4,
+        "productoId": 2,
+        "producto": "Camisa Lino Arena",
+        "precioUnitario": 64900.00,
+        "cantidad": 1,
+        "subtotal": 64900.00
+      }
+    ],
+    "total": 64900.00
+  },
+  {
+    "id": 5,
+    "usuarioId": 5,
+    "items": [
+      {
+        "id": 5,
+        "productoId": 6,
+        "producto": "Zapatilla Nómade",
+        "precioUnitario": 118000.00,
+        "cantidad": 1,
+        "subtotal": 118000.00
+      }
+    ],
+    "total": 118000.00
+  }
+]

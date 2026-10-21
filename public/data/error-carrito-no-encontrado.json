@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 404,
+  "error": "Not Found",
+  "mensaje": "Carrito no encontrado para el usuario",
+  "ruta": "/api/carritos/99",
+  "errores": null
+}

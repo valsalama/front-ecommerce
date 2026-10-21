@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 400,
+  "error": "Bad Request",
+  "mensaje": "No se puede realizar el checkout porque el carrito está vacío",
+  "ruta": "/api/carritos/1/checkout",
+  "errores": null
+}

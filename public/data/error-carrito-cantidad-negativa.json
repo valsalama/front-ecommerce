@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 400,
+  "error": "Bad Request",
+  "mensaje": "La cantidad no puede ser negativa",
+  "ruta": "/api/carritos/1/items/1",
+  "errores": null
+}

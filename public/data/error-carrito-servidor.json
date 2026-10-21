@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 500,
+  "error": "Internal Server Error",
+  "mensaje": "Ocurrió un error inesperado",
+  "ruta": "/api/carritos/1",
+  "errores": null
+}
