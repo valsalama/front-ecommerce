@@ -131,7 +131,7 @@ Las marcadas como "Admin" requieren una sesión de administrador; las marcadas c
 
 ## Cobertura de endpoints
 
-Fuente: controladores del backend. Son 28 endpoints. No hay una pantalla distinta por endpoint: cada fila indica qué pantalla, formulario o botón lo representa.
+Fuente: controladores del backend. Son 35 endpoints. No hay una pantalla distinta por endpoint: cada fila indica qué pantalla, formulario o botón lo representa.
 
 ### Usuarios · Benja
 

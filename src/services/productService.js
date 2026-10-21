@@ -1,4 +1,7 @@
-import { MockApiError, readJson, wait } from './http'
+import { MockApiError, readJson, wait } from './http.js'
+import { getCategoryById } from './categoryService.js'
+import { getPhotoUrlError, MAX_PHOTOS_PER_PRODUCT } from './photoRules.js'
+import { loadCartStore, loadProductStore, nextPhotoId, nextProductId, notifyCatalogChanged } from './mockStore.js'
 
 // Simula los 7 endpoints de ProductoController (/api/productos) con datos locales.
 // Los cambios (alta, edición, stock, baja) quedan en memoria mientras se navega
@@ -6,7 +9,6 @@ import { MockApiError, readJson, wait } from './http'
 // Para conectar la API real alcanza con reemplazar estas funciones por fetch.
 
 const ROUTE = '/api/productos'
-let storePromise
 
 const toFotoDTO = ({ id, url, esPortada }) => ({ id, url, esPortada: Boolean(esPortada) })
 
@@ -24,22 +26,10 @@ const toDTO = (producto) => ({
   fotos: (producto.fotos ?? []).map(toFotoDTO),
 })
 
-async function getStore(signal) {
-  if (!storePromise) {
-    storePromise = readJson('/data/productos.json', { signal })
-      .then((items) => items.map(toDTO))
-      .catch((error) => {
-        storePromise = undefined
-        throw error
-      })
-  }
-  return storePromise
-}
-
 async function prepare(signal, delay = 300) {
   signal?.throwIfAborted()
   await wait(delay, signal)
-  const products = await getStore(signal)
+  const products = await loadProductStore()
   signal?.throwIfAborted()
   return products
 }
@@ -87,9 +77,8 @@ function sortProducts(products, sort = 'nombre,asc') {
   })
 }
 
-// Forma JSON de Page<ProductoRespuestaDTO>. Spring Boot 4 serializa la página como
-// { content, page: { size, number, totalElements, totalPages } }.
-// Verificar con Postman contra GET /api/productos/buscar y ajustar si difiere.
+// Ejemplo local de Page<ProductoRespuestaDTO>. readPage admite también PageImpl.
+// Al conectar la API se debe contrastar el fixture con su serialización real.
 function toPage(items, number, size) {
   const totalElements = items.length
   const totalPages = Math.ceil(totalElements / size)
@@ -137,6 +126,9 @@ export async function searchProducts({
 } = {}) {
   const route = `${ROUTE}/buscar`
   const products = await prepare(signal)
+  if (!Number.isInteger(Number(page)) || Number(page) < 0 || !Number.isInteger(Number(size)) || Number(size) <= 0) {
+    await fail('error-producto-invalido', route, { signal, mensaje: 'La página debe ser no negativa y el tamaño debe ser positivo' })
+  }
   if (mode === 'error') await fail('error-productos', route, { signal })
 
   const min = precioMin === '' || precioMin === undefined ? undefined : Number(precioMin)
@@ -172,7 +164,7 @@ function validateCreateDTO(datos) {
   if (!String(datos.descripcion ?? '').trim()) errores.descripcion = 'La descripción del producto es obligatoria'
   if (datos.precio === '' || datos.precio === null || datos.precio === undefined) {
     errores.precio = 'El precio es obligatorio'
-  } else if (Number(datos.precio) <= 0) {
+  } else if (!Number.isFinite(Number(datos.precio)) || Number(datos.precio) <= 0) {
     errores.precio = 'El precio debe ser mayor a cero'
   }
   if (datos.stock === '' || datos.stock === null || datos.stock === undefined) {
@@ -182,15 +174,24 @@ function validateCreateDTO(datos) {
   }
   if (!datos.categoriaId) errores.categoriaId = 'La categoría es obligatoria'
   if (!datos.usuarioId) errores.usuarioId = 'El usuario es obligatorio'
-  if (!Array.isArray(datos.fotos)) errores.fotos = 'Las fotos son obligatorias'
+  if (!Array.isArray(datos.fotos)) {
+    errores.fotos = 'Las fotos son obligatorias'
+  } else if (datos.fotos.length > MAX_PHOTOS_PER_PRODUCT) {
+    errores.fotos = `El producto no puede superar las ${MAX_PHOTOS_PER_PRODUCT} fotos`
+  } else {
+    const invalidPhoto = datos.fotos.map(getPhotoUrlError).find(Boolean)
+    if (invalidPhoto) errores.fotos = invalidPhoto
+  }
   return errores
 }
 
 async function resolveCategory(categoriaId, route, signal) {
-  const categories = await readJson('/data/categorias.json', { signal })
-  const category = categories.find((item) => item.id === Number(categoriaId))
-  if (!category) await fail('error-categoria-no-encontrada', route, { signal, mensaje: 'Categoría no encontrada' })
-  return category
+  try {
+    return await getCategoryById(categoriaId, { signal })
+  } catch (error) {
+    if (error instanceof MockApiError) error.payload.ruta = route
+    throw error
+  }
 }
 
 async function resolveUser(usuarioId, route, signal) {
@@ -200,12 +201,11 @@ async function resolveUser(usuarioId, route, signal) {
   return user
 }
 
-function buildFotos(urls, products) {
-  let lastId = Math.max(0, ...products.flatMap((product) => product.fotos.map((foto) => foto.id)))
+function buildFotos(urls) {
   return urls
     .map((url) => String(url).trim())
     .filter(Boolean)
-    .map((url, index) => ({ id: ++lastId, url, esPortada: index === 0 }))
+    .map((url, index) => ({ id: nextPhotoId(), url, esPortada: index === 0 }))
 }
 
 async function checkOwner(product, usuarioId, route, signal) {
@@ -234,7 +234,7 @@ export async function createProduct(datos, { signal } = {}) {
   signal?.throwIfAborted()
 
   const product = {
-    id: Math.max(0, ...products.map((item) => item.id)) + 1,
+    id: nextProductId(),
     nombre: datos.nombre.trim(),
     descripcion: datos.descripcion.trim(),
     precio: Number(datos.precio),
@@ -243,9 +243,10 @@ export async function createProduct(datos, { signal } = {}) {
     categoria: category.nombre,
     usuarioId: user.id,
     nombreUsuario: user.nombreUsuario,
-    fotos: buildFotos(datos.fotos, products),
+    fotos: buildFotos(datos.fotos),
   }
   products.push(product)
+  notifyCatalogChanged()
   return toDTO(product)
 }
 
@@ -267,8 +268,9 @@ export async function updateProduct(id, datos, { signal } = {}) {
     stock: Number(datos.stock),
     categoriaId: category.id,
     categoria: category.nombre,
-    fotos: buildFotos(datos.fotos, products),
+    fotos: buildFotos(datos.fotos),
   })
+  notifyCatalogChanged()
   return toDTO(product)
 }
 
@@ -282,6 +284,7 @@ export async function updateProductStock(id, { usuarioId, stock }, { signal } = 
   const product = await findProduct(products, id, route, signal)
   await checkOwner(product, usuarioId, route, signal)
   product.stock = Number(stock)
+  notifyCatalogChanged()
   return toDTO(product)
 }
 
@@ -291,5 +294,11 @@ export async function deleteProduct(id, usuarioId, { signal } = {}) {
   const products = await prepare(signal, 350)
   const product = await findProduct(products, id, route, signal)
   await checkOwner(product, usuarioId, route, signal)
+  const carts = await loadCartStore()
+  signal?.throwIfAborted()
+  carts.forEach((cart) => {
+    cart.items = cart.items.filter((item) => item.productoId !== product.id)
+  })
   products.splice(products.indexOf(product), 1)
+  notifyCatalogChanged()
 }

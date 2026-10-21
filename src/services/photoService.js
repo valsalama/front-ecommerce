@@ -1,37 +1,13 @@
 import { getPhotoUrlError, MAX_PHOTOS_PER_PRODUCT } from './photoRules.js'
 import { MockApiError, readJson, wait } from './http.js'
+import { loadProductStore, nextPhotoId, notifyCatalogChanged } from './mockStore.js'
 
 // Las fotos viven dentro de cada producto (ProductoRespuestaDTO.fotos). Estas
-// funciones simulan FotoController: reciben URLs, nunca archivos, y siempre
-// devuelven la lista completa de FotoRespuestaDTO del producto.
-//
-// El servicio carga su propia copia en memoria de /data/productos.json. Cuando
-// el catálogo (productService) quede terminado, alcanza con reemplazar
-// loadProducts() por la lectura que use ese servicio.
+// funciones simulan FotoController: reciben URLs, nunca archivos. GET/POST/PATCH
+// devuelven FotoRespuestaDTO[] y DELETE no devuelve contenido.
+// Productos y fotos comparten el mismo estado de demostración.
 const clone = (value) => JSON.parse(JSON.stringify(value))
 const base = (productoId) => `/api/productos/${productoId}/fotos`
-
-let storePromise
-let lastPhotoId = 0
-
-function loadProducts() {
-  if (!storePromise) {
-    storePromise = readJson('/data/productos.json').then((products) => {
-      lastPhotoId = Math.max(0, ...products.flatMap((product) => product.fotos.map((photo) => photo.id)))
-      return clone(products)
-    })
-    storePromise.catch(() => {
-      storePromise = undefined
-    })
-  }
-
-  return storePromise
-}
-
-const nextPhotoId = () => {
-  lastPhotoId += 1
-  return lastPhotoId
-}
 
 async function failWith(fixture, ruta, { mensaje } = {}) {
   const payload = await readJson(`/data/${fixture}.json`)
@@ -44,7 +20,7 @@ async function failWith(fixture, ruta, { mensaje } = {}) {
 }
 
 async function findProduct(productoId, ruta) {
-  const products = await loadProducts()
+  const products = await loadProductStore()
   const product = products.find((candidate) => candidate.id === Number(productoId))
   if (!product) await failWith('error-producto-no-encontrado', ruta)
   return product
@@ -95,6 +71,7 @@ export async function addPhotos(productoId, { usuarioId, fotos }, { signal } = {
 
   urls.forEach((url) => product.fotos.push({ id: nextPhotoId(), url, esPortada: false }))
   ensureCover(product.fotos)
+  notifyCatalogChanged()
   return clone(product.fotos)
 }
 
@@ -109,6 +86,7 @@ export async function setCoverPhoto(productoId, fotoId, usuarioId, { signal } = 
   product.fotos.forEach((photo) => {
     photo.esPortada = photo.id === Number(fotoId)
   })
+  notifyCatalogChanged()
   return clone(product.fotos)
 }
 
@@ -123,5 +101,6 @@ export async function deletePhoto(productoId, fotoId, usuarioId, { signal } = {}
 
   product.fotos.splice(index, 1)
   ensureCover(product.fotos)
-  return clone(product.fotos)
+  notifyCatalogChanged()
+  // FotoController responde 204 No Content.
 }

@@ -97,7 +97,13 @@ function PhotoManager({ productoId, usuarioId }) {
                     )}
                     {toDelete === photo.id ? (
                       <>
-                        <button type="button" className="primary-button photo-danger" disabled={busy} onClick={async () => { await run(() => deletePhoto(productoId, photo.id, usuarioId), 'Se eliminó la foto.'); setToDelete(null) }}>Confirmar</button>
+                        <button type="button" className="primary-button photo-danger" disabled={busy} onClick={async () => {
+                          await run(async () => {
+                            await deletePhoto(productoId, photo.id, usuarioId)
+                            return getPhotos(productoId)
+                          }, 'Se eliminó la foto.')
+                          setToDelete(null)
+                        }}>Confirmar</button>
                         <button type="button" className="secondary-button" disabled={busy} onClick={() => setToDelete(null)}>Cancelar</button>
                       </>
                     ) : (

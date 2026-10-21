@@ -1,5 +1,5 @@
-import { checkoutCart } from './cartService'
-import { MockApiError, readJson, wait } from './http'
+import { checkoutCartWithSnapshot } from './cartService.js'
+import { MockApiError, readJson, wait } from './http.js'
 
 // Copia en memoria de /data/orders.json (OrdenRespuestaDTO). Las órdenes nuevas
 // viven mientras la aplicación esté abierta y no se escriben en el archivo.
@@ -75,8 +75,8 @@ export async function checkoutOrder(usuarioId, cart, { mode = 'success', signal 
     )
   }
 
-  const checkout = await checkoutCart(usuarioId, { signal })
   const orders = await loadOrders()
+  const { checkout, cart: confirmedCart } = await checkoutCartWithSnapshot(usuarioId, { signal })
   lastOrderId += 1
 
   const order = {
@@ -85,7 +85,7 @@ export async function checkoutOrder(usuarioId, cart, { mode = 'success', signal 
     total: checkout.total,
     fechaCreacion: new Date().toISOString().slice(0, 19),
     codigoSeguimiento: generateTrackingCode(orders),
-    detalles: (cart?.items ?? []).map((item) => {
+    detalles: confirmedCart.items.map((item) => {
       lastDetailId += 1
       return {
         id: lastDetailId,

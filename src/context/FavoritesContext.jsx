@@ -1,3 +1,4 @@
+import { subscribeCatalog } from '../services/mockStore.js'
 
 import {
   createContext,
@@ -10,6 +11,7 @@ import {
 import { useAuth } from './useAuth'
 import {
   addFavorite,
+  clearFavorites,
   getFavoritesByUser,
   removeFavorite,
 } from '../services/favoriteService'
@@ -38,6 +40,7 @@ export function FavoritesProvider({ children }) {
 
     try {
       const data = await getFavoritesByUser(userId, { signal })
+      signal?.throwIfAborted()
       setFavorites(data)
       setStatus('success')
       return data
@@ -56,6 +59,14 @@ export function FavoritesProvider({ children }) {
 
     return () => controller.abort()
   }, [refreshFavorites])
+
+  useEffect(() => subscribeCatalog(() => { refreshFavorites() }), [refreshFavorites])
+
+  const emptyFavorites = useCallback(async () => {
+    if (!userId) return
+    await clearFavorites(userId)
+    await refreshFavorites()
+  }, [userId, refreshFavorites])
 
   const toggleFavorite = useCallback(async (productoId) => {
     if (!userId) {
@@ -103,6 +114,7 @@ export function FavoritesProvider({ children }) {
       ),
     toggleFavorite,
     refreshFavorites,
+    emptyFavorites,
   }), [
     favorites,
     status,
@@ -110,6 +122,7 @@ export function FavoritesProvider({ children }) {
     busyProductIds,
     toggleFavorite,
     refreshFavorites,
+    emptyFavorites,
   ])
 
   return (

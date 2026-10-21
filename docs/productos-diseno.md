@@ -56,8 +56,7 @@ Fuente: `ProductoController` del backend.
 | `PATCH /api/productos/{id}/stock` | `updateProductStock()` | Campo de stock + "Guardar" en el inventario | 200, 400 (stock negativo) o 403 |
 | `DELETE /api/productos/{id}?usuarioId=` | `deleteProduct()` | "Eliminar" con diálogo de confirmación | 204, 403 o 404 |
 
-> `GET /api/productos/buscar` está en la rama `feature/productos-filtro-precio` del backend; hay que
-> mergearla a `main` para que la conexión real funcione.
+> `GET /api/productos/buscar` ya está integrado en `main` del backend.
 
 Los códigos documentan la API simulada: el navegador solo lee archivos locales; todavía no se envían
 POST/PUT/PATCH/DELETE a Spring Boot.
