@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 400,
+  "error": "Bad Request",
+  "mensaje": "Stock insuficiente para el producto: Campera Urban",
+  "ruta": "/api/carritos/1/items/3",
+  "errores": null
+}

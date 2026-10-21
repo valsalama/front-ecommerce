@@ -1,0 +1,10 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 400,
+  "error": "Bad Request",
+  "mensaje": "La solicitud contiene datos inválidos",
+  "ruta": "/api/carritos/items",
+  "errores": {
+    "cantidad": "La cantidad debe ser mayor a cero"
+  }
+}

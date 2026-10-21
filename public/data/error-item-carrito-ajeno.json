@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 403,
+  "error": "Forbidden",
+  "mensaje": "El ítem no pertenece al carrito del usuario",
+  "ruta": "/api/carritos/1/items/4",
+  "errores": null
+}
