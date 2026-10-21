@@ -7,6 +7,7 @@ import CartPage from './pages/CartPage'
 import CategoriesPage from './pages/CategoriesPage'
 import CategoryDetailPage from './pages/CategoryDetailPage'
 import CategoryFormPage from './pages/CategoryFormPage'
+import FavoritesPage from './pages/FavoritesPage'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import NotFoundPage from './pages/NotFoundPage'
@@ -23,12 +24,16 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="registro" element={<RegisterPage />} />
-        <Route path="productos/:productoId/resenias" element={<ProductReviewsPage />} />
+        <Route
+          path="productos/:productoId/resenias"
+          element={<ProductReviewsPage />}
+        />
 
         <Route element={<ProtectedRoute />}>
           <Route path="mi-perfil" element={<UserDetailPage ownProfile />} />
           <Route path="usuarios/:id" element={<UserDetailPage />} />
           <Route path="carrito" element={<CartPage />} />
+          <Route path="favoritos" element={<FavoritesPage />} />
         </Route>
 
         <Route element={<AdminRoute />}>

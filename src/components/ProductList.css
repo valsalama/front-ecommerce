@@ -67,3 +67,17 @@
     gap-block: 2.75rem;
   }
 }
+
+
+.favorites-feedback {
+  margin: -1rem 0 2rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.favorites-feedback a {
+  color: var(--color-ink);
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+

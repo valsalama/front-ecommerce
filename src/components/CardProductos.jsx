@@ -1,3 +1,5 @@
+
+import FavoriteButton from './FavoriteButton'
 import './CardProductos.css'
 
 const currencyFormatter = new Intl.NumberFormat('es-AR', {
@@ -7,6 +9,7 @@ const currencyFormatter = new Intl.NumberFormat('es-AR', {
 })
 
 function CardProductos({
+  productoId,
   nombre,
   descripcion,
   precio,
@@ -14,14 +17,33 @@ function CardProductos({
   imagen,
   stock,
   children,
+  isFavorite = false,
+  onToggleFavorite,
+  favoriteBusy = false,
 }) {
   const disponible = stock > 0
 
   return (
     <article className="product-card">
       <div className="product-card__media">
-        <img src={imagen} alt={nombre} className="product-card__image" />
+        <img
+          src={imagen}
+          alt={nombre}
+          className="product-card__image"
+        />
+
         <span className="product-card__category">{categoria}</span>
+
+        {onToggleFavorite && (
+          <div className="product-card__favorite">
+            <FavoriteButton
+              active={isFavorite}
+              busy={favoriteBusy}
+              productName={nombre}
+              onClick={() => onToggleFavorite(productoId)}
+            />
+          </div>
+        )}
       </div>
 
       <div className="product-card__content">
@@ -35,12 +57,21 @@ function CardProductos({
             <span className="product-card__price">
               {currencyFormatter.format(precio)}
             </span>
-            <span className={`product-card__stock ${!disponible ? 'is-unavailable' : ''}`}>
+
+            <span
+              className={`product-card__stock ${
+                !disponible ? 'is-unavailable' : ''
+              }`}
+            >
               {disponible ? `${stock} disponibles` : 'Sin stock'}
             </span>
           </div>
 
-          <button className="product-card__button" type="button" disabled={!disponible}>
+          <button
+            className="product-card__button"
+            type="button"
+            disabled={!disponible}
+          >
             {disponible ? 'Agregar' : 'Agotado'}
           </button>
         </div>

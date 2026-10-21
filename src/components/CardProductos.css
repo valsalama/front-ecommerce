@@ -145,3 +145,16 @@
   background: #aaa59c;
   cursor: not-allowed;
 }
+
+
+.product-card__media {
+  position: relative;
+}
+
+.product-card__favorite {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1;
+}
+
