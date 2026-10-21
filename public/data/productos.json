@@ -106,5 +106,113 @@
         "esPortada": true
       }
     ]
+  },
+  {
+    "id": 7,
+    "nombre": "Remera Rayada Mar",
+    "descripcion": "Remera de algodón con rayas finas en tono azul y crudo, calce regular.",
+    "precio": 31900.00,
+    "stock": 0,
+    "categoriaId": 1,
+    "categoria": "Remeras",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 7,
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Camisa Oxford Celeste",
+    "descripcion": "Camisa oxford de algodón con cuello abotonado y bolsillo en el pecho.",
+    "precio": 58900.00,
+    "stock": 7,
+    "categoriaId": 2,
+    "categoria": "Camisas",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 8,
+        "url": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Pantalón Cargo Oliva",
+    "descripcion": "Pantalón cargo de gabardina con bolsillos laterales y puño ajustable.",
+    "precio": 72900.00,
+    "stock": 5,
+    "categoriaId": 3,
+    "categoria": "Pantalones",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 9,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Tapado Paño Camel",
+    "descripcion": "Tapado largo de paño con forro interior y botones forrados.",
+    "precio": 159900.00,
+    "stock": 3,
+    "categoriaId": 4,
+    "categoria": "Abrigos",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 10,
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Buzo Canguro Gris",
+    "descripcion": "Buzo de frisa con capucha, bolsillo canguro y puños elastizados.",
+    "precio": 54900.00,
+    "stock": 14,
+    "categoriaId": 5,
+    "categoria": "Buzos",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 11,
+        "url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Zapatilla Lona Blanca",
+    "descripcion": "Zapatilla urbana de lona con suela de goma vulcanizada.",
+    "precio": 68900.00,
+    "stock": 2,
+    "categoriaId": 6,
+    "categoria": "Calzado",
+    "usuarioId": 4,
+    "nombreUsuario": "admin.trama",
+    "fotos": [
+      {
+        "id": 12,
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85",
+        "esPortada": true
+      }
+    ]
   }
 ]

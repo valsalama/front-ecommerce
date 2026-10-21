@@ -3,6 +3,7 @@ import AppLayout from './components/layout/AppLayout'
 import AdminRoute from './components/routing/AdminRoute'
 import ProtectedRoute from './components/routing/ProtectedRoute'
 import AccessDeniedPage from './pages/AccessDeniedPage'
+import AdminProductsPage from './pages/AdminProductsPage'
 import CartPage from './pages/CartPage'
 import CheckoutPage from './pages/CheckoutPage'
 import CategoriesPage from './pages/CategoriesPage'
@@ -14,6 +15,9 @@ import LoginPage from './pages/LoginPage'
 import NotFoundPage from './pages/NotFoundPage'
 import OrderDetailPage from './pages/OrderDetailPage'
 import OrdersPage from './pages/OrdersPage'
+import ProductDetailPage from './pages/ProductDetailPage'
+import ProductFormPage from './pages/ProductFormPage'
+import ProductListPage from './pages/ProductListPage'
 import ProductPhotosPage from './pages/ProductPhotosPage'
 import ProductReviewsPage from './pages/ProductReviewsPage'
 import RegisterPage from './pages/RegisterPage'
@@ -28,6 +32,8 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="registro" element={<RegisterPage />} />
+        <Route path="productos" element={<ProductListPage />} />
+        <Route path="productos/:id" element={<ProductDetailPage />} />
         <Route
           path="productos/:productoId/resenias"
           element={<ProductReviewsPage />}
@@ -45,6 +51,9 @@ function App() {
 
         <Route element={<AdminRoute />}>
           <Route path="usuarios" element={<UsersPage />} />
+          <Route path="admin/productos" element={<AdminProductsPage />} />
+          <Route path="admin/productos/nuevo" element={<ProductFormPage />} />
+          <Route path="admin/productos/:id/editar" element={<ProductFormPage />} />
           <Route path="admin/productos/:id/fotos" element={<ProductPhotosPage />} />
           <Route path="categorias" element={<CategoriesPage />} />
           <Route path="categorias/nueva" element={<CategoryFormPage />} />
