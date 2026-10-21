@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Essential",
+    "descripcion": "Remera de algodón peinado, corte recto y cuello redondo reforzado.",
+    "precio": 28900,
+    "categoria": "Remeras",
+    "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85",
+    "stock": 18,
+    "entregaGratis": true,
+    "compraInternacional": false
+  },
+  {
+    "id": 2,
+    "nombre": "Camisa Lino Arena",
+    "descripcion": "Camisa liviana de lino y algodón con calce relajado y botones naturales.",
+    "precio": 64900,
+    "categoria": "Camisas",
+    "imagen": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=900&q=85",
+    "stock": 9,
+    "entregaGratis": true,
+    "compraInternacional": true
+  },
+  {
+    "id": 3,
+    "nombre": "Jean Wide Leg",
+    "descripcion": "Jean de tiro alto en denim rígido, pierna amplia y lavado azul medio.",
+    "precio": 78900,
+    "categoria": "Pantalones",
+    "imagen": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=85",
+    "stock": 12,
+    "entregaGratis": true,
+    "compraInternacional": false
+  },
+  {
+    "id": 4,
+    "nombre": "Campera Urban",
+    "descripcion": "Campera de abrigo con cuello alto, bolsillos laterales y terminación repelente.",
+    "precio": 124500,
+    "categoria": "Abrigos",
+    "imagen": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85",
+    "stock": 5,
+    "entregaGratis": false,
+    "compraInternacional": true
+  },
+  {
+    "id": 5,
+    "nombre": "Buzo Studio",
+    "descripcion": "Buzo unisex de frisa premium, hombro caído y terminaciones acanaladas.",
+    "precio": 69500,
+    "categoria": "Buzos",
+    "imagen": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
+    "stock": 0,
+    "entregaGratis": false,
+    "compraInternacional": false
+  },
+  {
+    "id": 6,
+    "nombre": "Zapatilla Nómade",
+    "descripcion": "Zapatilla urbana de cuero vacuno con suela flexible y plantilla acolchada.",
+    "precio": 118000,
+    "categoria": "Calzado",
+    "imagen": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85",
+    "stock": 7,
+    "entregaGratis": true,
+    "compraInternacional": true
+  }
+]
