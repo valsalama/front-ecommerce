@@ -3,7 +3,7 @@
 <desc id="d">Mapa de navegación de la aplicación Trama con las pantallas de cada módulo y los recorridos entre ellas.</desc>
 <rect x="0" y="0" width="2440" height="1340" rx="0" fill="#e9e6dd" />
 <text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start" >TRAMA — Mapa de navegación</text>
-<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Wireflow consolidado de todos los módulos · Rutas con línea llena: pantallas implementadas · línea punteada: pendiente (catálogo, a cargo de Alan) o componente integrado en otra pantalla</text>
+<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Wireflow consolidado de todos los módulos · Rutas con línea llena: pantallas implementadas · línea punteada: componente integrado en otra pantalla</text>
 <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e211c"/></marker></defs>
 <rect x="40" y="120" width="2360" height="170" rx="0" fill="#f1efe8" stroke="#d8d5cc" stroke-width="1" />
 <text x="60" y="144" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >USUARIOS Y SESIÓN</text>
@@ -50,12 +50,12 @@
 <text x="80" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Inicio</text>
 <text x="80" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/</text>
 <text x="298" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN</text>
-<rect x="400" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="400" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
 <rect x="400" y="380" width="6" height="74" rx="0" fill="#45613c" />
 <text x="420" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Listado y filtros</text>
 <text x="420" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/productos</text>
 <text x="638" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN</text>
-<rect x="740" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="740" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
 <rect x="740" y="380" width="6" height="74" rx="0" fill="#45613c" />
 <text x="760" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Detalle de producto</text>
 <text x="760" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/productos/:id</text>
@@ -128,12 +128,12 @@
 <rect x="688.6" y="756" width="222.8" height="18" rx="0" fill="#e9e6dd" />
 <text x="800" y="769" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >agregar al carrito desde favoritos</text>
 <polyline points="960,454 960,610 1120,610 1120,650" fill="none" stroke="#1e211c" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ah)"/>
-<rect x="60" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="60" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
 <rect x="60" y="880" width="6" height="74" rx="0" fill="#45613c" />
 <text x="80" y="908" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Administrar productos</text>
 <text x="80" y="930" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/admin/productos</text>
 <text x="298" y="946" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN · ADMIN</text>
-<rect x="400" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="400" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
 <rect x="400" y="880" width="6" height="74" rx="0" fill="#45613c" />
 <text x="420" y="908" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Nuevo / editar producto</text>
 <text x="420" y="930" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/admin/productos/nuevo · /:id/editar</text>
@@ -182,7 +182,7 @@
 <rect x="40" y="1192" width="40" height="22" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
 <text x="92" y="1208" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Ruta implementada en el front</text>
 <rect x="380" y="1192" width="40" height="22" rx="0" fill="#fff" stroke="#686a63" stroke-width="1" stroke-dasharray="6 4"/>
-<text x="432" y="1208" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Pendiente (catálogo) o componente integrado en otra pantalla</text>
+<text x="432" y="1208" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Componente integrado en otra pantalla</text>
 <text x="40" y="1245" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >OWNER · ADMIN</text>
 <text x="160" y="1245" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Pantalla solo para administrador</text>
 <line x1="380" y1="1240" x2="420" y2="1240" stroke="#1e211c" stroke-width="1.5"/>

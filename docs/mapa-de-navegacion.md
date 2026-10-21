@@ -2,7 +2,7 @@
 
 Este documento reúne los mockups de todos los módulos y el mapa de navegación completo de la aplicación.
 
-> Los mockups se diseñaron a partir de los DTO, los endpoints y los mensajes de error reales del backend. Las rutas del catálogo (Alan) todavía no están implementadas.
+> Los mockups se diseñaron a partir de los DTO, los endpoints y los mensajes de error reales del backend.
 
 ## Mockups por módulo
 
@@ -13,7 +13,7 @@ Cada tablero reúne las pantallas de escritorio y celular del módulo, sus estad
 | Estilos y componentes | Todos | [estilos-y-componentes.svg](estilos-y-componentes.svg) |
 | Usuarios y estructura | Benja | [mockups-usuarios.svg](mockups-usuarios.svg) |
 | Categorías | Julieta | [mockups-categorias.svg](mockups-categorias.svg) |
-| Catálogo y productos | Alan | Pendiente: lo arma Alan |
+| Catálogo y productos | Alan | [mockups-productos.svg](mockups-productos.svg) |
 | Fotos de productos | Julian | [mockups-fotos.svg](mockups-fotos.svg) |
 | Carrito | Ian | [mockups-carrito.svg](mockups-carrito.svg) |
 | Checkout y órdenes | Julián Casella | [mockups-ordenes.svg](mockups-ordenes.svg) |
@@ -102,15 +102,15 @@ flowchart LR
 
 ## Rutas
 
-Las rutas del catálogo (Alan) figuran como pendientes. Las marcadas como "Admin" requieren una sesión de administrador; las marcadas como "Sesión" requieren iniciar sesión.
+Las marcadas como "Admin" requieren una sesión de administrador; las marcadas como "Sesión" requieren iniciar sesión.
 
 | Ruta | Pantalla | Responsable | Acceso |
 | --- | --- | --- | --- |
 | `/` | Inicio con destacados | Alan | Público |
 | `/login` | Iniciar sesión | Benja | Público |
 | `/registro` | Crear cuenta | Benja | Público |
-| `/productos` | Listado, búsqueda, filtros y paginación | Alan | Público (pendiente) |
-| `/productos/:id` | Detalle con galería, favorito, carrito y reseñas | Alan / Julian / Valu | Público (pendiente) |
+| `/productos` | Listado, búsqueda, filtros y paginación | Alan | Público |
+| `/productos/:id` | Detalle con galería, favorito, carrito y reseñas | Alan / Julian / Valu | Público |
 | `/productos/:productoId/resenias` | Reseñas de un producto (pantalla completa) | Valu | Público |
 | `/mi-perfil` | Perfil de la sesión | Benja | Sesión |
 | `/usuarios/:id` | Detalle de usuario | Benja | Sesión |
@@ -124,9 +124,9 @@ Las rutas del catálogo (Alan) figuran como pendientes. Las marcadas como "Admin
 | `/categorias/nueva` | Alta de categoría | Julieta | Admin |
 | `/categorias/:id` | Detalle de categoría | Julieta | Admin |
 | `/categorias/:id/editar` | Edición de categoría | Julieta | Admin |
-| `/admin/productos` | Administración de productos y stock | Alan | Admin (pendiente) |
-| `/admin/productos/nuevo` | Alta de producto | Alan | Admin (pendiente) |
-| `/admin/productos/:id/editar` | Edición de producto | Alan | Admin (pendiente) |
+| `/admin/productos` | Administración de productos y stock | Alan | Admin |
+| `/admin/productos/nuevo` | Alta de producto | Alan | Admin |
+| `/admin/productos/:id/editar` | Edición de producto | Alan | Admin |
 | `/admin/productos/:id/fotos` | Gestión de fotos | Julian | Admin |
 
 ## Cobertura de endpoints
@@ -157,13 +157,13 @@ Fuente: controladores del backend. Son 28 endpoints. No hay una pantalla distint
 
 | Endpoint | Pantalla o acción | Estado |
 | --- | --- | --- |
-| `GET /api/productos` | Destacados del inicio y listado básico | Pendiente (Alan) |
-| `GET /api/productos/buscar` | Filtros combinados y paginación | Pendiente (Alan) |
-| `GET /api/productos/{id}` | Detalle de producto | Pendiente (Alan) |
-| `POST /api/productos` | Formulario de alta con validaciones | Pendiente (Alan) |
-| `PUT /api/productos/{id}` | Formulario de edición | Pendiente (Alan) |
-| `PATCH /api/productos/{id}/stock` | Modal "Actualizar stock" | Pendiente (Alan) |
-| `DELETE /api/productos/{id}` | Confirmación de eliminación | Pendiente (Alan) |
+| `GET /api/productos` | Destacados del inicio e inventario de administración | Implementado |
+| `GET /api/productos/buscar` | Catálogo con búsqueda, filtros combinados, orden y paginación | Implementado |
+| `GET /api/productos/{id}` | Detalle de producto y carga del formulario de edición | Implementado |
+| `POST /api/productos` | Formulario de alta con validaciones | Implementado |
+| `PUT /api/productos/{id}` | Formulario de edición | Implementado |
+| `PATCH /api/productos/{id}/stock` | Campo de stock con "Guardar" en cada fila del inventario | Implementado |
+| `DELETE /api/productos/{id}` | "Eliminar" con diálogo de confirmación | Implementado |
 
 ### Fotos · Julian
 

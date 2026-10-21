@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="2000" viewBox="0 0 1560 2000" role="img" aria-labelledby="title desc" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkM2U1MTc1Ny1hMGNlLTQ1MDAtODk4MS0xYzYwMzVhZTVjMzQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaKHwHBuhxhmJC4ZG053Uvm4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiOGI0NDZjZS03MTc3LTQ4MzEtODEzNy1mZTJkNGIwY2RkYjBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobmuqc4nRJOIB6VgFUW0mlQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggUsxTGyzAWHxDZ4CLDSZDx4cG8Ozzs/GJdX+dLOuZvuGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaLkN6a4PaqAz0qcw3+QgoO0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDMjZ42IzVCWCFpd3u56XRMhCjOdaB/5WquCYlqyhtoemRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjCZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmQzZTUxNzU3LWEwY2UtNDUwMC04OTgxLTFjNjAzNWFlNWMzNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjNlMjgxZTJmLThkNjQtNGUxYS05MGQ0LWUyYzYwZjJmZmZjZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBSzFMbLMBYfENngIsNJkPHhwbw7POz8Yl1f50s65m+4aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggyKothLfTsYaM4j2LOSpPxycXnjszoTGEYXeW4NScm6iiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggSoc8MAJTtN4MBPqdiY8+65nZpRZhl0utmgvxfhhjwkR0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJpkueVyo8iDOYmZFRH7yJflOJIdfz79VNV6OyRnR/Yi5wRYuC9a3NqB8eWojEDbr08UvFIersKPVrIm3pZuDeE=</c2pa:manifest></metadata><title id="title">TRAMA — Mockups de catálogo y productos</title><desc id="desc">Inicio con destacados, catálogo con búsqueda, filtros y paginación, detalle de producto, administración de productos y formulario, en escritorio y móvil.</desc><style>text{font-family:Arial,sans-serif;fill:#1e211c} .muted{fill:#686a63} .accent{fill:#9a593c} .white{fill:white} .heading{font-family:Georgia,serif} .danger{fill:#9a473d}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9a593c"/></marker></defs>
+<rect x="0" y="0" width="1560" height="2000" fill="#efeee8" stroke="#efeee8"/>
+<text x="40" y="48" font-size="30" class="heading" font-weight="normal" text-anchor="start">TRAMA / CATÁLOGO Y PRODUCTOS</text>
+<text x="40" y="77" font-size="15" class="muted" font-weight="normal" text-anchor="start">Alan · Entrega 3 · Escritorio y móvil · Datos locales según ProductoRespuestaDTO · Galería de Julian, carrito de Ian, favoritos de Nacho, reseñas de Valu</text>
+<text x="40" y="116" font-size="14" class="accent" font-weight="bold" text-anchor="start">01 / INICIO CON DESTACADOS — /</text>
+<rect x="40" y="130" width="700" height="520" fill="#f8f7f3" stroke="#d8d5cc"/>
+<rect x="40" y="130" width="700" height="40" fill="#fff" stroke="#d8d5cc"/>
+<text x="58" y="156" font-size="15" class="" font-weight="bold" text-anchor="start">TRAMA</text>
+<text x="720" y="155" font-size="10" class="" font-weight="normal" text-anchor="end">Inicio   Productos   Carrito   Favoritos</text>
+<rect x="40" y="170" width="700" height="150" fill="#efeee8" stroke="#efeee8"/>
+<text x="390" y="210" font-size="9" class="accent" font-weight="bold" text-anchor="middle">NUEVA COLECCIÓN · PRIMAVERA / VERANO</text>
+<text x="390" y="250" font-size="28" class="heading" font-weight="normal" text-anchor="middle">Prendas para todos tus días.</text>
+<rect x="330" y="270" width="120" height="30" fill="#1e211c" stroke="#1e211c"/>
+<text x="390.0" y="289" font-size="10" class="white" font-weight="bold" text-anchor="middle">VER COLECCIÓN</text>
+<text x="70" y="348" font-size="9" class="accent" font-weight="bold" text-anchor="start">SELECCIÓN DE TEMPORADA</text>
+<text x="70" y="376" font-size="24" class="heading" font-weight="normal" text-anchor="start">Prendas destacadas</text>
+<rect x="560" y="356" width="150" height="30" fill="#fff" stroke="#1e211c"/>
+<text x="635.0" y="375" font-size="10" class="" font-weight="bold" text-anchor="middle">VER TODO EL CATÁLOGO</text>
+<rect x="70" y="398" width="200" height="160" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="70" y1="398" x2="270" y2="558" stroke="#d8d5cc"/><line x1="270" y1="398" x2="70" y2="558" stroke="#d8d5cc"/>
+<rect x="78" y="406" width="62" height="16" fill="#f8f7f3" stroke="#f8f7f3"/>
+<text x="82" y="418" font-size="8" class="" font-weight="bold" text-anchor="start">REMERAS</text>
+<circle cx="254" cy="414" r="10" fill="#fff" stroke="#d8d5cc"/>
+<text x="254" y="418" font-size="11" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="70" y="578" font-size="13" class="heading" font-weight="bold" text-anchor="start">Remera Essential</text>
+<text x="70" y="594" font-size="9" class="muted" font-weight="normal" text-anchor="start">Algodón, calce regular…</text>
+<line x1="70" y1="604" x2="270" y2="604" stroke="#d8d5cc"/>
+<text x="70" y="622" font-size="12" class="" font-weight="bold" text-anchor="start">$ 28.900</text>
+<text x="70" y="634" font-size="8" class="muted" font-weight="normal" text-anchor="start">12 disponibles</text>
+<rect x="208" y="612" width="62" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="239.0" y="631" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR</text>
+<rect x="290" y="398" width="200" height="160" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="290" y1="398" x2="490" y2="558" stroke="#d8d5cc"/><line x1="490" y1="398" x2="290" y2="558" stroke="#d8d5cc"/>
+<rect x="298" y="406" width="62" height="16" fill="#f8f7f3" stroke="#f8f7f3"/>
+<text x="302" y="418" font-size="8" class="" font-weight="bold" text-anchor="start">REMERAS</text>
+<circle cx="474" cy="414" r="10" fill="#fff" stroke="#d8d5cc"/>
+<text x="474" y="418" font-size="11" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="290" y="578" font-size="13" class="heading" font-weight="bold" text-anchor="start">Camisa Lino Arena</text>
+<text x="290" y="594" font-size="9" class="muted" font-weight="normal" text-anchor="start">Algodón, calce regular…</text>
+<line x1="290" y1="604" x2="490" y2="604" stroke="#d8d5cc"/>
+<text x="290" y="622" font-size="12" class="" font-weight="bold" text-anchor="start">$ 64.900</text>
+<text x="290" y="634" font-size="8" class="muted" font-weight="normal" text-anchor="start">12 disponibles</text>
+<rect x="428" y="612" width="62" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="459.0" y="631" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR</text>
+<rect x="510" y="398" width="200" height="160" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="510" y1="398" x2="710" y2="558" stroke="#d8d5cc"/><line x1="710" y1="398" x2="510" y2="558" stroke="#d8d5cc"/>
+<rect x="518" y="406" width="62" height="16" fill="#f8f7f3" stroke="#f8f7f3"/>
+<text x="522" y="418" font-size="8" class="" font-weight="bold" text-anchor="start">REMERAS</text>
+<circle cx="694" cy="414" r="10" fill="#fff" stroke="#d8d5cc"/>
+<text x="694" y="418" font-size="11" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="510" y="578" font-size="13" class="heading" font-weight="bold" text-anchor="start">Jean Wide Leg</text>
+<text x="510" y="594" font-size="9" class="muted" font-weight="normal" text-anchor="start">Algodón, calce regular…</text>
+<line x1="510" y1="604" x2="710" y2="604" stroke="#d8d5cc"/>
+<text x="510" y="622" font-size="12" class="" font-weight="bold" text-anchor="start">$ 78.900</text>
+<text x="510" y="634" font-size="8" class="muted" font-weight="normal" text-anchor="start">12 disponibles</text>
+<rect x="648" y="612" width="62" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="679.0" y="631" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR</text>
+<text x="780" y="116" font-size="14" class="accent" font-weight="bold" text-anchor="start">02 / CATÁLOGO: BÚSQUEDA, FILTROS Y PAGINACIÓN — /productos</text>
+<rect x="780" y="130" width="740" height="520" fill="#f8f7f3" stroke="#d8d5cc"/>
+<rect x="780" y="130" width="740" height="40" fill="#fff" stroke="#d8d5cc"/>
+<text x="798" y="156" font-size="15" class="" font-weight="bold" text-anchor="start">TRAMA</text>
+<text x="1500" y="155" font-size="10" class="" font-weight="normal" text-anchor="end">Inicio   Productos   Carrito   Favoritos</text>
+<text x="810" y="200" font-size="9" class="accent" font-weight="bold" text-anchor="start">CATÁLOGO</text>
+<text x="810" y="232" font-size="26" class="heading" font-weight="normal" text-anchor="start">Todas las prendas</text>
+<rect x="810" y="248" width="680" height="78" fill="#efeee8" stroke="#efeee8"/>
+<text x="822" y="264" font-size="9" class="" font-weight="bold" text-anchor="start">Buscar</text>
+<rect x="822" y="270" width="190" height="24" fill="#fff" stroke="#d8d5cc"/>
+<text x="1020" y="264" font-size="9" class="" font-weight="bold" text-anchor="start">Categoría</text>
+<rect x="1020" y="270" width="100" height="24" fill="#fff" stroke="#d8d5cc"/>
+<text x="1128" y="264" font-size="9" class="" font-weight="bold" text-anchor="start">Precio mín.</text>
+<rect x="1128" y="270" width="95" height="24" fill="#fff" stroke="#d8d5cc"/>
+<text x="1231" y="264" font-size="9" class="" font-weight="bold" text-anchor="start">Precio máx.</text>
+<rect x="1231" y="270" width="95" height="24" fill="#fff" stroke="#d8d5cc"/>
+<text x="1334" y="264" font-size="9" class="" font-weight="bold" text-anchor="start">Ordenar por</text>
+<rect x="1334" y="270" width="110" height="24" fill="#fff" stroke="#d8d5cc"/>
+<text x="836" y="316" font-size="9" class="muted" font-weight="normal" text-anchor="start">☐ Solo con stock</text>
+<rect x="1340" y="300" width="70" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="1375.0" y="319" font-size="10" class="white" font-weight="bold" text-anchor="middle">APLICAR</text>
+<rect x="1416" y="300" width="62" height="22" fill="#fff" stroke="#1e211c"/>
+<text x="1447.0" y="319" font-size="10" class="" font-weight="bold" text-anchor="middle">LIMPIAR</text>
+<text x="810" y="346" font-size="9" class="muted" font-weight="normal" text-anchor="start">12 prendas · página 1 de 2</text>
+<text x="1490" y="346" font-size="9" class="muted" font-weight="normal" text-anchor="end">▸ Probar estados</text>
+<rect x="810" y="356" width="200" height="160" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="810" y1="356" x2="1010" y2="516" stroke="#d8d5cc"/><line x1="1010" y1="356" x2="810" y2="516" stroke="#d8d5cc"/>
+<rect x="818" y="364" width="62" height="16" fill="#f8f7f3" stroke="#f8f7f3"/>
+<text x="822" y="376" font-size="8" class="" font-weight="bold" text-anchor="start">BUZOS</text>
+<circle cx="994" cy="372" r="10" fill="#fff" stroke="#d8d5cc"/>
+<text x="994" y="376" font-size="11" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="810" y="536" font-size="13" class="heading" font-weight="bold" text-anchor="start">Buzo Canguro Gris</text>
+<text x="810" y="552" font-size="9" class="muted" font-weight="normal" text-anchor="start">Algodón, calce regular…</text>
+<line x1="810" y1="562" x2="1010" y2="562" stroke="#d8d5cc"/>
+<text x="810" y="580" font-size="12" class="" font-weight="bold" text-anchor="start">$ 54.900</text>
+<text x="810" y="592" font-size="8" class="muted" font-weight="normal" text-anchor="start">14 disponibles</text>
+<rect x="948" y="570" width="62" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="979.0" y="589" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR</text>
+<rect x="1038" y="356" width="200" height="160" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="1038" y1="356" x2="1238" y2="516" stroke="#d8d5cc"/><line x1="1238" y1="356" x2="1038" y2="516" stroke="#d8d5cc"/>
+<rect x="1046" y="364" width="62" height="16" fill="#f8f7f3" stroke="#f8f7f3"/>
+<text x="1050" y="376" font-size="8" class="" font-weight="bold" text-anchor="start">BUZOS</text>
+<circle cx="1222" cy="372" r="10" fill="#fff" stroke="#d8d5cc"/>
+<text x="1222" y="376" font-size="11" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="1038" y="536" font-size="13" class="heading" font-weight="bold" text-anchor="start">Buzo Studio</text>
+<text x="1038" y="552" font-size="9" class="muted" font-weight="normal" text-anchor="start">Algodón, calce regular…</text>
+<line x1="1038" y1="562" x2="1238" y2="562" stroke="#d8d5cc"/>
+<text x="1038" y="580" font-size="12" class="" font-weight="bold" text-anchor="start">$ 69.500</text>
+<text x="1038" y="592" font-size="8" class="accent" font-weight="normal" text-anchor="start">Sin stock</text>
+<rect x="1176" y="570" width="62" height="22" fill="#fff" stroke="#1e211c"/>
+<text x="1207.0" y="589" font-size="10" class="" font-weight="bold" text-anchor="middle">AGOTADO</text>
+<rect x="1266" y="356" width="200" height="160" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="1266" y1="356" x2="1466" y2="516" stroke="#d8d5cc"/><line x1="1466" y1="356" x2="1266" y2="516" stroke="#d8d5cc"/>
+<rect x="1274" y="364" width="62" height="16" fill="#f8f7f3" stroke="#f8f7f3"/>
+<text x="1278" y="376" font-size="8" class="" font-weight="bold" text-anchor="start">CAMISAS</text>
+<circle cx="1450" cy="372" r="10" fill="#fff" stroke="#d8d5cc"/>
+<text x="1450" y="376" font-size="11" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="1266" y="536" font-size="13" class="heading" font-weight="bold" text-anchor="start">Camisa Lino Arena</text>
+<text x="1266" y="552" font-size="9" class="muted" font-weight="normal" text-anchor="start">Algodón, calce regular…</text>
+<line x1="1266" y1="562" x2="1466" y2="562" stroke="#d8d5cc"/>
+<text x="1266" y="580" font-size="12" class="" font-weight="bold" text-anchor="start">$ 64.900</text>
+<text x="1266" y="592" font-size="8" class="muted" font-weight="normal" text-anchor="start">9 disponibles</text>
+<rect x="1404" y="570" width="62" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="1435.0" y="589" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR</text>
+<rect x="1010" y="616" width="80" height="24" fill="#fff" stroke="#1e211c"/>
+<text x="1050.0" y="632" font-size="9" class="" font-weight="bold" text-anchor="middle">ANTERIOR</text>
+<rect x="1098" y="616" width="28" height="24" fill="#1e211c" stroke="#1e211c"/>
+<text x="1112.0" y="632" font-size="9" class="white" font-weight="bold" text-anchor="middle">1</text>
+<rect x="1132" y="616" width="28" height="24" fill="#fff" stroke="#1e211c"/>
+<text x="1146.0" y="632" font-size="9" class="" font-weight="bold" text-anchor="middle">2</text>
+<rect x="1166" y="616" width="80" height="24" fill="#fff" stroke="#1e211c"/>
+<text x="1206.0" y="632" font-size="9" class="" font-weight="bold" text-anchor="middle">SIGUIENTE</text>
+<text x="40" y="690" font-size="14" class="accent" font-weight="bold" text-anchor="start">03 / DETALLE DE PRODUCTO — /productos/:id</text>
+<rect x="40" y="704" width="700" height="560" fill="#f8f7f3" stroke="#d8d5cc"/>
+<rect x="40" y="704" width="700" height="40" fill="#fff" stroke="#d8d5cc"/>
+<text x="58" y="730" font-size="15" class="" font-weight="bold" text-anchor="start">TRAMA</text>
+<text x="720" y="729" font-size="10" class="" font-weight="normal" text-anchor="end">Inicio   Productos   Carrito   Favoritos</text>
+<text x="70" y="770" font-size="9" class="muted" font-weight="normal" text-anchor="start">Inicio / Catálogo / Remeras</text>
+<rect x="70" y="784" width="290" height="330" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="70" y1="784" x2="360" y2="1114" stroke="#d8d5cc"/><line x1="360" y1="784" x2="70" y2="1114" stroke="#d8d5cc"/>
+<rect x="70" y="1122" width="42" height="50" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="70" y1="1122" x2="112" y2="1172" stroke="#d8d5cc"/><line x1="112" y1="1122" x2="70" y2="1172" stroke="#d8d5cc"/>
+<rect x="120" y="1122" width="42" height="50" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="120" y1="1122" x2="162" y2="1172" stroke="#d8d5cc"/><line x1="162" y1="1122" x2="120" y2="1172" stroke="#d8d5cc"/>
+<rect x="170" y="1122" width="42" height="50" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="170" y1="1122" x2="212" y2="1172" stroke="#d8d5cc"/><line x1="212" y1="1122" x2="170" y2="1172" stroke="#d8d5cc"/>
+<text x="70" y="1192" font-size="9" class="accent" font-weight="bold" text-anchor="start">GALERÍA → componente de Julian</text>
+<text x="390" y="796" font-size="9" class="accent" font-weight="bold" text-anchor="start">REMERAS</text>
+<text x="390" y="834" font-size="28" class="heading" font-weight="normal" text-anchor="start">Remera Essential</text>
+<text x="390" y="869" font-size="18" class="" font-weight="bold" text-anchor="start">$ 28.900</text>
+<text x="390" y="888" font-size="10" class="muted" font-weight="normal" text-anchor="start">18 unidades disponibles</text>
+<rect x="390" y="902" width="260" height="30" fill="#1e211c" stroke="#1e211c"/>
+<text x="520.0" y="921" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR AL CARRITO</text>
+<circle cx="680" cy="917" r="14" fill="#fff" stroke="#d8d5cc"/>
+<text x="680" y="922" font-size="13" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="390" y="950" font-size="9" class="accent" font-weight="bold" text-anchor="start">Carrito → Ian · Favorito → Nacho</text>
+<line x1="390" y1="966" x2="710" y2="966" stroke="#d8d5cc"/>
+<text x="390" y="988" font-size="9" class="" font-weight="bold" text-anchor="start">DESCRIPCIÓN</text>
+<text x="390" y="1008" font-size="10" class="muted" font-weight="normal" text-anchor="start">Remera de algodón peinado, corte recto…</text>
+<text x="390" y="1040" font-size="10" class="muted" font-weight="normal" text-anchor="start">Código</text>
+<text x="500" y="1040" font-size="10" class="" font-weight="normal" text-anchor="start">#1</text>
+<text x="390" y="1064" font-size="10" class="muted" font-weight="normal" text-anchor="start">Categoría</text>
+<text x="500" y="1064" font-size="10" class="" font-weight="normal" text-anchor="start">Remeras</text>
+<text x="390" y="1088" font-size="10" class="muted" font-weight="normal" text-anchor="start">Publicado por</text>
+<text x="500" y="1088" font-size="10" class="" font-weight="normal" text-anchor="start">admin.trama</text>
+<text x="70" y="1224" font-size="22" class="heading" font-weight="normal" text-anchor="start">Reseñas</text>
+<rect x="190" y="1204" width="520" height="40" fill="#efeee8" stroke="#d8d5cc" stroke-dasharray="5 4"/>
+<text x="450" y="1229" font-size="10" class="accent" font-weight="bold" text-anchor="middle">Sección de reseñas → componente de Valu</text>
+<text x="780" y="690" font-size="14" class="accent" font-weight="bold" text-anchor="start">04 / ADMINISTRACIÓN — /admin/productos</text>
+<rect x="780" y="704" width="740" height="330" fill="#f8f7f3" stroke="#d8d5cc"/>
+<rect x="780" y="704" width="740" height="40" fill="#fff" stroke="#d8d5cc"/>
+<text x="798" y="730" font-size="15" class="" font-weight="bold" text-anchor="start">TRAMA</text>
+<text x="1500" y="729" font-size="10" class="" font-weight="normal" text-anchor="end">Inicio   Productos   Usuarios   Categorías   Inventario   Carrito   Favoritos</text>
+<text x="810" y="774" font-size="9" class="accent" font-weight="bold" text-anchor="start">ADMINISTRACIÓN · CATÁLOGO</text>
+<text x="810" y="806" font-size="26" class="heading" font-weight="normal" text-anchor="start">Productos</text>
+<rect x="1360" y="784" width="130" height="30" fill="#1e211c" stroke="#1e211c"/>
+<text x="1425.0" y="803" font-size="10" class="white" font-weight="bold" text-anchor="middle">NUEVO PRODUCTO</text>
+<rect x="810" y="830" width="680" height="26" fill="#efeee8" stroke="#d8d5cc"/>
+<text x="820" y="847" font-size="8" class="" font-weight="bold" text-anchor="start">PRODUCTO</text>
+<text x="1030" y="847" font-size="8" class="" font-weight="bold" text-anchor="start">CATEGORÍA</text>
+<text x="1140" y="847" font-size="8" class="" font-weight="bold" text-anchor="start">PRECIO</text>
+<text x="1240" y="847" font-size="8" class="" font-weight="bold" text-anchor="start">STOCK</text>
+<text x="1360" y="847" font-size="8" class="" font-weight="bold" text-anchor="start">ACCIONES</text>
+<rect x="810" y="856" width="680" height="50" fill="#fff" stroke="#d8d5cc"/>
+<rect x="820" y="864" width="26" height="34" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="820" y1="864" x2="846" y2="898" stroke="#d8d5cc"/><line x1="846" y1="864" x2="820" y2="898" stroke="#d8d5cc"/>
+<text x="854" y="880" font-size="10" class="" font-weight="bold" text-anchor="start">Remera Essential</text>
+<text x="854" y="894" font-size="8" class="muted" font-weight="normal" text-anchor="start">#1</text>
+<text x="1030" y="886" font-size="10" class="" font-weight="normal" text-anchor="start">Remeras</text>
+<text x="1140" y="886" font-size="10" class="" font-weight="normal" text-anchor="start">$ 28.900</text>
+<rect x="1240" y="870" width="44" height="22" fill="#fff" stroke="#d8d5cc"/>
+<text x="1248" y="885" font-size="10" class="" font-weight="normal" text-anchor="start">18</text>
+<rect x="1288" y="870" width="50" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="1313.0" y="889" font-size="10" class="white" font-weight="bold" text-anchor="middle">GUARDAR</text>
+<text x="1350" y="886" font-size="10" class="accent" font-weight="normal" text-anchor="start">Ver  Editar  Fotos</text>
+<text x="1435" y="886" font-size="10" class="danger" font-weight="normal" text-anchor="start">Eliminar</text>
+<rect x="810" y="906" width="680" height="50" fill="#fff" stroke="#d8d5cc"/>
+<rect x="820" y="914" width="26" height="34" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="820" y1="914" x2="846" y2="948" stroke="#d8d5cc"/><line x1="846" y1="914" x2="820" y2="948" stroke="#d8d5cc"/>
+<text x="854" y="930" font-size="10" class="" font-weight="bold" text-anchor="start">Camisa Lino Arena</text>
+<text x="854" y="944" font-size="8" class="muted" font-weight="normal" text-anchor="start">#2</text>
+<text x="1030" y="936" font-size="10" class="" font-weight="normal" text-anchor="start">Camisas</text>
+<text x="1140" y="936" font-size="10" class="" font-weight="normal" text-anchor="start">$ 64.900</text>
+<rect x="1240" y="920" width="44" height="22" fill="#fff" stroke="#d8d5cc"/>
+<text x="1248" y="935" font-size="10" class="" font-weight="normal" text-anchor="start">9</text>
+<rect x="1288" y="920" width="50" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="1313.0" y="939" font-size="10" class="white" font-weight="bold" text-anchor="middle">GUARDAR</text>
+<text x="1350" y="936" font-size="10" class="accent" font-weight="normal" text-anchor="start">Ver  Editar  Fotos</text>
+<text x="1435" y="936" font-size="10" class="danger" font-weight="normal" text-anchor="start">Eliminar</text>
+<rect x="810" y="956" width="680" height="50" fill="#fff" stroke="#d8d5cc"/>
+<rect x="820" y="964" width="26" height="34" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="820" y1="964" x2="846" y2="998" stroke="#d8d5cc"/><line x1="846" y1="964" x2="820" y2="998" stroke="#d8d5cc"/>
+<text x="854" y="980" font-size="10" class="" font-weight="bold" text-anchor="start">Jean Wide Leg</text>
+<text x="854" y="994" font-size="8" class="muted" font-weight="normal" text-anchor="start">#3</text>
+<text x="1030" y="986" font-size="10" class="" font-weight="normal" text-anchor="start">Pantalones</text>
+<text x="1140" y="986" font-size="10" class="" font-weight="normal" text-anchor="start">$ 78.900</text>
+<rect x="1240" y="970" width="44" height="22" fill="#fff" stroke="#d8d5cc"/>
+<text x="1248" y="985" font-size="10" class="" font-weight="normal" text-anchor="start">12</text>
+<rect x="1288" y="970" width="50" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="1313.0" y="989" font-size="10" class="white" font-weight="bold" text-anchor="middle">GUARDAR</text>
+<text x="1350" y="986" font-size="10" class="accent" font-weight="normal" text-anchor="start">Ver  Editar  Fotos</text>
+<text x="1435" y="986" font-size="10" class="danger" font-weight="normal" text-anchor="start">Eliminar</text>
+<text x="780" y="1066" font-size="14" class="accent" font-weight="bold" text-anchor="start">05 / ALTA Y EDICIÓN — /admin/productos/nuevo · /:id/editar</text>
+<rect x="780" y="1080" width="740" height="350" fill="#f8f7f3" stroke="#d8d5cc"/>
+<rect x="780" y="1080" width="740" height="40" fill="#fff" stroke="#d8d5cc"/>
+<text x="798" y="1106" font-size="15" class="" font-weight="bold" text-anchor="start">TRAMA</text>
+<text x="1500" y="1105" font-size="10" class="" font-weight="normal" text-anchor="end">Inicio   Productos   Usuarios   Categorías   Inventario   Carrito   Favoritos</text>
+<text x="810" y="1166" font-size="26" class="heading" font-weight="normal" text-anchor="start">Nuevo producto</text>
+<rect x="810" y="1180" width="440" height="26" fill="#f4e4e1" stroke="#9a473d"/>
+<text x="822" y="1197" font-size="9" class="danger" font-weight="bold" text-anchor="start">La solicitud contiene datos inválidos · Revisá los campos</text>
+<text x="810" y="1220" font-size="9" class="" font-weight="bold" text-anchor="start">Nombre</text>
+<rect x="810" y="1224" width="440" height="20" fill="#fff" stroke="#9a473d"/>
+<text x="1260" y="1238" font-size="9" class="danger" font-weight="normal" text-anchor="start">El nombre del producto es obligatorio</text>
+<text x="810" y="1256" font-size="9" class="" font-weight="bold" text-anchor="start">Descripción</text>
+<rect x="810" y="1260" width="440" height="20" fill="#fff" stroke="#d8d5cc"/>
+<text x="810" y="1292" font-size="9" class="" font-weight="bold" text-anchor="start">Precio (ARS)          Stock</text>
+<rect x="810" y="1296" width="440" height="20" fill="#fff" stroke="#9a473d"/>
+<text x="1260" y="1310" font-size="9" class="danger" font-weight="normal" text-anchor="start">El precio debe ser mayor a cero</text>
+<text x="810" y="1328" font-size="9" class="" font-weight="bold" text-anchor="start">Categoría</text>
+<rect x="810" y="1332" width="440" height="20" fill="#fff" stroke="#d8d5cc"/>
+<text x="810" y="1364" font-size="9" class="" font-weight="bold" text-anchor="start">Fotos (URLs, la primera es portada)</text>
+<rect x="810" y="1368" width="440" height="20" fill="#fff" stroke="#d8d5cc"/>
+<rect x="810" y="1380" width="140" height="24" fill="#1e211c" stroke="#1e211c"/>
+<text x="880.0" y="1399" font-size="10" class="white" font-weight="bold" text-anchor="middle">PUBLICAR PRODUCTO</text>
+<text x="40" y="1530" font-size="14" class="accent" font-weight="bold" text-anchor="start">06 / MÓVIL — CATÁLOGO Y DETALLE (390 px)</text>
+<rect x="40" y="1544" width="230" height="420" fill="#f8f7f3" stroke="#d8d5cc"/>
+<rect x="40" y="1544" width="230" height="34" fill="#fff" stroke="#d8d5cc"/>
+<text x="52" y="1566" font-size="12" class="" font-weight="bold" text-anchor="start">TRAMA</text>
+<text x="252" y="1566" font-size="13" class="" font-weight="normal" text-anchor="end">☰</text>
+<text x="52" y="1606" font-size="18" class="heading" font-weight="normal" text-anchor="start">Todas las prendas</text>
+<rect x="52" y="1616" width="206" height="64" fill="#efeee8" stroke="#efeee8"/>
+<rect x="60" y="1624" width="190" height="20" fill="#fff" stroke="#d8d5cc"/>
+<text x="66" y="1638" font-size="8" class="muted" font-weight="normal" text-anchor="start">Buscar…</text>
+<rect x="60" y="1650" width="92" height="20" fill="#fff" stroke="#d8d5cc"/>
+<rect x="158" y="1650" width="92" height="20" fill="#fff" stroke="#d8d5cc"/>
+<text x="66" y="1664" font-size="8" class="muted" font-weight="normal" text-anchor="start">Categoría</text>
+<text x="164" y="1664" font-size="8" class="muted" font-weight="normal" text-anchor="start">Ordenar</text>
+<rect x="52" y="1690" width="206" height="164" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="52" y1="1690" x2="258" y2="1854" stroke="#d8d5cc"/><line x1="258" y1="1690" x2="52" y2="1854" stroke="#d8d5cc"/>
+<rect x="60" y="1698" width="62" height="16" fill="#f8f7f3" stroke="#f8f7f3"/>
+<text x="64" y="1710" font-size="8" class="" font-weight="bold" text-anchor="start">BUZOS</text>
+<circle cx="242" cy="1706" r="10" fill="#fff" stroke="#d8d5cc"/>
+<text x="242" y="1710" font-size="11" class="" font-weight="normal" text-anchor="middle">♡</text>
+<text x="52" y="1874" font-size="13" class="heading" font-weight="bold" text-anchor="start">Buzo Canguro Gris</text>
+<text x="52" y="1890" font-size="9" class="muted" font-weight="normal" text-anchor="start">Algodón, calce regular…</text>
+<line x1="52" y1="1900" x2="258" y2="1900" stroke="#d8d5cc"/>
+<text x="52" y="1918" font-size="12" class="" font-weight="bold" text-anchor="start">$ 54.900</text>
+<text x="52" y="1930" font-size="8" class="muted" font-weight="normal" text-anchor="start">14 disponibles</text>
+<rect x="196" y="1908" width="62" height="22" fill="#1e211c" stroke="#1e211c"/>
+<text x="227.0" y="1927" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR</text>
+<rect x="300" y="1544" width="230" height="420" fill="#f8f7f3" stroke="#d8d5cc"/>
+<rect x="300" y="1544" width="230" height="34" fill="#fff" stroke="#d8d5cc"/>
+<text x="312" y="1566" font-size="12" class="" font-weight="bold" text-anchor="start">TRAMA</text>
+<text x="512" y="1566" font-size="13" class="" font-weight="normal" text-anchor="end">☰</text>
+<rect x="312" y="1590" width="206" height="180" fill="#e5e1d8" stroke="#d8d5cc"/>
+<line x1="312" y1="1590" x2="518" y2="1770" stroke="#d8d5cc"/><line x1="518" y1="1590" x2="312" y2="1770" stroke="#d8d5cc"/>
+<text x="312" y="1790" font-size="8" class="accent" font-weight="bold" text-anchor="start">REMERAS</text>
+<text x="312" y="1814" font-size="17" class="heading" font-weight="normal" text-anchor="start">Remera Essential</text>
+<text x="312" y="1836" font-size="13" class="" font-weight="bold" text-anchor="start">$ 28.900</text>
+<rect x="312" y="1848" width="170" height="26" fill="#1e211c" stroke="#1e211c"/>
+<text x="397.0" y="1867" font-size="10" class="white" font-weight="bold" text-anchor="middle">AGREGAR AL CARRITO</text>
+<circle cx="504" cy="1861" r="12" fill="#fff" stroke="#d8d5cc"/>
+<text x="312" y="1896" font-size="8" class="" font-weight="bold" text-anchor="start">DESCRIPCIÓN</text>
+<text x="312" y="1912" font-size="9" class="muted" font-weight="normal" text-anchor="start">Remera de algodón peinado…</text>
+<text x="560" y="1530" font-size="14" class="accent" font-weight="bold" text-anchor="start">07 / RECORRIDO DEL MÓDULO</text>
+<rect x="600" y="1570" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="670" y="1592" font-size="10" class="" font-weight="bold" text-anchor="middle">Inicio</text>
+<rect x="760" y="1570" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="830" y="1592" font-size="10" class="" font-weight="bold" text-anchor="middle">Catálogo</text>
+<rect x="920" y="1570" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="990" y="1592" font-size="10" class="" font-weight="bold" text-anchor="middle">Detalle</text>
+<rect x="1080" y="1570" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="1150" y="1592" font-size="10" class="" font-weight="bold" text-anchor="middle">Carrito (Ian)</text>
+<rect x="1080" y="1640" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="1150" y="1662" font-size="10" class="" font-weight="bold" text-anchor="middle">Favoritos (Nacho)</text>
+<rect x="920" y="1640" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="990" y="1662" font-size="10" class="" font-weight="bold" text-anchor="middle">Reseñas (Valu)</text>
+<rect x="600" y="1710" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="670" y="1732" font-size="10" class="" font-weight="bold" text-anchor="middle">Inventario · admin</text>
+<rect x="800" y="1710" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="870" y="1732" font-size="10" class="" font-weight="bold" text-anchor="middle">Nuevo / Editar</text>
+<rect x="1000" y="1710" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="1070" y="1732" font-size="10" class="" font-weight="bold" text-anchor="middle">Confirmar baja</text>
+<rect x="1200" y="1710" width="140" height="34" fill="#fff" stroke="#1e211c"/>
+<text x="1270" y="1732" font-size="10" class="" font-weight="bold" text-anchor="middle">Fotos (Julian)</text>
+<line x1="740" y1="1587" x2="760" y2="1587" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="900" y1="1587" x2="920" y2="1587" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="1060" y1="1587" x2="1080" y2="1587" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="990" y1="1604" x2="1080" y2="1650" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="990" y1="1604" x2="990" y2="1640" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M670,1604 C 670,1625 990,1625 990,1570" fill="none" stroke="#9a593c" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="740" y1="1727" x2="800" y2="1727" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="940" y1="1727" x2="1000" y2="1727" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="670" y1="1710" x2="670" y2="1604" stroke="#9a593c" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="670.0" y="1652.0" font-size="8" class="accent" font-weight="normal" text-anchor="middle">Ver</text>
+<path d="M670,1744 C 670,1770 1270,1770 1270,1748" fill="none" stroke="#9a593c" stroke-width="1.2" marker-end="url(#a)"/>
+<text x="970" y="1768" font-size="8" class="accent" font-weight="normal" text-anchor="middle">Fotos</text>
+<text x="600" y="1800" font-size="11" class="muted" font-weight="normal" text-anchor="start">Rutas: /  ·  /productos  ·  /productos/:id  ·  /admin/productos  ·  /admin/productos/nuevo  ·  /admin/productos/:id/editar</text>
+<text x="600" y="1824" font-size="11" class="muted" font-weight="normal" text-anchor="start">Filtros en la URL (?nombre=&amp;categoriaId=&amp;precioMin=&amp;precioMax=&amp;conStock=&amp;sort=&amp;page=) = query params de GET /api/productos/buscar</text>
+</svg>
