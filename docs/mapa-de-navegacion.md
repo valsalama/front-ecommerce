@@ -12,7 +12,7 @@ Este documento reúne los mockups de todos los módulos y el mapa de navegación
 | Categorías | Julieta | A completar | Pendiente |
 | Catálogo y productos | Alan | A completar | Pendiente |
 | Fotos de productos | Julian | A completar | Pendiente |
-| Carrito | Ian | A completar | Pendiente |
+| Carrito | Ian | [mockups-carrito.svg](mockups-carrito.svg) | Entregado |
 | Órdenes y checkout | Julián Casella | A completar | Pendiente |
 | Favoritos | Nacho | A completar | Pendiente |
 | Reseñas | Valu | [mockups-resenias.svg](mockups-resenias.svg) | Entregado |
@@ -20,6 +20,8 @@ Este documento reúne los mockups de todos los módulos y el mapa de navegación
 ![Mockups del módulo de usuarios](mockups-usuarios.svg)
 
 ![Mockups del módulo de reseñas](mockups-resenias.svg)
+
+![Mockups del módulo de carrito](mockups-carrito.svg)
 
 ## Mapa de navegación
 
@@ -109,7 +111,7 @@ flowchart LR
 | A confirmar | Detalle de producto | Alan | Pendiente |
 | A confirmar | Categorías | Julieta | Pendiente |
 | A confirmar | Fotos | Julian | Pendiente |
-| A confirmar | Carrito | Ian | Pendiente |
+| `/carrito` | Carrito | Ian | Hecho |
 | A confirmar | Checkout, confirmación e historial | Julián Casella | Pendiente |
 | A confirmar | Favoritos | Nacho | Pendiente |
 
@@ -162,12 +164,12 @@ Fuente: controladores del backend. Son 35 endpoints. Cada responsable completa l
 
 | Endpoint | Pantalla o acción | Estado |
 | --- | --- | --- |
-| `GET /api/carritos/{usuarioId}` | A completar | Pendiente |
-| `POST /api/carritos/items` | A completar | Pendiente |
-| `PATCH /api/carritos/{usuarioId}/items/{itemId}` | A completar | Pendiente |
-| `DELETE /api/carritos/{usuarioId}/items/{itemId}` | A completar | Pendiente |
-| `DELETE /api/carritos/{usuarioId}/items` | A completar | Pendiente |
-| `POST /api/carritos/{usuarioId}/checkout` | A completar (se coordina con Casella) | Pendiente |
+| `GET /api/carritos/{usuarioId}` | Pantalla `/carrito` y contador del encabezado | Hecho |
+| `POST /api/carritos/items` | Botón "Agregar al carrito" (`AddToCartButton`) | Hecho |
+| `PATCH /api/carritos/{usuarioId}/items/{itemId}` | Botones − / + de cada prenda | Hecho |
+| `DELETE /api/carritos/{usuarioId}/items/{itemId}` | Botón "Quitar" | Hecho |
+| `DELETE /api/carritos/{usuarioId}/items` | "Vaciar carrito" con confirmación | Hecho |
+| `POST /api/carritos/{usuarioId}/checkout` | "Continuar al checkout" → `/checkout`; se confirma con `useCart().checkout()` (se coordina con Casella) | Hecho del lado del carrito |
 
 ### Órdenes y checkout · Julián Casella
 

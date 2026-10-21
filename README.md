@@ -49,6 +49,7 @@ El administrador puede consultar el listado completo de usuarios. La cuenta com�
 | `/usuarios/:id` | Detalle de usuario | Usuario autenticado |
 | `/sin-permiso` | Acceso restringido | Usuario autenticado |
 | `/productos/:productoId/resenias` | Reseñas de un producto | Público |
+| `/carrito` | Carrito de compras | Usuario autenticado |
 
 Las rutas desconocidas muestran una pantalla 404 y todas las pantallas comparten encabezado, navegación adaptable y pie de página.
 
@@ -104,4 +105,4 @@ Los componentes no leen archivos JSON directamente: llaman a `authService.js` y 
 
 ## Diseño
 
-El tablero de mockups y el mapa de navegación están documentados en [docs/usuarios-diseno.md](docs/usuarios-diseno.md). El módulo de reseñas está en [docs/resenias-diseno.md](docs/resenias-diseno.md) y el mapa de navegación de toda la aplicación en [docs/mapa-de-navegacion.md](docs/mapa-de-navegacion.md). La comprobación requisito por requisito se encuentra en [docs/evaluacion-consigna.md](docs/evaluacion-consigna.md).
+El tablero de mockups y el mapa de navegación están documentados en [docs/usuarios-diseno.md](docs/usuarios-diseno.md). El módulo de reseñas está en [docs/resenias-diseno.md](docs/resenias-diseno.md), el de carrito en [docs/carrito-diseno.md](docs/carrito-diseno.md) y el mapa de navegación de toda la aplicación en [docs/mapa-de-navegacion.md](docs/mapa-de-navegacion.md). La comprobación requisito por requisito se encuentra en [docs/evaluacion-consigna.md](docs/evaluacion-consigna.md).

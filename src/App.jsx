@@ -3,6 +3,7 @@ import AppLayout from './components/layout/AppLayout'
 import AdminRoute from './components/routing/AdminRoute'
 import ProtectedRoute from './components/routing/ProtectedRoute'
 import AccessDeniedPage from './pages/AccessDeniedPage'
+import CartPage from './pages/CartPage'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import NotFoundPage from './pages/NotFoundPage'
@@ -24,6 +25,7 @@ function App() {
         <Route element={<ProtectedRoute />}>
           <Route path="mi-perfil" element={<UserDetailPage ownProfile />} />
           <Route path="usuarios/:id" element={<UserDetailPage />} />
+          <Route path="carrito" element={<CartPage />} />
         </Route>
 
         <Route element={<AdminRoute />}>

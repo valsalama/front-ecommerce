@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../context/useAuth'
+import CartLink from '../carrito/CartLink'
 
 const getNavClass = ({ isActive }) => (isActive ? 'active' : undefined)
 
@@ -30,6 +31,7 @@ function Header() {
           Mi perfil
         </NavLink>
       )}
+      {isAuthenticated && <CartLink />}
     </>
   )
 
