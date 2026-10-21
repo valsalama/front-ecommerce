@@ -31,6 +31,9 @@ function Header() {
           <NavLink to="/categorias" className={getNavClass}>
             Categorías
           </NavLink>
+          <NavLink to="/admin/productos" className={getNavClass}>
+            Inventario
+          </NavLink>
         </>
       )}
       {isAuthenticated && (
