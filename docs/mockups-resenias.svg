@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 1630" width="1900" height="1630" role="img" aria-labelledby="t d">
+<title id="t">Mockups del módulo de reseñas</title>
+<desc id="d">Pantallas de escritorio y celular de la sección de reseñas de un producto, con lista, promedio, formulario y estados de error.</desc>
+<rect x="0" y="0" width="1900" height="1630" rx="0" fill="#e9e6dd" />
+<text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start" >TRAMA — Módulo de reseñas</text>
+<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Mockups de escritorio y celular · Pantallas asignadas a Valu · Ruta: /productos/:productoId/resenias</text>
+<text x="40" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESCRITORIO · más de 900 px</text>
+<rect x="40" y="130" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="72" y="165" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="370" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Inicio</text>
+<text x="440" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Productos</text>
+<text x="535" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Mi perfil</text>
+<rect x="850" y="142" width="158" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="929.0" y="163.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CERRAR SESIÓN</text>
+<line x1="40" y1="188" x2="1040" y2="188" stroke="#d8d5cc"/>
+<text x="88" y="242" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2.2" >REMERAS</text>
+<text x="88" y="290" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="500" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="88" y="320" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Remera de algodón peinado, corte recto y cuello redondo reforzado.</text>
+<rect x="810" y="262" width="182" height="42" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="901.0" y="287.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >VOLVER AL CATÁLOGO</text>
+<line x1="88" y1="344" x2="992" y2="344" stroke="#d8d5cc"/>
+<text x="88" y="398" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="500" fill="#1e211c" text-anchor="start" >Reseñas</text>
+<text x="992" y="394" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#9a593c" text-anchor="end" >Probar estados de la interfaz</text>
+<rect x="88" y="422" width="552" height="96" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="112" y="488.2" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="500" fill="#1e211c" text-anchor="start" >4,7</text>
+<text x="200.39999999999998" y="468.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="219.39999999999998" y="468.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="238.39999999999998" y="468.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="257.4" y="468.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="276.4" y="468.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="200.39999999999998" y="492.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >3 reseñas</text>
+<rect x="88" y="534" width="552" height="96" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="132" cy="574" r="20" fill="#9a593c"/>
+<text x="132" y="579" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >JD</text>
+<text x="166" y="566" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Julieta Defino</text>
+<text x="166" y="590" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="183" y="590" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="200" y="590" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="217" y="590" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="234" y="590" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="112" y="620" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Muy buena calidad, el algodón es suave y no se deforma después del lavado.</text>
+<rect x="88" y="646" width="552" height="96" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="132" cy="686" r="20" fill="#9a593c"/>
+<text x="132" y="691" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >BB</text>
+<text x="166" y="678" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Benjamín Bondio</text>
+<rect x="292.0" y="664" width="78" height="18" rx="0" fill="#e4ecdf" />
+<text x="331.0" y="677" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#45613c" text-anchor="middle" letter-spacing="1" >TU RESEÑA</text>
+<text x="166" y="702" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="183" y="702" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="200" y="702" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="217" y="702" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="234" y="702" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="112" y="732" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Calza bien, aunque el cuello me quedó un poco justo.</text>
+<rect x="88" y="758" width="552" height="96" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="132" cy="798" r="20" fill="#9a593c"/>
+<text x="132" y="803" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >AS</text>
+<text x="166" y="790" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Alan Stelmaczonek</text>
+<text x="166" y="814" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="183" y="814" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="200" y="814" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="217" y="814" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="234" y="814" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="112" y="844" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Excelente básico, ya pedí otra en otro color.</text>
+<rect x="680" y="422" width="312" height="384" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="704" y="462" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >Dejá tu reseña</text>
+<text x="704" y="500" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >CALIFICACIÓN</text>
+<text x="704" y="536" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="738" y="536" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="772" y="536" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="806" y="536" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="840" y="536" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="704" y="576" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >COMENTARIO (OPCIONAL)</text>
+<rect x="704" y="588" width="264" height="110" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="716" y="614" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#979990" text-anchor="start" >Contanos cómo te quedó, el talle…</text>
+<text x="704" y="718" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >0/500 caracteres</text>
+<rect x="704" y="736" width="264" height="46" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="836.0" y="763.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >PUBLICAR RESEÑA</text>
+<circle cx="88" cy="422" r="11" fill="#9a593c"/>
+<text x="88" y="426" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<circle cx="88" cy="534" r="11" fill="#9a593c"/>
+<text x="88" y="538" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<circle cx="680" cy="422" r="11" fill="#9a593c"/>
+<text x="680" y="426" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<circle cx="740" cy="388" r="11" fill="#9a593c"/>
+<text x="740" y="392" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<line x1="751" y1="388" x2="777" y2="388" stroke="#9a593c" stroke-dasharray="3 4"/>
+<circle cx="51" cy="940" r="11" fill="#9a593c"/>
+<text x="51" y="944" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<text x="70" y="944" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Resumen y promedio · GET /api/resenias/producto/{id}/promedio</text>
+<circle cx="531" cy="940" r="11" fill="#9a593c"/>
+<text x="531" y="944" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="550" y="944" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Lista de reseñas · GET /api/resenias/producto/{id}</text>
+<circle cx="51" cy="968" r="11" fill="#9a593c"/>
+<text x="51" y="972" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<text x="70" y="972" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Formulario · POST /api/resenias</text>
+<circle cx="531" cy="968" r="11" fill="#9a593c"/>
+<text x="531" y="972" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<text x="550" y="972" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Selector de estados de prueba (datos, vacío, error)</text>
+<text x="1090" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · con sesión (formulario primero)</text>
+<text x="1500" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · sin sesión</text>
+<rect x="1090" y="130" width="360" height="780" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip-session"><rect x="1094" y="134" width="352" height="772" rx="34"/></clipPath>
+<g clip-path="url(#clip-session)">
+<rect x="1225.0" y="142" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="1118" y="188" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="1396" y="176" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="1396" y="183" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="1396" y="190" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="1094" y1="206" x2="1446" y2="206" stroke="#d8d5cc"/>
+<text x="1118" y="238" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2" >REMERAS</text>
+<text x="1118" y="274" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="500" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="1118" y="298" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Remera de algodón peinado, corte recto…</text>
+<rect x="1120" y="314" width="300" height="38" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1270.0" y="337.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >VOLVER AL CATÁLOGO</text>
+<text x="1118" y="398" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="500" fill="#1e211c" text-anchor="start" >Reseñas</text>
+<text x="1422" y="396" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="end" >Probar estados</text>
+<rect x="1120" y="414" width="300" height="384" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1144" y="454" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >Dejá tu reseña</text>
+<text x="1144" y="492" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >CALIFICACIÓN</text>
+<text x="1144" y="528" font-family="'DM Sans', Arial, sans-serif" font-size="28" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1176" y="528" font-family="'DM Sans', Arial, sans-serif" font-size="28" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1208" y="528" font-family="'DM Sans', Arial, sans-serif" font-size="28" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1240" y="528" font-family="'DM Sans', Arial, sans-serif" font-size="28" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1272" y="528" font-family="'DM Sans', Arial, sans-serif" font-size="28" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="1144" y="568" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >COMENTARIO (OPCIONAL)</text>
+<rect x="1144" y="580" width="252" height="110" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1156" y="606" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#979990" text-anchor="start" >Contanos cómo te quedó, el talle…</text>
+<text x="1144" y="710" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >0/500 caracteres</text>
+<rect x="1144" y="728" width="252" height="46" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1270.0" y="755.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >PUBLICAR RESEÑA</text>
+<rect x="1120" y="814" width="300" height="76" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1144" y="865.3" font-family="'Playfair Display', Georgia, serif" font-size="38" font-weight="500" fill="#1e211c" text-anchor="start" >4,7</text>
+<text x="1208.6" y="850.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1227.6" y="850.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1246.6" y="850.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1265.6" y="850.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1284.6" y="850.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1208.6" y="874.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >3 reseñas</text>
+<rect x="1120" y="906" width="300" height="118" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="1162" cy="944" r="18" fill="#9a593c"/>
+<text x="1162" y="949" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >JD</text>
+<text x="1194" y="938" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Julieta Defino</text>
+<text x="1194" y="962" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1211" y="962" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1228" y="962" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1245" y="962" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1262" y="962" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1144" y="992" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Muy buena calidad, el algodón es suave</text>
+<text x="1144" y="1012" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >y no se deforma después del lavado.</text>
+<rect x="1120" y="1036" width="300" height="118" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="1162" cy="1074" r="18" fill="#9a593c"/>
+<text x="1162" y="1079" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >BB</text>
+<text x="1194" y="1068" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Benjamín Bondio</text>
+<rect x="1320.0" y="1054" width="78" height="18" rx="0" fill="#e4ecdf" />
+<text x="1359.0" y="1067" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#45613c" text-anchor="middle" letter-spacing="1" >TU RESEÑA</text>
+<text x="1194" y="1092" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1211" y="1092" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1228" y="1092" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1245" y="1092" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1262" y="1092" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="1144" y="1122" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Calza bien, aunque el cuello me</text>
+<text x="1144" y="1142" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >quedó un poco justo.</text>
+</g>
+<rect x="1500" y="130" width="360" height="780" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip-nosession"><rect x="1504" y="134" width="352" height="772" rx="34"/></clipPath>
+<g clip-path="url(#clip-nosession)">
+<rect x="1635.0" y="142" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="1528" y="188" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="1806" y="176" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="1806" y="183" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="1806" y="190" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="1504" y1="206" x2="1856" y2="206" stroke="#d8d5cc"/>
+<text x="1528" y="238" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2" >REMERAS</text>
+<text x="1528" y="274" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="500" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="1528" y="298" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Remera de algodón peinado, corte recto…</text>
+<rect x="1530" y="314" width="300" height="38" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1680.0" y="337.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >VOLVER AL CATÁLOGO</text>
+<text x="1528" y="398" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="500" fill="#1e211c" text-anchor="start" >Reseñas</text>
+<text x="1832" y="396" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="end" >Probar estados</text>
+<rect x="1530" y="414" width="300" height="214" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1554" y="454" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >Dejá tu reseña</text>
+<rect x="1554" y="472" width="252" height="62" rx="0" fill="#e3e8ed" />
+<rect x="1554" y="472" width="3" height="62" rx="0" fill="#405463" />
+<text x="1572" y="496" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#405463" text-anchor="start" >Necesitás iniciar sesión</text>
+<text x="1572" y="515" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#405463" text-anchor="start" >Ingresá a tu cuenta para calificar.</text>
+<rect x="1554" y="554" width="120" height="46" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1614.0" y="581.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >INGRESAR</text>
+<rect x="1530" y="644" width="300" height="76" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1554" y="695.3" font-family="'Playfair Display', Georgia, serif" font-size="38" font-weight="500" fill="#1e211c" text-anchor="start" >4,7</text>
+<text x="1618.6" y="680.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1637.6" y="680.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1656.6" y="680.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1675.6" y="680.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1694.6" y="680.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1618.6" y="704.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >3 reseñas</text>
+<rect x="1530" y="736" width="300" height="118" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="1572" cy="774" r="18" fill="#9a593c"/>
+<text x="1572" y="779" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >JD</text>
+<text x="1604" y="768" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Julieta Defino</text>
+<text x="1604" y="792" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1621" y="792" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1638" y="792" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1655" y="792" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1672" y="792" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1554" y="822" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Muy buena calidad, el algodón es suave</text>
+<text x="1554" y="842" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >y no se deforma después del lavado.</text>
+<rect x="1530" y="866" width="300" height="118" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="1572" cy="904" r="18" fill="#9a593c"/>
+<text x="1572" y="909" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >BB</text>
+<text x="1604" y="898" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Benjamín Bondio</text>
+<rect x="1730.0" y="884" width="78" height="18" rx="0" fill="#e4ecdf" />
+<text x="1769.0" y="897" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#45613c" text-anchor="middle" letter-spacing="1" >TU RESEÑA</text>
+<text x="1604" y="922" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1621" y="922" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1638" y="922" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1655" y="922" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1672" y="922" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="1554" y="952" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Calza bien, aunque el cuello me</text>
+<text x="1554" y="972" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >quedó un poco justo.</text>
+</g>
+<text x="1090" y="950" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Menos de 900 px: una sola columna y el formulario pasa arriba de la lista.</text>
+<text x="1090" y="972" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Menos de 700 px: el selector de estados se despliega a ancho completo.</text>
+<text x="40" y="1028" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESTADOS Y MENSAJES</text>
+<rect x="40" y="1040" width="580" height="560" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="40" y="1040" width="580" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="60" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Producto sin reseñas</text>
+<text x="600" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >GET …/producto/5 → []</text>
+<rect x="64" y="1112" width="532" height="64" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="88" y="1150" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Todavía no hay calificaciones</text>
+<rect x="64" y="1196" width="532" height="230" fill="none" stroke="#d8d5cc" stroke-dasharray="6 5"/>
+<text x="330.0" y="1302" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="600" fill="#1e211c" text-anchor="middle" >Todavía no hay reseñas</text>
+<text x="330.0" y="1336" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="middle" >Sé la primera persona en contarnos qué te pareció esta prenda.</text>
+<text x="64" y="1458" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Se ve en /productos/5/resenias y /productos/6/resenias.</text>
+<text x="64" y="1480" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >El promedio devuelve 0 cuando no hay reseñas.</text>
+<rect x="660" y="1040" width="580" height="560" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="660" y="1040" width="580" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="680" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Errores de validación</text>
+<text x="1220" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >POST /api/resenias → 400</text>
+<rect x="794.0" y="1102" width="312" height="474" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="818.0" y="1142" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >Dejá tu reseña</text>
+<text x="818.0" y="1180" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >CALIFICACIÓN</text>
+<text x="818.0" y="1216" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="852.0" y="1216" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="886.0" y="1216" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="920.0" y="1216" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="954.0" y="1216" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="818.0" y="1238" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a473d" text-anchor="start" >La calificación es obligatoria</text>
+<text x="818.0" y="1276" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >COMENTARIO (OPCIONAL)</text>
+<rect x="818.0" y="1288" width="264" height="110" rx="0" fill="#fff" stroke="#9a473d" stroke-width="1" />
+<text x="830.0" y="1314" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >Muy abrigado, pero el cierre se</text>
+<text x="830.0" y="1332" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >trabó a la segunda semana…</text>
+<text x="818.0" y="1418" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a473d" text-anchor="start" >El comentario no puede superar los 500 caracteres</text>
+<rect x="818.0" y="1436" width="264" height="58" rx="0" fill="#f4e4e1" />
+<rect x="818.0" y="1436" width="3" height="58" rx="0" fill="#9a473d" />
+<text x="836.0" y="1460" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >No pudimos publicar tu reseña</text>
+<text x="836.0" y="1479" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >La solicitud contiene datos inválidos</text>
+<rect x="818.0" y="1508" width="264" height="46" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="950.0" y="1535.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >PUBLICAR RESEÑA</text>
+<rect x="1280" y="1040" width="580" height="560" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1280" y="1040" width="580" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1300" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Mensajes de respuesta</text>
+<text x="1840" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >éxito, conflicto y errores</text>
+<text x="1304" y="1116" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >POST · 201 · RESEÑA CREADA</text>
+<rect x="1304" y="1126" width="532" height="60" rx="0" fill="#e4ecdf" />
+<rect x="1304" y="1126" width="3" height="60" rx="0" fill="#45613c" />
+<text x="1322" y="1150" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start" >Reseña publicada</text>
+<text x="1322" y="1169" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#45613c" text-anchor="start" >Gracias por compartir tu opinión.</text>
+<text x="1304" y="1216" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >POST · 409 · RESEÑA DUPLICADA</text>
+<rect x="1304" y="1226" width="532" height="60" rx="0" fill="#f4e4e1" />
+<rect x="1304" y="1226" width="3" height="60" rx="0" fill="#9a473d" />
+<text x="1322" y="1250" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >No pudimos publicar tu reseña</text>
+<text x="1322" y="1269" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >El usuario ya dejó una reseña para este producto</text>
+<text x="1304" y="1316" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >GET · 500 · ERROR DEL SERVIDOR</text>
+<rect x="1304" y="1326" width="532" height="60" rx="0" fill="#f4e4e1" />
+<rect x="1304" y="1326" width="3" height="60" rx="0" fill="#9a473d" />
+<text x="1322" y="1350" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >No pudimos cargar las reseñas</text>
+<text x="1322" y="1369" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >Ocurrió un error inesperado</text>
+<rect x="1704" y="1338" width="112" height="36" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1760.0" y="1360.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >REINTENTAR</text>
+<text x="1304" y="1416" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >POST · 404 · PRODUCTO O USUARIO INEXISTENTE</text>
+<rect x="1304" y="1426" width="532" height="60" rx="0" fill="#f4e4e1" />
+<rect x="1304" y="1426" width="3" height="60" rx="0" fill="#9a473d" />
+<text x="1322" y="1450" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >No pudimos publicar tu reseña</text>
+<text x="1322" y="1469" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >Producto no encontrado</text>
+</svg>

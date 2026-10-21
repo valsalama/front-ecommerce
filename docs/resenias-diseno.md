@@ -2,6 +2,12 @@
 
 Este documento corresponde a las pantallas asignadas a Valu. La sección de reseñas se puede abrir de forma independiente en `/productos/:productoId/resenias` (por ejemplo `/productos/1/resenias`) y está pensada para incrustarse en el detalle de producto con una sola línea: `<ReviewsSection productoId={producto.id} />`.
 
+## Mockups
+
+![Mockups del módulo de reseñas](mockups-resenias.svg)
+
+El tablero muestra la pantalla de escritorio con la numeración de los endpoints, las dos variantes de celular (con sesión y sin sesión) y los estados: producto sin reseñas, errores de validación y mensajes de respuesta (201, 409, 500 y 404). El mapa de navegación de toda la aplicación está en [mapa-de-navegacion.md](mapa-de-navegacion.md).
+
 ## Cobertura de endpoints
 
 Fuente: `ReseniaController` del backend.
