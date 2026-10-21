@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": 102,
+    "usuarioId": 1,
+    "total": 64900.0,
+    "fechaCreacion": "2026-10-14T11:05:12",
+    "codigoSeguimiento": "7F3A9C21B0D4",
+    "detalles": [
+      {
+        "id": 203,
+        "productoId": 2,
+        "productoNombre": "Camisa Lino Arena",
+        "cantidad": 1,
+        "precioUnitario": 64900.0,
+        "subtotal": 64900.0
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "usuarioId": 1,
+    "total": 136700.0,
+    "fechaCreacion": "2026-10-02T20:47:38",
+    "codigoSeguimiento": "B81E5D6C93AF",
+    "detalles": [
+      {
+        "id": 201,
+        "productoId": 1,
+        "productoNombre": "Remera Essential",
+        "cantidad": 2,
+        "precioUnitario": 28900.0,
+        "subtotal": 57800.0
+      },
+      {
+        "id": 202,
+        "productoId": 3,
+        "productoNombre": "Jean Wide Leg",
+        "cantidad": 1,
+        "precioUnitario": 78900.0,
+        "subtotal": 78900.0
+      }
+    ]
+  }
+]

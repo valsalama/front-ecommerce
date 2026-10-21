@@ -1,331 +1,276 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 1640" width="1900" height="1640" role="img" aria-labelledby="t d">
-<title id="t">Mockups del módulo de carrito</title>
-<desc id="d">Pantallas de escritorio y celular del carrito, con prendas, cantidades, subtotales, total, estado vacío, mensajes de error y endpoints representados.</desc>
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#686a63"/></marker></defs>
-<rect x="0" y="0" width="1900" height="1640" fill="#e9e6dd" />
-<text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start">TRAMA — Módulo de carrito</text>
-<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start">Mockups de escritorio y celular · Pantallas asignadas a Ian · Ruta: /carrito (requiere sesión)</text>
-<text x="40" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">ESCRITORIO · MÁS DE 900 PX</text>
-<rect x="40" y="130" width="1000" height="860" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
-<text x="72" y="165" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2">TRAMA</text>
-<text x="370" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start">Inicio</text>
-<text x="440" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start">Productos</text>
-<text x="535" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start">Mi perfil</text>
-<text x="618" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">Carrito</text>
-<line x1="618" y1="172" x2="684" y2="172" stroke="#9a593c"/>
-<circle cx="678" cy="159" r="9" fill="#9a593c"/>
-<text x="678" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">7</text>
-<circle cx="704" cy="159" r="11" fill="#9a593c"/>
-<text x="704" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">1</text>
-<rect x="850" y="142" width="158" height="34" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="929" y="163" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">CERRAR SESIÓN</text>
-<line x1="40" y1="188" x2="1040" y2="188" stroke="#d8d5cc"/>
-<text x="88" y="240" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">TU COMPRA</text>
-<text x="88" y="292" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="500" fill="#1e211c" text-anchor="start">Carrito</text>
-<text x="88" y="324" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start">Revisá las prendas que elegiste, ajustá las cantidades y continuá al checkout.</text>
-<rect x="810" y="290" width="182" height="40" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="901" y="314" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">SEGUIR COMPRANDO</text>
-<line x1="88" y1="352" x2="992" y2="352" stroke="#d8d5cc"/>
-<text x="88" y="386" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">3 PRODUCTOS</text>
-<text x="992" y="386" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#75412b" text-anchor="end">▸ Probar estados de la interfaz</text>
-<rect x="88" y="404" width="904" height="40" fill="#e4ecdf" />
-<rect x="88" y="404" width="3" height="40" fill="#45613c" />
-<text x="104" y="427" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start">Cantidad actualizada</text>
-<line x1="88" y1="466" x2="648" y2="466" stroke="#d8d5cc"/>
-<rect x="88" y="484" width="80" height="100" fill="#d9d4c8" />
-<path d="M112 512 L121.6 504 L134.4 504 L144 512 L139.2 524 L139.2 566 L116.8 566 L116.8 524 Z" fill="#fff" opacity="0.55"/>
-<text x="188" y="506" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">REMERAS</text>
-<text x="188" y="530" font-family="'Playfair Display', Georgia, serif" font-size="19" font-weight="600" fill="#1e211c" text-anchor="start">Remera Essential</text>
-<text x="188" y="552" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">$ 28.900 c/u</text>
-<text x="188" y="572" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="600" fill="#45613c" text-anchor="start">18 disponibles</text>
-<rect x="398" y="506" width="108" height="36" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<line x1="434" y1="506" x2="434" y2="542" stroke="#d8d5cc"/>
-<line x1="470" y1="506" x2="470" y2="542" stroke="#d8d5cc"/>
-<text x="416" y="529" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">−</text>
-<text x="452" y="529" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="middle">2</text>
-<text x="488" y="529" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">+</text>
-<text x="452" y="566" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="middle" letter-spacing="1">QUITAR</text>
-<line x1="430" y1="570" x2="474" y2="570" stroke="#686a63"/>
-<text x="648" y="522" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="end" letter-spacing="1.2">SUBTOTAL</text>
-<text x="648" y="544" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="end">$ 57.800</text>
-<circle cx="388" cy="506" r="11" fill="#9a593c"/>
-<text x="388" y="510" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">3</text>
-<circle cx="486" cy="562" r="11" fill="#9a593c"/>
-<text x="486" y="566" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">4</text>
-<line x1="88" y1="602" x2="648" y2="602" stroke="#d8d5cc"/>
-<rect x="88" y="620" width="80" height="100" fill="#9aa7b4" />
-<path d="M112 648 L121.6 640 L134.4 640 L144 648 L139.2 660 L139.2 702 L116.8 702 L116.8 660 Z" fill="#fff" opacity="0.55"/>
-<text x="188" y="642" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">PANTALONES</text>
-<text x="188" y="666" font-family="'Playfair Display', Georgia, serif" font-size="19" font-weight="600" fill="#1e211c" text-anchor="start">Jean Wide Leg</text>
-<text x="188" y="688" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">$ 78.900 c/u</text>
-<text x="188" y="708" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="600" fill="#45613c" text-anchor="start">12 disponibles</text>
-<rect x="398" y="642" width="108" height="36" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<line x1="434" y1="642" x2="434" y2="678" stroke="#d8d5cc"/>
-<line x1="470" y1="642" x2="470" y2="678" stroke="#d8d5cc"/>
-<text x="416" y="665" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">−</text>
-<text x="452" y="665" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="middle">1</text>
-<text x="488" y="665" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">+</text>
-<text x="452" y="702" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="middle" letter-spacing="1">QUITAR</text>
-<line x1="430" y1="706" x2="474" y2="706" stroke="#686a63"/>
-<text x="648" y="658" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="end" letter-spacing="1.2">SUBTOTAL</text>
-<text x="648" y="680" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="end">$ 78.900</text>
-<line x1="88" y1="738" x2="648" y2="738" stroke="#d8d5cc"/>
-<rect x="88" y="756" width="80" height="100" fill="#5d5a55" />
-<path d="M112 784 L121.6 776 L134.4 776 L144 784 L139.2 796 L139.2 838 L116.8 838 L116.8 796 Z" fill="#fff" opacity="0.55"/>
-<text x="188" y="778" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">ABRIGOS</text>
-<text x="188" y="802" font-family="'Playfair Display', Georgia, serif" font-size="19" font-weight="600" fill="#1e211c" text-anchor="start">Campera Urban</text>
-<text x="188" y="824" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">$ 124.500 c/u</text>
-<text x="188" y="844" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="600" fill="#75412b" text-anchor="start">5 disponibles</text>
-<rect x="398" y="778" width="108" height="36" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<line x1="434" y1="778" x2="434" y2="814" stroke="#d8d5cc"/>
-<line x1="470" y1="778" x2="470" y2="814" stroke="#d8d5cc"/>
-<text x="416" y="801" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">−</text>
-<text x="452" y="801" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="middle">4</text>
-<text x="488" y="801" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">+</text>
-<text x="452" y="838" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="middle" letter-spacing="1">QUITAR</text>
-<line x1="430" y1="842" x2="474" y2="842" stroke="#686a63"/>
-<text x="648" y="794" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="end" letter-spacing="1.2">SUBTOTAL</text>
-<text x="648" y="816" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="end">$ 498.000</text>
-<line x1="88" y1="874" x2="648" y2="874" stroke="#d8d5cc"/>
-<rect x="692" y="466" width="300" height="380" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
-<text x="716" y="510" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600" fill="#1e211c" text-anchor="start">Resumen</text>
-<text x="716" y="546" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start">Remera Essential × 2</text>
-<text x="968" y="546" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="end">$ 57.800</text>
-<text x="716" y="570" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start">Jean Wide Leg × 1</text>
-<text x="968" y="570" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="end">$ 78.900</text>
-<text x="716" y="594" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start">Campera Urban × 4</text>
-<text x="968" y="594" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="end">$ 498.000</text>
-<line x1="716" y1="616" x2="968" y2="616" stroke="#d8d5cc"/>
-<text x="716" y="652" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start">Total</text>
-<text x="756" y="652" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">(7 prendas)</text>
-<text x="968" y="654" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="700" fill="#1e211c" text-anchor="end">$ 634.700</text>
-<text x="716" y="684" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">El stock se vuelve a validar al confirmar la compra.</text>
-<rect x="716" y="706" width="252" height="44" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
-<text x="842" y="732" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1">CONTINUAR AL CHECKOUT</text>
-<circle cx="716" cy="706" r="11" fill="#9a593c"/>
-<text x="716" y="710" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">6</text>
-<rect x="716" y="766" width="252" height="44" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="842" y="792" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">VACIAR CARRITO</text>
-<circle cx="716" cy="766" r="11" fill="#9a593c"/>
-<text x="716" y="770" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">5</text>
-<line x1="88" y1="890" x2="992" y2="890" stroke="#d8d5cc"/>
-<text x="88" y="930" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="500" fill="#1e211c" text-anchor="start">Sumá más prendas</text>
-<rect x="340" y="906" width="44" height="52" fill="#e0b98a" />
-<path d="M353.2 920.56 L358.48 916.4 L365.52 916.4 L370.8 920.56 L368.16 926.8 L368.16 948.64 L355.84 948.64 L355.84 926.8 Z" fill="#fff" opacity="0.55"/>
-<text x="396" y="926" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="600" fill="#1e211c" text-anchor="start">Camisa Lino Arena</text>
-<rect x="396" y="936" width="110" height="26" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="451" y="953" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">AGREGAR</text>
-<circle cx="506" cy="949" r="11" fill="#9a593c"/>
-<text x="506" y="953" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">2</text>
-<rect x="570" y="906" width="44" height="52" fill="#a5a9a6" />
-<path d="M583.2 920.56 L588.48 916.4 L595.52 916.4 L600.8 920.56 L598.16 926.8 L598.16 948.64 L585.84 948.64 L585.84 926.8 Z" fill="#fff" opacity="0.55"/>
-<text x="626" y="926" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="600" fill="#1e211c" text-anchor="start">Buzo Studio</text>
-<rect x="626" y="936" width="110" height="26" fill="#aaa59c" />
-<text x="681" y="953" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">AGOTADO</text>
-<rect x="800" y="906" width="44" height="52" fill="#b8453b" />
-<path d="M813.2 920.56 L818.48 916.4 L825.52 916.4 L830.8 920.56 L828.16 926.8 L828.16 948.64 L815.84 948.64 L815.84 926.8 Z" fill="#fff" opacity="0.55"/>
-<text x="856" y="926" font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="600" fill="#1e211c" text-anchor="start">Zapatilla Nómade</text>
-<rect x="856" y="936" width="110" height="26" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="911" y="953" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">AGREGAR</text>
-<text x="1080" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">CELULAR · MENOS DE 900 PX</text>
-<rect x="1080" y="130" width="380" height="860" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
-<text x="1112" y="165" font-family="'Playfair Display', Georgia, serif" font-size="17" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2">TRAMA</text>
-<rect x="1404" y="144" width="34" height="34" fill="none" stroke="#d8d5cc" stroke-width="1" />
-<text x="1421" y="166" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">☰</text>
-<line x1="1080" y1="188" x2="1460" y2="188" stroke="#d8d5cc"/>
-<text x="1104" y="226" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">TU COMPRA</text>
-<text x="1104" y="270" font-family="'Playfair Display', Georgia, serif" font-size="38" font-weight="500" fill="#1e211c" text-anchor="start">Carrito</text>
-<rect x="1104" y="292" width="332" height="38" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="1270" y="315" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">SEGUIR COMPRANDO</text>
-<text x="1104" y="362" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">3 PRODUCTOS</text>
-<text x="1104" y="384" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#75412b" text-anchor="start">▸ Probar estados de la interfaz</text>
-<line x1="1104" y1="402" x2="1436" y2="402" stroke="#d8d5cc"/>
-<rect x="1104" y="416" width="64" height="80" fill="#d9d4c8" />
-<path d="M1123.2 438.4 L1130.88 432 L1141.12 432 L1148.8 438.4 L1144.96 448 L1144.96 481.6 L1127.04 481.6 L1127.04 448 Z" fill="#fff" opacity="0.55"/>
-<text x="1184" y="432" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">REMERAS</text>
-<text x="1184" y="452" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#1e211c" text-anchor="start">Remera Essential</text>
-<text x="1184" y="470" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">$ 28.900 c/u · 18 disponibles</text>
-<rect x="1184" y="480" width="108" height="30" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<line x1="1220" y1="480" x2="1220" y2="510" stroke="#d8d5cc"/>
-<line x1="1256" y1="480" x2="1256" y2="510" stroke="#d8d5cc"/>
-<text x="1202" y="500" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">−</text>
-<text x="1238" y="500" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="middle">2</text>
-<text x="1274" y="500" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">+</text>
-<text x="1330" y="500" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1">QUITAR</text>
-<text x="1104" y="524" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">SUBTOTAL</text>
-<text x="1436" y="524" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="end">$ 57.800</text>
-<line x1="1104" y1="534" x2="1436" y2="534" stroke="#d8d5cc"/>
-<rect x="1104" y="548" width="64" height="80" fill="#9aa7b4" />
-<path d="M1123.2 570.4 L1130.88 564 L1141.12 564 L1148.8 570.4 L1144.96 580 L1144.96 613.6 L1127.04 613.6 L1127.04 580 Z" fill="#fff" opacity="0.55"/>
-<text x="1184" y="564" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">PANTALONES</text>
-<text x="1184" y="584" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#1e211c" text-anchor="start">Jean Wide Leg</text>
-<text x="1184" y="602" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">$ 78.900 c/u · 12 disponibles</text>
-<rect x="1184" y="612" width="108" height="30" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<line x1="1220" y1="612" x2="1220" y2="642" stroke="#d8d5cc"/>
-<line x1="1256" y1="612" x2="1256" y2="642" stroke="#d8d5cc"/>
-<text x="1202" y="632" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">−</text>
-<text x="1238" y="632" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="middle">1</text>
-<text x="1274" y="632" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">+</text>
-<text x="1330" y="632" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1">QUITAR</text>
-<text x="1104" y="656" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">SUBTOTAL</text>
-<text x="1436" y="656" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="end">$ 78.900</text>
-<line x1="1104" y1="666" x2="1436" y2="666" stroke="#d8d5cc"/>
-<rect x="1104" y="680" width="64" height="80" fill="#5d5a55" />
-<path d="M1123.2 702.4 L1130.88 696 L1141.12 696 L1148.8 702.4 L1144.96 712 L1144.96 745.6 L1127.04 745.6 L1127.04 712 Z" fill="#fff" opacity="0.55"/>
-<text x="1184" y="696" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">ABRIGOS</text>
-<text x="1184" y="716" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#1e211c" text-anchor="start">Campera Urban</text>
-<text x="1184" y="734" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">$ 124.500 c/u · 5 disponibles</text>
-<rect x="1184" y="744" width="108" height="30" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<line x1="1220" y1="744" x2="1220" y2="774" stroke="#d8d5cc"/>
-<line x1="1256" y1="744" x2="1256" y2="774" stroke="#d8d5cc"/>
-<text x="1202" y="764" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">−</text>
-<text x="1238" y="764" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="middle">4</text>
-<text x="1274" y="764" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">+</text>
-<text x="1330" y="764" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1">QUITAR</text>
-<text x="1104" y="788" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">SUBTOTAL</text>
-<text x="1436" y="788" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="end">$ 498.000</text>
-<line x1="1104" y1="798" x2="1436" y2="798" stroke="#d8d5cc"/>
-<rect x="1104" y="818" width="332" height="140" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
-<text x="1124" y="854" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start">Total</text>
-<text x="1416" y="856" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" fill="#1e211c" text-anchor="end">$ 634.700</text>
-<rect x="1124" y="874" width="292" height="34" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
-<text x="1270" y="895" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1">CONTINUAR AL CHECKOUT</text>
-<rect x="1124" y="914" width="292" height="30" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="1270" y="933" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">VACIAR CARRITO</text>
-<text x="1270" y="976" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="middle">El resumen pasa debajo de la lista (una sola columna)</text>
-<text x="1500" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">CELULAR · MENÚ Y CARRITO VACÍO</text>
-<rect x="1500" y="130" width="360" height="860" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
-<text x="1532" y="165" font-family="'Playfair Display', Georgia, serif" font-size="17" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2">TRAMA</text>
-<rect x="1804" y="144" width="34" height="34" fill="none" stroke="#d8d5cc" stroke-width="1" />
-<text x="1821" y="166" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="400" fill="#1e211c" text-anchor="middle">☰</text>
-<line x1="1500" y1="188" x2="1860" y2="188" stroke="#d8d5cc"/>
-<rect x="1500" y="188" width="360" height="250" fill="#f8f7f3" />
-<text x="1524" y="226" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">Inicio</text>
-<line x1="1524" y1="240" x2="1836" y2="240" stroke="#d8d5cc"/>
-<text x="1524" y="272" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">Productos</text>
-<line x1="1524" y1="286" x2="1836" y2="286" stroke="#d8d5cc"/>
-<text x="1524" y="318" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">Mi perfil</text>
-<line x1="1524" y1="332" x2="1836" y2="332" stroke="#d8d5cc"/>
-<text x="1524" y="364" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">Carrito  (0)</text>
-<line x1="1524" y1="378" x2="1836" y2="378" stroke="#d8d5cc"/>
-<text x="1524" y="410" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">Cerrar sesión</text>
-<line x1="1524" y1="424" x2="1836" y2="424" stroke="#d8d5cc"/>
-<circle cx="1608" cy="364" r="0" fill="none"/>
-<text x="1524" y="482" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.2">ESTADO VACÍO</text>
-<rect x="1524" y="498" width="312" height="250" fill="none" stroke="#d8d5cc" stroke-dasharray="4 4" />
-<text x="1680" y="580" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="middle">Tu carrito está vacío</text>
-<text x="1680" y="610" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle">Explorá la colección y sumá</text>
-<text x="1680" y="628" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle">las prendas que más te gusten.</text>
-<rect x="1605" y="658" width="150" height="40" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
-<text x="1680" y="682" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1">VER COLECCIÓN</text>
-<text x="1524" y="794" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">SIN SESIÓN</text>
-<rect x="1524" y="806" width="312" height="56" fill="#e3e8ed" />
-<rect x="1524" y="806" width="3" height="56" fill="#405463" />
-<text x="1540" y="829" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#405463" text-anchor="start">Agregar al carrito → Iniciar sesión</text>
-<text x="1540" y="848" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#405463" text-anchor="start">Los endpoints del carrito requieren usuario.</text>
-<text x="1524" y="900" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">Al tocar “Agregar” sin sesión se abre /login.</text>
-<text x="1524" y="918" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">El acceso “Carrito” del menú solo aparece</text>
-<text x="1524" y="936" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">con la sesión iniciada.</text>
-<rect x="40" y="1030" width="600" height="580" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
-<rect x="40" y="1030" width="600" height="48" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
-<text x="60" y="1060" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start">Endpoints representados</text>
-<text x="620" y="1060" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end">CarritoController</text>
-<circle cx="74" cy="1122" r="11" fill="#9a593c"/>
-<text x="74" y="1126" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">1</text>
-<rect x="96" y="1110" width="58" height="22" fill="#e5e1d8" />
-<text x="125" y="1125" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">GET</text>
-<text x="166" y="1126" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">/api/carritos/{usuarioId}</text>
-<text x="96" y="1156" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">Carga de la pantalla y contador del encabezado</text>
-<circle cx="74" cy="1202" r="11" fill="#9a593c"/>
-<text x="74" y="1206" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">2</text>
-<rect x="96" y="1190" width="58" height="22" fill="#e5e1d8" />
-<text x="125" y="1205" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">POST</text>
-<text x="166" y="1206" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">/api/carritos/items</text>
-<text x="96" y="1236" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">Botón “Agregar al carrito” (catálogo, detalle, sugerencias)</text>
-<circle cx="74" cy="1282" r="11" fill="#9a593c"/>
-<text x="74" y="1286" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">3</text>
-<rect x="96" y="1270" width="58" height="22" fill="#e5e1d8" />
-<text x="125" y="1285" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">PATCH</text>
-<text x="166" y="1286" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">/api/carritos/{usuarioId}/items/{itemId}</text>
-<text x="96" y="1316" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">Botones − / + (con 0 se quita la prenda)</text>
-<circle cx="74" cy="1362" r="11" fill="#9a593c"/>
-<text x="74" y="1366" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">4</text>
-<rect x="96" y="1350" width="58" height="22" fill="#e5e1d8" />
-<text x="125" y="1365" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">DELETE</text>
-<text x="166" y="1366" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">/api/carritos/{usuarioId}/items/{itemId}</text>
-<text x="96" y="1396" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">Botón “Quitar”</text>
-<circle cx="74" cy="1442" r="11" fill="#9a593c"/>
-<text x="74" y="1446" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">5</text>
-<rect x="96" y="1430" width="58" height="22" fill="#e5e1d8" />
-<text x="125" y="1445" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">DELETE</text>
-<text x="166" y="1446" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">/api/carritos/{usuarioId}/items</text>
-<text x="96" y="1476" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">“Vaciar carrito” con confirmación</text>
-<circle cx="74" cy="1522" r="11" fill="#9a593c"/>
-<text x="74" y="1526" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">6</text>
-<rect x="96" y="1510" width="58" height="22" fill="#e5e1d8" />
-<text x="125" y="1525" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">POST</text>
-<text x="166" y="1526" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start">/api/carritos/{usuarioId}/checkout</text>
-<text x="96" y="1556" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start">“Continuar al checkout” → pantalla de Casella</text>
-<rect x="670" y="1030" width="640" height="580" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
-<rect x="670" y="1030" width="640" height="48" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
-<text x="690" y="1060" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start">Mensajes de respuesta</text>
-<text x="1290" y="1060" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end">ErrorRespuestaDTO del backend</text>
-<text x="694" y="1110" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">PATCH · 200 · CANTIDAD ACTUALIZADA</text>
-<rect x="694" y="1120" width="592" height="40" fill="#e4ecdf" />
-<rect x="694" y="1120" width="3" height="40" fill="#45613c" />
-<text x="710" y="1143" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start">Cantidad actualizada</text>
-<text x="694" y="1194" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">PATCH · 400 · STOCK INSUFICIENTE</text>
-<rect x="694" y="1204" width="592" height="56" fill="#f4e4e1" />
-<rect x="694" y="1204" width="3" height="56" fill="#9a473d" />
-<text x="710" y="1227" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start">No pudimos actualizar el carrito</text>
-<text x="710" y="1246" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start">Stock insuficiente para el producto: Campera Urban</text>
-<text x="694" y="1278" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">POST · 400 · PRENDA SIN STOCK</text>
-<rect x="694" y="1288" width="592" height="56" fill="#f4e4e1" />
-<rect x="694" y="1288" width="3" height="56" fill="#9a473d" />
-<text x="710" y="1311" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start">No pudimos actualizar el carrito</text>
-<text x="710" y="1330" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start">El producto no tiene stock</text>
-<text x="694" y="1362" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">POST · 400 · VALIDACIÓN DE AGREGARITEMCARRITODTO</text>
-<rect x="694" y="1372" width="592" height="56" fill="#f4e4e1" />
-<rect x="694" y="1372" width="3" height="56" fill="#9a473d" />
-<text x="710" y="1395" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start">No pudimos actualizar el carrito</text>
-<text x="710" y="1414" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start">La solicitud contiene datos inválidos. La cantidad debe ser mayor a cero</text>
-<text x="694" y="1446" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">DELETE · 404 / 403 · ÍTEM INEXISTENTE O AJENO</text>
-<rect x="694" y="1456" width="592" height="56" fill="#f4e4e1" />
-<rect x="694" y="1456" width="3" height="56" fill="#9a473d" />
-<text x="710" y="1479" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start">No pudimos actualizar el carrito</text>
-<text x="710" y="1498" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start">Ítem del carrito no encontrado · El ítem no pertenece al carrito del usuario</text>
-<text x="694" y="1530" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2">GET · 404 / 500 · CARGA FALLIDA</text>
-<rect x="694" y="1540" width="592" height="56" fill="#f4e4e1" />
-<rect x="694" y="1540" width="3" height="56" fill="#9a473d" />
-<text x="710" y="1563" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start">No pudimos cargar el carrito</text>
-<text x="710" y="1582" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start">Carrito no encontrado para el usuario · Ocurrió un error inesperado</text>
-<rect x="1170" y="1550" width="100" height="30" fill="none" stroke="#1e211c" stroke-width="1" />
-<text x="1220" y="1569" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1">REINTENTAR</text>
-<rect x="1340" y="1030" width="520" height="580" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
-<rect x="1340" y="1030" width="520" height="48" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
-<text x="1360" y="1060" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start">Recorrido</text>
-<rect x="1370" y="1110" width="200" height="40" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<text x="1470" y="1135" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="middle">Catálogo / Detalle</text>
-<rect x="1630" y="1110" width="200" height="40" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<text x="1730" y="1135" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="middle">Iniciar sesión</text>
-<rect x="1500" y="1230" width="200" height="40" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
-<text x="1600" y="1255" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">Carrito  /carrito</text>
-<rect x="1370" y="1360" width="200" height="40" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<text x="1470" y="1385" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="middle">Mensaje en pantalla</text>
-<rect x="1630" y="1360" width="200" height="40" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<text x="1730" y="1385" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="middle">Checkout · Casella</text>
-<rect x="1630" y="1480" width="200" height="40" fill="#fff" stroke="#1e211c" stroke-width="1" />
-<text x="1730" y="1505" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="middle">Confirmación</text>
-<line x1="1470" y1="1150" x2="1560" y2="1228" stroke="#686a63" marker-end="url(#arrow)"/>
-<text x="1523" y="1193" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start">Agregar</text>
-<line x1="1570" y1="1130" x2="1628" y2="1130" stroke="#686a63" marker-end="url(#arrow)"/>
-<text x="1576" y="1104" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start">sin sesión</text>
-<line x1="1730" y1="1150" x2="1640" y2="1228" stroke="#686a63" marker-end="url(#arrow)"/>
-<line x1="1560" y1="1270" x2="1470" y2="1358" stroke="#686a63" marker-end="url(#arrow)"/>
-<text x="1523" y="1318" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start">− + Quitar Vaciar</text>
-<line x1="1640" y1="1270" x2="1730" y2="1358" stroke="#686a63" marker-end="url(#arrow)"/>
-<text x="1693" y="1318" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start">Continuar</text>
-<line x1="1730" y1="1400" x2="1730" y2="1478" stroke="#686a63" marker-end="url(#arrow)"/>
-<text x="1370" y="1570" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start">Los cambios se guardan en memoria mientras la app está abierta.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 2240" width="2120" height="2240" role="img" aria-labelledby="t d">
+<title id="t">TRAMA — Carrito de compras</title>
+<desc id="d">Carrito con ítems, cantidades, subtotales y total, vacío, errores de stock y paso al checkout.</desc>
+<rect x="0" y="0" width="2120" height="2240" rx="0" fill="#e9e6dd" />
+<text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start" >TRAMA — Carrito de compras</text>
+<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Mockups de escritorio y celular · Pantallas asignadas a Ian · Ruta propuesta: /carrito</text>
+<text x="40" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESCRITORIO · carrito con productos · /carrito</text>
+<rect x="40" y="130" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="72" y="166" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="290" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="374.4" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<text x="484.0" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<text x="593.6" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >CARRITO (4)</text>
+<line x1="593.6" y1="172" x2="679.4" y2="172" stroke="#9a593c" stroke-width="1"/>
+<text x="840" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="920" y="142" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="970.0" y="163.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="40" y1="188" x2="1040" y2="188" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="40" y="854" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="72" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="1008" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<text x="88" y="218" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2.2" >TU COMPRA</text>
+<text x="88" y="264" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="500" fill="#1e211c" text-anchor="start" >Carrito</text>
+<rect x="88" y="288" width="600" height="42" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="100" y="314" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >PRODUCTO</text>
+<text x="370" y="314" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >CANTIDAD</text>
+<text x="510" y="314" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >SUBTOTAL</text>
+<rect x="88" y="330" width="600" height="118" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="100" y="342" width="94" height="94" rx="0" fill="#e5e1d8" />
+<polygon points="118.8,366.4 134.3,360.8 141.4,366.4 152.6,366.4 159.7,360.8 175.2,366.4 180.8,381.9 166.7,387.6 163.9,417.2 130.1,417.2 127.3,387.6 113.2,381.9" fill="#ffffff" opacity="0.75"/>
+<text x="210" y="374" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="210" y="398" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >$ 28.900 c/u</text>
+<text x="210" y="426" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="start" letter-spacing="1" >QUITAR</text>
+<rect x="362" y="372" width="104" height="34" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="396" y1="372" x2="396" y2="406" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="432" y1="372" x2="432" y2="406" stroke="#d8d5cc" stroke-width="1"/>
+<text x="379" y="395.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="414.0" y="394.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >2</text>
+<text x="449" y="395.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<text x="510" y="394" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >$ 57.800</text>
+<rect x="88" y="448" width="600" height="118" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="100" y="460" width="94" height="94" rx="0" fill="#d9ddd0" />
+<polygon points="127.3,478.8 166.7,478.8 169.6,538.0 149.8,538.0 147.0,504.2 144.2,538.0 124.4,538.0" fill="#ffffff" opacity="0.75"/>
+<text x="210" y="492" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#1e211c" text-anchor="start" >Jean Wide Leg</text>
+<text x="210" y="516" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >$ 78.900 c/u</text>
+<text x="210" y="544" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="start" letter-spacing="1" >QUITAR</text>
+<rect x="362" y="490" width="104" height="34" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="396" y1="490" x2="396" y2="524" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="432" y1="490" x2="432" y2="524" stroke="#d8d5cc" stroke-width="1"/>
+<text x="379" y="513.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="414.0" y="512.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >1</text>
+<text x="449" y="513.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<text x="510" y="512" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >$ 78.900</text>
+<rect x="88" y="566" width="600" height="118" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="100" y="578" width="94" height="94" rx="0" fill="#e3d6cc" />
+<polygon points="127.3,596.8 166.7,596.8 169.6,656.0 149.8,656.0 147.0,622.2 144.2,656.0 124.4,656.0" fill="#ffffff" opacity="0.75"/>
+<text x="210" y="610" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="600" fill="#1e211c" text-anchor="start" >Zapatilla Nómade</text>
+<text x="210" y="634" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >$ 118.000 c/u</text>
+<text x="210" y="662" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="start" letter-spacing="1" >QUITAR</text>
+<rect x="362" y="608" width="104" height="34" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="396" y1="608" x2="396" y2="642" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="432" y1="608" x2="432" y2="642" stroke="#d8d5cc" stroke-width="1"/>
+<text x="379" y="631.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="414.0" y="630.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >1</text>
+<text x="449" y="631.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<text x="510" y="630" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >$ 118.000</text>
+<rect x="716" y="288" width="276" height="360" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="738" y="326" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >Resumen</text>
+<text x="738" y="364" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Remera Essential × 2</text>
+<text x="970" y="364" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="end" >$ 57.800</text>
+<text x="738" y="388" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Jean Wide Leg × 1</text>
+<text x="970" y="388" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="end" >$ 78.900</text>
+<text x="738" y="412" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Zapatilla Nómade × 1</text>
+<text x="970" y="412" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="end" >$ 118.000</text>
+<line x1="738" y1="446" x2="970" y2="446" stroke="#d8d5cc" stroke-width="1"/>
+<text x="738" y="478" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Total</text>
+<text x="970" y="480" font-family="'DM Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#1e211c" text-anchor="end" >$ 254.700</text>
+<rect x="738" y="504" width="232" height="46" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="854.0" y="531.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >FINALIZAR COMPRA</text>
+<rect x="738" y="560" width="232" height="40" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="854.0" y="584.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SEGUIR COMPRANDO</text>
+<text x="854" y="628" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >VACIAR CARRITO</text>
+<circle cx="68" cy="244" r="11" fill="#9a593c"/>
+<text x="68" y="248" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<circle cx="354" cy="392" r="11" fill="#9a593c"/>
+<text x="354" y="396" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<circle cx="268" cy="426" r="11" fill="#9a593c"/>
+<text x="268" y="430" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<circle cx="716" cy="528" r="11" fill="#9a593c"/>
+<text x="716" y="532" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >6</text>
+<circle cx="784" cy="624" r="11" fill="#9a593c"/>
+<text x="784" y="628" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >5</text>
+<text x="1080" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESCRITORIO · "Agregar al carrito" desde el detalle · /productos/:id</text>
+<rect x="1080" y="130" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="1112" y="166" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="1330" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="1414.4" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<line x1="1414.4" y1="172" x2="1484.6000000000001" y2="172" stroke="#9a593c" stroke-width="1"/>
+<text x="1524.0" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<text x="1633.6" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO (5)</text>
+<text x="1880" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="1960" y="142" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="2010.0" y="163.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="1080" y1="188" x2="2080" y2="188" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="1080" y="854" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="1112" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="2048" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<rect x="1128" y="244" width="400" height="400" rx="0" fill="#e5e1d8" />
+<polygon points="1208.0,348.0 1274.0,324.0 1304.0,348.0 1352.0,348.0 1382.0,324.0 1448.0,348.0 1472.0,414.0 1412.0,438.0 1400.0,564.0 1256.0,564.0 1244.0,438.0 1184.0,414.0" fill="#ffffff" opacity="0.75"/>
+<rect x="1136" y="252" width="64.19999999999999" height="20" rx="0" fill="#efeee8" />
+<text x="1168.1" y="266" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="middle" letter-spacing="1" >PORTADA</text>
+<text x="1570" y="272" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2.2" >REMERAS</text>
+<text x="1570" y="316" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="500" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="1570" y="358" font-family="'DM Sans', Arial, sans-serif" font-size="26" font-weight="700" fill="#1e211c" text-anchor="start" >$ 28.900</text>
+<rect x="1570" y="408" width="120" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="1604" y1="408" x2="1604" y2="448" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="1656" y1="408" x2="1656" y2="448" stroke="#d8d5cc" stroke-width="1"/>
+<text x="1587" y="434.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="1630.0" y="433.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >1</text>
+<text x="1673" y="434.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<rect x="1570" y="468" width="462" height="46" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1801.0" y="495.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >AGREGAR AL CARRITO</text>
+<rect x="1570" y="544" width="462" height="70" rx="0" fill="#e4ecdf" />
+<rect x="1570" y="544" width="3" height="70" rx="0" fill="#45613c" />
+<text x="1590" y="572" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start" >Agregado al carrito</text>
+<text x="1590" y="593" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#45613c" text-anchor="start" >1 × Remera Essential</text>
+<text x="2020" y="584" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1" >VER CARRITO →</text>
+<circle cx="1554" cy="491" r="11" fill="#9a593c"/>
+<text x="1554" y="495" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="40" y="978" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · carrito con productos</text>
+<rect x="40" y="990" width="360" height="780" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip1"><rect x="44" y="994" width="352" height="772" rx="34"/></clipPath>
+<g clip-path="url(#clip1)">
+<rect x="175.0" y="1002" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="68" y="1048" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="346" y="1036" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="346" y="1043" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="346" y="1050" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="44" y1="1066" x2="396" y2="1066" stroke="#d8d5cc" stroke-width="1"/>
+<text x="70" y="1112" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="500" fill="#1e211c" text-anchor="start" >Carrito</text>
+<rect x="70" y="1134" width="300" height="138" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="80" y="1144" width="90" height="90" rx="0" fill="#e5e1d8" />
+<polygon points="98.0,1167.4 112.8,1162.0 119.6,1167.4 130.4,1167.4 137.2,1162.0 152.0,1167.4 157.4,1182.2 143.9,1187.7 141.2,1216.0 108.8,1216.0 106.1,1187.7 92.6,1182.2" fill="#ffffff" opacity="0.75"/>
+<text x="184" y="1166" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="600" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="184" y="1186" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >$ 28.900</text>
+<rect x="184" y="1198" width="100" height="32" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="218" y1="1198" x2="218" y2="1230" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="250" y1="1198" x2="250" y2="1230" stroke="#d8d5cc" stroke-width="1"/>
+<text x="201" y="1220.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="234.0" y="1219.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >2</text>
+<text x="267" y="1220.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<text x="358" y="1258" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="end" >$ 57.800</text>
+<text x="80" y="1258" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="start" letter-spacing="1" >QUITAR</text>
+<rect x="70" y="1284" width="300" height="138" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="80" y="1294" width="90" height="90" rx="0" fill="#d9ddd0" />
+<polygon points="106.1,1312.0 143.9,1312.0 146.6,1368.7 127.7,1368.7 125.0,1336.3 122.3,1368.7 103.4,1368.7" fill="#ffffff" opacity="0.75"/>
+<text x="184" y="1316" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="600" fill="#1e211c" text-anchor="start" >Jean Wide Leg</text>
+<text x="184" y="1336" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >$ 78.900</text>
+<rect x="184" y="1348" width="100" height="32" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="218" y1="1348" x2="218" y2="1380" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="250" y1="1348" x2="250" y2="1380" stroke="#d8d5cc" stroke-width="1"/>
+<text x="201" y="1370.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="234.0" y="1369.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >1</text>
+<text x="267" y="1370.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<text x="358" y="1408" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="end" >$ 78.900</text>
+<text x="80" y="1408" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="start" letter-spacing="1" >QUITAR</text>
+<rect x="70" y="1442" width="300" height="150" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="86" y="1476" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >Total</text>
+<text x="354" y="1478" font-family="'DM Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#1e211c" text-anchor="end" >$ 254.700</text>
+<rect x="86" y="1498" width="268" height="44" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="220.0" y="1524.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >FINALIZAR COMPRA</text>
+<text x="220" y="1572" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >VACIAR CARRITO</text>
+</g>
+<text x="440" y="978" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · carrito vacío</text>
+<rect x="440" y="990" width="360" height="780" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip2"><rect x="444" y="994" width="352" height="772" rx="34"/></clipPath>
+<g clip-path="url(#clip2)">
+<rect x="575.0" y="1002" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="468" y="1048" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="746" y="1036" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="746" y="1043" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="746" y="1050" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="444" y1="1066" x2="796" y2="1066" stroke="#d8d5cc" stroke-width="1"/>
+<text x="470" y="1112" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="500" fill="#1e211c" text-anchor="start" >Carrito</text>
+<rect x="470" y="1142" width="300" height="330" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="620.0" cy="1263.0" r="20" fill="none" stroke="#d8d5cc"/>
+<line x1="612.0" y1="1263.0" x2="628.0" y2="1263.0" stroke="#d8d5cc" stroke-width="2"/>
+<text x="620.0" y="1315.0" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="middle" >Tu carrito está vacío</text>
+<text x="620.0" y="1339.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle" >Sumá prendas desde el catálogo.</text>
+<rect x="546.0" y="1359.0" width="148" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="620.0" y="1382.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >VER PRODUCTOS</text>
+</g>
+<text x="40" y="1784" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Menos de 900 px: el resumen pasa debajo de la lista y los botones ocupan el ancho completo.</text>
+<text x="840" y="978" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESTADOS Y MENSAJES</text>
+<rect x="840" y="990" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="840" y="990" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="860" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Carrito vacío</text>
+<text x="1430" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >GET /api/carritos/{usuarioId}</text>
+<rect x="860" y="1056" width="570" height="270" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="1145.0" cy="1147.0" r="20" fill="none" stroke="#d8d5cc"/>
+<line x1="1137.0" y1="1147.0" x2="1153.0" y2="1147.0" stroke="#d8d5cc" stroke-width="2"/>
+<text x="1145.0" y="1199.0" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="middle" >Tu carrito está vacío</text>
+<text x="1145.0" y="1223.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle" >Todavía no agregaste prendas.</text>
+<rect x="1071.0" y="1243.0" width="148" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1145.0" y="1266.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >VER PRODUCTOS</text>
+<rect x="1470" y="990" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1470" y="990" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1490" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Stock insuficiente (409)</text>
+<text x="2060" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >PATCH .../items/{itemId}</text>
+<rect x="1490" y="1056" width="420" height="90" rx="0" fill="#fff" stroke="#9a473d" stroke-width="1" />
+<rect x="1506" y="1084" width="104" height="34" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="1540" y1="1084" x2="1540" y2="1118" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="1576" y1="1084" x2="1576" y2="1118" stroke="#d8d5cc" stroke-width="1"/>
+<text x="1523" y="1107.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="1558.0" y="1106.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >12</text>
+<text x="1593" y="1107.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<text x="1630" y="1106" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Campera Urban · 5 en stock</text>
+<rect x="1490" y="1166" width="570" height="62" rx="0" fill="#f4e4e1" />
+<rect x="1490" y="1166" width="3" height="62" rx="0" fill="#9a473d" />
+<text x="1508" y="1190" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >Stock insuficiente</text>
+<text x="1508" y="1209" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >Stock insuficiente para el producto: Campera Urban</text>
+<rect x="1490" y="1246" width="570" height="54" rx="0" fill="#1e211c" />
+<text x="1504" y="1268" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >{ "estado": 409, "error": "Conflict",</text>
+<text x="1504" y="1285" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "mensaje": "Stock insuficiente para el producto: Campera Urban" }</text>
+<rect x="840" y="1370" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="840" y="1370" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="860" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Cantidad inválida (400)</text>
+<text x="1430" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >POST /api/carritos/items</text>
+<rect x="860" y="1436" width="570" height="62" rx="0" fill="#f4e4e1" />
+<rect x="860" y="1436" width="3" height="62" rx="0" fill="#9a473d" />
+<text x="878" y="1460" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >No se pudo agregar al carrito</text>
+<text x="878" y="1479" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >La cantidad debe ser mayor a cero</text>
+<rect x="860" y="1518" width="570" height="62" rx="0" fill="#f4e4e1" />
+<rect x="860" y="1518" width="3" height="62" rx="0" fill="#9a473d" />
+<text x="878" y="1542" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >Producto inválido</text>
+<text x="878" y="1561" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >El producto es obligatorio</text>
+<rect x="860" y="1600" width="570" height="62" rx="0" fill="#f4e4e1" />
+<rect x="860" y="1600" width="3" height="62" rx="0" fill="#9a473d" />
+<text x="878" y="1624" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >Usuario inválido</text>
+<text x="878" y="1643" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >El usuario es obligatorio</text>
+<rect x="1470" y="1370" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1470" y="1370" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1490" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Ítem no encontrado (404)</text>
+<text x="2060" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >DELETE .../items/{itemId}</text>
+<rect x="1490" y="1436" width="570" height="62" rx="0" fill="#f4e4e1" />
+<rect x="1490" y="1436" width="3" height="62" rx="0" fill="#9a473d" />
+<text x="1508" y="1460" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >Ítem del carrito no encontrado</text>
+<text x="1508" y="1479" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >Quizás ya lo quitaste desde otra pestaña.</text>
+<rect x="1490" y="1520" width="220" height="42" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1600.0" y="1545.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >ACTUALIZAR CARRITO</text>
+<rect x="1575" y="1590" width="400" height="120" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1600" y="1624" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" >¿Vaciar el carrito?</text>
+<rect x="1600" y="1646" width="170" height="40" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1685.0" y="1670.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CANCELAR</text>
+<rect x="1786" y="1646" width="170" height="40" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="1871.0" y="1670.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >VACIAR</text>
+<text x="40" y="1886" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >COBERTURA DE ENDPOINTS (CarritoController · /api/carritos)</text>
+<circle cx="51" cy="1911" r="11" fill="#9a593c"/>
+<text x="51" y="1915" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<text x="72" y="1916" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >GET /{usuarioId} · pantalla del carrito (CarritoRespuestaDTO: items[], total)</text>
+<circle cx="51" cy="1939" r="11" fill="#9a593c"/>
+<text x="51" y="1943" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="72" y="1944" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >POST /items · botón "Agregar al carrito" del detalle (AgregarItemCarritoDTO)</text>
+<circle cx="51" cy="1967" r="11" fill="#9a593c"/>
+<text x="51" y="1971" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<text x="72" y="1972" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >PATCH /{usuarioId}/items/{itemId} · selector de cantidad</text>
+<circle cx="51" cy="1995" r="11" fill="#9a593c"/>
+<text x="51" y="1999" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<text x="72" y="2000" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >DELETE /{usuarioId}/items/{itemId} · "Quitar" un ítem</text>
+<circle cx="51" cy="2023" r="11" fill="#9a593c"/>
+<text x="51" y="2027" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >5</text>
+<text x="72" y="2028" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >DELETE /{usuarioId}/items · "Vaciar carrito" con confirmación</text>
+<circle cx="51" cy="2051" r="11" fill="#9a593c"/>
+<text x="51" y="2055" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >6</text>
+<text x="72" y="2056" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >POST /{usuarioId}/checkout · "Finalizar compra" (continúa en el módulo de órdenes)</text>
 </svg>

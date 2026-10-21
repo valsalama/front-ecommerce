@@ -4,6 +4,7 @@ import AdminRoute from './components/routing/AdminRoute'
 import ProtectedRoute from './components/routing/ProtectedRoute'
 import AccessDeniedPage from './pages/AccessDeniedPage'
 import CartPage from './pages/CartPage'
+import CheckoutPage from './pages/CheckoutPage'
 import CategoriesPage from './pages/CategoriesPage'
 import CategoryDetailPage from './pages/CategoryDetailPage'
 import CategoryFormPage from './pages/CategoryFormPage'
@@ -11,6 +12,9 @@ import FavoritesPage from './pages/FavoritesPage'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import NotFoundPage from './pages/NotFoundPage'
+import OrderDetailPage from './pages/OrderDetailPage'
+import OrdersPage from './pages/OrdersPage'
+import ProductPhotosPage from './pages/ProductPhotosPage'
 import ProductReviewsPage from './pages/ProductReviewsPage'
 import RegisterPage from './pages/RegisterPage'
 import UserDetailPage from './pages/UserDetailPage'
@@ -34,10 +38,14 @@ function App() {
           <Route path="usuarios/:id" element={<UserDetailPage />} />
           <Route path="carrito" element={<CartPage />} />
           <Route path="favoritos" element={<FavoritesPage />} />
+          <Route path="checkout" element={<CheckoutPage />} />
+          <Route path="ordenes" element={<OrdersPage />} />
+          <Route path="ordenes/:ordenId" element={<OrderDetailPage />} />
         </Route>
 
         <Route element={<AdminRoute />}>
           <Route path="usuarios" element={<UsersPage />} />
+          <Route path="admin/productos/:id/fotos" element={<ProductPhotosPage />} />
           <Route path="categorias" element={<CategoriesPage />} />
           <Route path="categorias/nueva" element={<CategoryFormPage />} />
           <Route path="categorias/:id" element={<CategoryDetailPage />} />

@@ -1,6 +1,5 @@
-
 import { MockApiError, readJson, wait } from './http'
-import products from '../data/products.json'
+
 
 let storePromise = null
 let lastFavoriteId = 0
@@ -47,7 +46,7 @@ async function validateUser(usuarioId, signal) {
   return user
 }
 
-function toDto(favorite) {
+function toDto(favorite, products) {
   const product = products.find(
     (item) => item.id === favorite.productoId,
   )
@@ -68,10 +67,11 @@ export async function getFavoritesByUser(usuarioId, { signal } = {}) {
   await validateUser(usuarioId, signal)
 
   const store = await loadStore({ signal })
+  const products = await readJson('/data/productos.json')
 
   return store
     .filter((item) => item.usuarioId === Number(usuarioId))
-    .map(toDto)
+    .map((item) => toDto(item, products))
 }
 
 // POST /api/favoritos?usuarioId={id}&productoId={id}
@@ -89,6 +89,7 @@ export async function addFavorite(usuarioId, productoId) {
     })
   }
 
+  const products = await readJson('/data/productos.json')
   const product = products.find(
     (item) => item.id === numericProductId,
   )
@@ -123,7 +124,7 @@ export async function addFavorite(usuarioId, productoId) {
 
   store.push(favorite)
 
-  return toDto(favorite)
+  return toDto(favorite, products)
 }
 
 // Simulación local: el backend actual no ofrece este DELETE individual.
