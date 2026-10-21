@@ -158,3 +158,21 @@
   z-index: 1;
 }
 
+.product-card__media > a,
+.product-card__name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.product-card__media > a {
+  display: block;
+  height: 100%;
+}
+
+.product-card__name a:hover {
+  color: var(--color-accent-dark);
+}
+
+.product-card__footer .add-to-cart {
+  flex-shrink: 0;
+}

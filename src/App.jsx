@@ -14,6 +14,7 @@ import LoginPage from './pages/LoginPage'
 import NotFoundPage from './pages/NotFoundPage'
 import OrderDetailPage from './pages/OrderDetailPage'
 import OrdersPage from './pages/OrdersPage'
+import ProductListPage from './pages/ProductListPage'
 import ProductPhotosPage from './pages/ProductPhotosPage'
 import ProductReviewsPage from './pages/ProductReviewsPage'
 import RegisterPage from './pages/RegisterPage'
@@ -28,6 +29,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="registro" element={<RegisterPage />} />
+        <Route path="productos" element={<ProductListPage />} />
         <Route
           path="productos/:productoId/resenias"
           element={<ProductReviewsPage />}

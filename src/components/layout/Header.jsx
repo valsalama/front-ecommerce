@@ -20,7 +20,9 @@ function Header() {
       <NavLink to="/" end className={getNavClass}>
         Inicio
       </NavLink>
-      <Link to="/#productos">Productos</Link>
+      <NavLink to="/productos" className={getNavClass}>
+        Productos
+      </NavLink>
       {access === 'ADMIN' && (
         <>
           <NavLink to="/usuarios" className={getNavClass}>
