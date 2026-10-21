@@ -1,12 +1,13 @@
-import { MockApiError, readJson, wait } from './http'
+import { getProducts } from './productService.js'
+import { MockApiError, readJson, wait } from './http.js'
 
 
 let storePromise = null
 let lastFavoriteId = 0
 
-async function loadStore({ signal } = {}) {
+async function loadStore() {
   if (!storePromise) {
-    storePromise = readJson('/data/favoritos.json', { signal }).then(
+    storePromise = readJson('/data/favoritos.json').then(
       (favorites) => {
         lastFavoriteId = Math.max(0, ...favorites.map((item) => item.id))
         return favorites.map(({ id, usuarioId, productoId }) => ({
@@ -66,11 +67,11 @@ export async function getFavoritesByUser(usuarioId, { signal } = {}) {
   await wait(250, signal)
   await validateUser(usuarioId, signal)
 
-  const store = await loadStore({ signal })
-  const products = await readJson('/data/productos.json')
+  const store = await loadStore()
+  const products = await getProducts({ signal })
 
   return store
-    .filter((item) => item.usuarioId === Number(usuarioId))
+    .filter((item) => item.usuarioId === Number(usuarioId) && products.some((product) => product.id === item.productoId))
     .map((item) => toDto(item, products))
 }
 
@@ -89,7 +90,7 @@ export async function addFavorite(usuarioId, productoId) {
     })
   }
 
-  const products = await readJson('/data/productos.json')
+  const products = await getProducts()
   const product = products.find(
     (item) => item.id === numericProductId,
   )

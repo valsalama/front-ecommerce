@@ -1,4 +1,5 @@
 import { MockApiError, readJson, wait } from './http.js'
+import { loadProductStore, notifyCatalogChanged } from './mockStore.js'
 
 // La demostración conserva cambios al navegar y se reinicia al recargar.
 // La baja lógica es metadato interno: los DTOs sólo tienen id y nombre.
@@ -95,7 +96,12 @@ export async function updateCategory(id, { nombre }, { signal } = {}) {
     await fail('error-categoria-duplicada', route, { signal })
   }
   signal?.throwIfAborted()
+  const products = await loadProductStore()
+  signal?.throwIfAborted()
   category.nombre = name
+  products.filter((product) => product.categoriaId === category.id)
+    .forEach((product) => { product.categoria = name })
+  notifyCatalogChanged()
   return toDTO(category)
 }
 
@@ -103,7 +109,7 @@ export async function deleteCategory(id, { signal } = {}) {
   const categories = await prepare(signal)
   const route = `/api/categorias/${id}`
   const category = await findActive(categories, id, route, signal)
-  const products = await readJson('/data/productos.json', { signal })
+  const products = await loadProductStore()
   if (products.some((product) => Number(product.categoriaId) === category.id)) {
     await fail('error-categoria-en-uso', route, { signal })
   }

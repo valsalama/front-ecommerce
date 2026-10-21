@@ -1,3 +1,4 @@
+import { subscribeCatalog } from '../services/mockStore.js'
 import { useEffect, useMemo, useState } from 'react'
 import {
   addItem as addItemRequest,
@@ -20,6 +21,8 @@ export function CartProvider({ children }) {
   const [reloadKey, setReloadKey] = useState(0)
   const [state, setState] = useState(IDLE_STATE)
 
+  useEffect(() => subscribeCatalog(() => setReloadKey((key) => key + 1)), [])
+
   useEffect(() => {
     if (!usuarioId) return undefined
 
@@ -34,6 +37,7 @@ export function CartProvider({ children }) {
 
       try {
         const cart = await getCartByUser(usuarioId, { signal: controller.signal })
+        controller.signal.throwIfAborted()
         setState({ status: 'success', cart, error: '' })
       } catch (requestError) {
         if (requestError.name === 'AbortError') return

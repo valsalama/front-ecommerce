@@ -1,33 +1,7 @@
-import { MockApiError, readJson, wait } from './http'
-import { getProducts } from './productService'
+import { MockApiError, readJson, wait } from './http.js'
+import { getProducts } from './productService.js'
 
-// Copia en memoria de /data/carritos.json. Cada carrito guarda solo el id del
-// ítem, el producto y la cantidad; nombre, precio y subtotales se calculan con
-// el producto actual, igual que CarritoRespuestaDTO.fromEntity en el backend.
-// Los cambios viven mientras la aplicación esté abierta; no se escriben en el
-// archivo.
-let storePromise = null
-// Como la identidad de la base, los ids de ítems no se reutilizan.
-let lastItemId = 0
-
-function loadStore() {
-  if (!storePromise) {
-    storePromise = readJson('/data/carritos.json').then((carts) => {
-      lastItemId = Math.max(0, ...carts.flatMap((cart) => cart.items.map((item) => item.id)))
-
-      return carts.map((cart) => ({
-        id: cart.id,
-        usuarioId: cart.usuarioId,
-        items: cart.items.map(({ id, productoId, cantidad }) => ({ id, productoId, cantidad })),
-      }))
-    })
-    storePromise.catch(() => {
-      storePromise = null
-    })
-  }
-
-  return storePromise
-}
+import { loadCartStore as loadStore, loadProductStore, nextItemId, notifyCatalogChanged } from './mockStore.js'
 
 // Las respuestas de error parten de los ejemplos de public/data/ y solo se
 // ajustan la ruta, la fecha y, cuando el backend lo arma dinámicamente, el
@@ -50,7 +24,7 @@ async function loadProducts(signal) {
 const roundMoney = (value) => Math.round(value * 100) / 100
 
 function toResponse(cart, products) {
-  const items = cart.items.map((item) => {
+  const items = cart.items.filter((item) => products.some((product) => product.id === item.productoId)).map((item) => {
     const product = products.find((candidate) => candidate.id === item.productoId)
     const precioUnitario = product?.precio ?? 0
 
@@ -103,6 +77,7 @@ async function findItem(cart, itemId, ruta) {
 }
 
 async function assertStock(product, cantidad, ruta) {
+  if (!product) await throwApiError('/data/error-producto-no-encontrado.json', { ruta })
   if (product.stock < cantidad) {
     await throwApiError('/data/error-carrito-stock-insuficiente.json', {
       mensaje: `Stock insuficiente para el producto: ${product.nombre}`,
@@ -189,8 +164,7 @@ export async function addItem(data, { signal } = {}) {
   if (existing) {
     existing.cantidad = nextQuantity
   } else {
-    lastItemId += 1
-    cart.items.push({ id: lastItemId, productoId: product.id, cantidad: data.cantidad })
+    cart.items.push({ id: nextItemId(), productoId: product.id, cantidad: data.cantidad })
   }
 
   return toResponse(cart, products)
@@ -249,27 +223,39 @@ export async function clearCart(usuarioId, { signal } = {}) {
   return toResponse(cart, products)
 }
 
-// POST /api/carritos/{usuarioId}/checkout
-// Valida el stock de todas las prendas, vacía el carrito y devuelve
-// CheckoutRespuestaDTO. El stock de productos.json no se modifica porque
-// pertenece al módulo de catálogo.
-export async function checkoutCart(usuarioId, { signal } = {}) {
+// La confirmación valida todo antes de modificar stock y carrito.
+// La instantánea permite que la orden conserve exactamente lo comprado.
+export async function checkoutCartWithSnapshot(usuarioId, { signal } = {}) {
   const ruta = `/api/carritos/${usuarioId}/checkout`
-  const products = await loadProducts(signal)
+  const [products, response] = await Promise.all([
+    loadProductStore(), readJson('/data/checkout-carrito-response.json', { signal }),
+  ])
   const cart = await findCart(usuarioId, ruta)
-
+  signal?.throwIfAborted()
   if (cart.items.length === 0) {
     await throwApiError('/data/error-carrito-vacio-checkout.json', { ruta })
   }
-
+  // Sin awaits entre validación y confirmación: otra compra no puede intercalarse.
   for (const item of cart.items) {
     const product = products.find((candidate) => candidate.id === item.productoId)
-    await assertStock(product, item.cantidad, ruta)
+    if (!product) await throwApiError('/data/error-producto-no-encontrado.json', { ruta })
+    if (product.stock < item.cantidad) {
+      await throwApiError('/data/error-carrito-stock-insuficiente.json', {
+        mensaje: `Stock insuficiente para el producto: ${product.nombre}`, ruta,
+      })
+    }
   }
-
-  const { total } = toResponse(cart, products)
-  const response = await readJson('/data/checkout-carrito-response.json')
-
+  signal?.throwIfAborted()
+  const snapshot = toResponse(cart, products)
+  for (const item of cart.items) {
+    products.find((product) => product.id === item.productoId).stock -= item.cantidad
+  }
   cart.items = []
-  return { ...response, total }
+  notifyCatalogChanged()
+  return { checkout: { ...response, total: snapshot.total }, cart: snapshot }
+}
+
+// POST /api/carritos/{usuarioId}/checkout -> CheckoutRespuestaDTO.
+export async function checkoutCart(usuarioId, options) {
+  return (await checkoutCartWithSnapshot(usuarioId, options)).checkout
 }
