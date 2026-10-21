@@ -6,6 +6,7 @@ import AccessDeniedPage from './pages/AccessDeniedPage'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import NotFoundPage from './pages/NotFoundPage'
+import ProductReviewsPage from './pages/ProductReviewsPage'
 import RegisterPage from './pages/RegisterPage'
 import UserDetailPage from './pages/UserDetailPage'
 import UsersPage from './pages/UsersPage'
@@ -18,6 +19,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="registro" element={<RegisterPage />} />
+        <Route path="productos/:productoId/resenias" element={<ProductReviewsPage />} />
 
         <Route element={<ProtectedRoute />}>
           <Route path="mi-perfil" element={<UserDetailPage ownProfile />} />
