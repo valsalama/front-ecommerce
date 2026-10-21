@@ -112,7 +112,7 @@
 
 .app-footer {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr auto;
   gap: 2rem;
   padding: 2.5rem 5vw;
   color: #e9e5dc;
