@@ -3,10 +3,18 @@
 :root {
   --color-background: #f8f7f3;
   --color-surface: #efeee8;
+  --color-surface-strong: #e5e1d8;
   --color-ink: #1e211c;
   --color-muted: #686a63;
   --color-border: #d8d5cc;
   --color-accent: #9a593c;
+  --color-accent-dark: #75412b;
+  --color-success: #45613c;
+  --color-success-soft: #e4ecdf;
+  --color-danger: #9a473d;
+  --color-danger-soft: #f4e4e1;
+  --color-info-soft: #e3e8ed;
+  --shadow-soft: 0 22px 60px rgb(30 33 28 / 9%);
   --font-body: 'DM Sans', Arial, sans-serif;
   --font-display: 'Playfair Display', Georgia, serif;
   color: var(--color-ink);
@@ -30,10 +38,30 @@ body {
 }
 
 button,
+input,
+select {
+  font: inherit;
+}
+
+button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
 
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
 img {
   max-width: 100%;
+}
+
+::selection {
+  color: #fff;
+  background: var(--color-accent);
 }

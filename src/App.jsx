@@ -1,43 +1,38 @@
-import ProductList from './components/ProductList'
+import { Navigate, Route, Routes } from 'react-router-dom'
+import AppLayout from './components/layout/AppLayout'
+import AdminRoute from './components/routing/AdminRoute'
+import ProtectedRoute from './components/routing/ProtectedRoute'
+import AccessDeniedPage from './pages/AccessDeniedPage'
+import HomePage from './pages/HomePage'
+import LoginPage from './pages/LoginPage'
+import NotFoundPage from './pages/NotFoundPage'
+import RegisterPage from './pages/RegisterPage'
+import UserDetailPage from './pages/UserDetailPage'
+import UsersPage from './pages/UsersPage'
 import './App.css'
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
-        <a className="brand" href="#inicio" aria-label="Inicio de Trama">
-          TRAMA
-        </a>
+    <Routes>
+      <Route element={<AppLayout />}>
+        <Route index element={<HomePage />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="registro" element={<RegisterPage />} />
 
-        <nav className="main-navigation" aria-label="Navegación principal">
-          <a href="#novedades">Novedades</a>
-          <a href="#productos">Productos</a>
-          <a href="#nosotros">Nosotros</a>
-        </nav>
+        <Route element={<ProtectedRoute />}>
+          <Route path="mi-perfil" element={<UserDetailPage ownProfile />} />
+          <Route path="usuarios/:id" element={<UserDetailPage />} />
+        </Route>
 
-        <a className="cart-link" href="#carrito" aria-label="Ver carrito">
-          Carrito <span aria-hidden="true">(0)</span>
-        </a>
-      </header>
+        <Route element={<AdminRoute />}>
+          <Route path="usuarios" element={<UsersPage />} />
+        </Route>
 
-      <main id="inicio">
-        <section className="catalog-hero" id="novedades">
-          <p className="catalog-eyebrow">Nueva colección · Primavera / Verano</p>
-          <h1>Prendas para todos tus días.</h1>
-          <p className="catalog-intro">
-            Básicos de calidad, siluetas cómodas y una selección pensada para
-            acompañarte temporada tras temporada.
-          </p>
-        </section>
-
-        <ProductList />
-      </main>
-
-      <footer className="app-footer" id="nosotros">
-        <span>TRAMA · Indumentaria contemporánea</span>
-        <span>Envíos a todo el país</span>
-      </footer>
-    </div>
+        <Route path="sin-permiso" element={<AccessDeniedPage />} />
+        <Route path="inicio" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Route>
+    </Routes>
   )
 }
 
