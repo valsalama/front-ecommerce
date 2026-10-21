@@ -22,9 +22,14 @@ function Header() {
       </NavLink>
       <Link to="/#productos">Productos</Link>
       {access === 'ADMIN' && (
-        <NavLink to="/usuarios" className={getNavClass}>
-          Usuarios
-        </NavLink>
+        <>
+          <NavLink to="/usuarios" className={getNavClass}>
+            Usuarios
+          </NavLink>
+          <NavLink to="/categorias" className={getNavClass}>
+            Categorías
+          </NavLink>
+        </>
       )}
       {isAuthenticated && (
         <NavLink to="/mi-perfil" className={getNavClass}>
