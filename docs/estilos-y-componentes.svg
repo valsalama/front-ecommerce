@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 1760" width="2120" height="1760" role="img" aria-labelledby="t d">
+<title id="t">TRAMA — Estilos y componentes</title>
+<desc id="d">Paleta, escala tipográfica y componentes compartidos por todos los módulos de Trama.</desc>
+<rect x="0" y="0" width="2120" height="1760" rx="0" fill="#e9e6dd" />
+<text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start" >TRAMA — Estilos y componentes</text>
+<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Hoja base del diseño: colores, tipografía, botones, formularios, mensajes y piezas reutilizables</text>
+<text x="40" y="130" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >PALETA</text>
+<rect x="40" y="146" width="130" height="110" rx="0" fill="#F8F7F3" stroke="#d8d5cc" stroke-width="1" />
+<text x="52" y="220" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >background</text>
+<text x="52" y="240" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#1e211c" text-anchor="start" >#F8F7F3</text>
+<rect x="182" y="146" width="130" height="110" rx="0" fill="#EFEEE8" stroke="#d8d5cc" stroke-width="1" />
+<text x="194" y="220" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >surface</text>
+<text x="194" y="240" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#1e211c" text-anchor="start" >#EFEEE8</text>
+<rect x="324" y="146" width="130" height="110" rx="0" fill="#E5E1D8" stroke="#d8d5cc" stroke-width="1" />
+<text x="336" y="220" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >surface-strong</text>
+<text x="336" y="240" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#1e211c" text-anchor="start" >#E5E1D8</text>
+<rect x="466" y="146" width="130" height="110" rx="0" fill="#D8D5CC" stroke="#d8d5cc" stroke-width="1" />
+<text x="478" y="220" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >border</text>
+<text x="478" y="240" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#1e211c" text-anchor="start" >#D8D5CC</text>
+<rect x="608" y="146" width="130" height="110" rx="0" fill="#1E211C" stroke="#d8d5cc" stroke-width="1" />
+<text x="620" y="220" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="start" >ink</text>
+<text x="620" y="240" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#fff" text-anchor="start" >#1E211C</text>
+<rect x="750" y="146" width="130" height="110" rx="0" fill="#686A63" stroke="#d8d5cc" stroke-width="1" />
+<text x="762" y="220" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="start" >muted</text>
+<text x="762" y="240" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#fff" text-anchor="start" >#686A63</text>
+<rect x="892" y="146" width="130" height="110" rx="0" fill="#9A593C" stroke="#d8d5cc" stroke-width="1" />
+<text x="904" y="220" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="start" >accent</text>
+<text x="904" y="240" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#fff" text-anchor="start" >#9A593C</text>
+<rect x="40" y="272" width="130" height="110" rx="0" fill="#75412B" stroke="#d8d5cc" stroke-width="1" />
+<text x="52" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="start" >accent-dark</text>
+<text x="52" y="366" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#fff" text-anchor="start" >#75412B</text>
+<rect x="182" y="272" width="130" height="110" rx="0" fill="#45613C" stroke="#d8d5cc" stroke-width="1" />
+<text x="194" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="start" >success</text>
+<text x="194" y="366" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#fff" text-anchor="start" >#45613C</text>
+<rect x="324" y="272" width="130" height="110" rx="0" fill="#E4ECDF" stroke="#d8d5cc" stroke-width="1" />
+<text x="336" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >success-soft</text>
+<text x="336" y="366" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#1e211c" text-anchor="start" >#E4ECDF</text>
+<rect x="466" y="272" width="130" height="110" rx="0" fill="#9A473D" stroke="#d8d5cc" stroke-width="1" />
+<text x="478" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="start" >danger</text>
+<text x="478" y="366" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#fff" text-anchor="start" >#9A473D</text>
+<rect x="608" y="272" width="130" height="110" rx="0" fill="#F4E4E1" stroke="#d8d5cc" stroke-width="1" />
+<text x="620" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >danger-soft</text>
+<text x="620" y="366" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#1e211c" text-anchor="start" >#F4E4E1</text>
+<rect x="750" y="272" width="130" height="110" rx="0" fill="#E3E8ED" stroke="#d8d5cc" stroke-width="1" />
+<text x="762" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >info-soft</text>
+<text x="762" y="366" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#1e211c" text-anchor="start" >#E3E8ED</text>
+<text x="40" y="436" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >TIPOGRAFÍA</text>
+<rect x="40" y="450" width="1000" height="520" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="64" y="480" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start" >Display / H1 · Playfair Display 500 · 54</text>
+<text x="64" y="546" font-family="'Playfair Display', Georgia, serif" font-size="54" font-weight="500" fill="#1e211c" text-anchor="start" >Prendas para todos los días</text>
+<text x="64" y="586" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start" >H2 · Playfair Display 500 · 34</text>
+<text x="64" y="632" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="500" fill="#1e211c" text-anchor="start" >Detalle de compra</text>
+<text x="64" y="672" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start" >H3 · Playfair Display 600 · 22</text>
+<text x="64" y="706" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >Dejá tu reseña</text>
+<text x="64" y="746" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start" >Eyebrow · DM Sans 700 · 11 · MAYÚSCULAS · espaciado 2,2</text>
+<text x="64" y="769" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2.2" >ADMINISTRACIÓN</text>
+<text x="64" y="804" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start" >Cuerpo · DM Sans 400 · 14</text>
+<text x="64" y="830" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#1e211c" text-anchor="start" >Remera de algodón peinado, corte recto y cuello redondo.</text>
+<text x="64" y="862" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start" >Etiqueta de campo · DM Sans 700 · 11 · MAYÚSCULAS</text>
+<text x="64" y="885" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" >CALIFICACIÓN</text>
+<text x="64" y="920" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#686a63" text-anchor="start" >Botón · DM Sans 700 · 11 · MAYÚSCULAS · espaciado 1</text>
+<text x="64" y="943" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" >AGREGAR AL CARRITO</text>
+<text x="1080" y="436" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >BOTONES</text>
+<rect x="1080" y="450" width="1000" height="230" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1104" y="484" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >PRIMARIO</text>
+<rect x="1104" y="496" width="216" height="46" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1212.0" y="523.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >CONFIRMAR</text>
+<text x="1344" y="484" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >SECUNDARIO</text>
+<rect x="1344" y="496" width="216" height="46" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1452.0" y="523.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CANCELAR</text>
+<text x="1584" y="484" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >PELIGRO</text>
+<rect x="1584" y="496" width="216" height="46" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="1692.0" y="523.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<text x="1824" y="484" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >DESHABILITADO</text>
+<rect x="1824" y="496" width="216" height="46" rx="0" fill="#e5e1d8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1932.0" y="523.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#979990" text-anchor="middle" letter-spacing="1" >NO DISPONIBLE</text>
+<text x="1104" y="584" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Alto 46 px (principal) · 40 px (secundario) · 34 px (en tabla). Sin bordes redondeados.</text>
+<text x="1104" y="608" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >Enlace de acción</text>
+<text x="1104" y="636" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >VER TODAS LAS RESEÑAS →</text>
+<text x="1344" y="636" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a473d" text-anchor="start" letter-spacing="1" >QUITAR</text>
+<text x="1080" y="706" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CAMPOS DE FORMULARIO</text>
+<rect x="1080" y="720" width="1000" height="250" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1104" y="748" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >NORMAL</text>
+<rect x="1104" y="758" width="300" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1116" y="782.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#979990" text-anchor="start" >Texto de ayuda</text>
+<text x="1424" y="748" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >CON VALOR</text>
+<rect x="1424" y="758" width="300" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1436" y="782.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Abrigos</text>
+<text x="1744" y="748" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >SELECTOR</text>
+<rect x="1744" y="758" width="300" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1756" y="782.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Remeras</text>
+<text x="2022" y="783.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >⌄</text>
+<text x="1104" y="868" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >CON ERROR</text>
+<rect x="1104" y="878" width="300" height="40" rx="0" fill="#fff" stroke="#9a473d" stroke-width="1" />
+<text x="1116" y="902.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >-3</text>
+<text x="1104" y="934" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a473d" text-anchor="start" >El stock debe ser mayor o igual a cero</text>
+<text x="1424" y="904" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1458" y="904" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1492" y="904" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1526" y="904" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#9a593c" text-anchor="start" >★</text>
+<text x="1560" y="904" font-family="'DM Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="#d8d5cc" text-anchor="start" >★</text>
+<text x="1424" y="836" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >CALIFICACIÓN</text>
+<rect x="1744" y="872" width="120" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<line x1="1778" y1="872" x2="1778" y2="912" stroke="#d8d5cc" stroke-width="1"/>
+<line x1="1830" y1="872" x2="1830" y2="912" stroke="#d8d5cc" stroke-width="1"/>
+<text x="1761" y="898.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >−</text>
+<text x="1804.0" y="897.0" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="middle" >2</text>
+<text x="1847" y="898.0" font-family="'DM Sans', Arial, sans-serif" font-size="17" font-weight="400" fill="#1e211c" text-anchor="middle" >+</text>
+<text x="1744" y="856" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >CANTIDAD</text>
+<text x="40" y="1010" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >MENSAJES Y ETIQUETAS</text>
+<rect x="40" y="1024" width="1000" height="330" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="64" y="1048" width="460" height="56" rx="0" fill="#e4ecdf" />
+<rect x="64" y="1048" width="3" height="56" rx="0" fill="#45613c" />
+<text x="82" y="1072" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start" >Éxito</text>
+<text x="82" y="1091" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#45613c" text-anchor="start" >Cambios guardados correctamente.</text>
+<rect x="64" y="1120" width="460" height="56" rx="0" fill="#e3e8ed" />
+<rect x="64" y="1120" width="3" height="56" rx="0" fill="#405463" />
+<text x="82" y="1144" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#405463" text-anchor="start" >Información</text>
+<text x="82" y="1163" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#405463" text-anchor="start" >Necesitás iniciar sesión para continuar.</text>
+<rect x="64" y="1192" width="460" height="56" rx="0" fill="#f4e4e1" />
+<rect x="64" y="1192" width="3" height="56" rx="0" fill="#9a473d" />
+<text x="82" y="1216" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >Error</text>
+<text x="82" y="1235" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >No se pudo completar la operación.</text>
+<rect x="560" y="1056" width="110" height="20" rx="0" fill="#e4ecdf" />
+<text x="615.0" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#45613c" text-anchor="middle" letter-spacing="1" >EN STOCK · 18</text>
+<rect x="690" y="1056" width="77.4" height="20" rx="0" fill="#f4e4e1" />
+<text x="728.7" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >SIN STOCK</text>
+<rect x="800" y="1056" width="64.19999999999999" height="20" rx="0" fill="#efeee8" />
+<text x="832.1" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="middle" letter-spacing="1" >PORTADA</text>
+<rect x="900" y="1056" width="51.0" height="20" rx="0" fill="#efeee8" />
+<text x="925.5" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="middle" letter-spacing="1" >ADMIN</text>
+<rect x="560" y="1096" width="77.4" height="20" rx="0" fill="#e4ecdf" />
+<text x="598.7" y="1110" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#45613c" text-anchor="middle" letter-spacing="1" >TU RESEÑA</text>
+<rect x="660" y="1096" width="77.4" height="20" rx="0" fill="#e3e8ed" />
+<text x="698.7" y="1110" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#405463" text-anchor="middle" letter-spacing="1" >PENDIENTE</text>
+<text x="560" y="1160" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >Etiquetas: 9 px · 700 · MAYÚSCULAS · espaciado 1</text>
+<rect x="560" y="1190" width="460" height="140" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="790.0" cy="1216.0" r="20" fill="none" stroke="#d8d5cc"/>
+<line x1="782.0" y1="1216.0" x2="798.0" y2="1216.0" stroke="#d8d5cc" stroke-width="2"/>
+<text x="790.0" y="1268.0" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="middle" >Sin resultados</text>
+<text x="790.0" y="1292.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle" >Mensaje breve que explica qué hacer.</text>
+<text x="1080" y="1010" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >TARJETA DE PRODUCTO</text>
+<rect x="1080" y="1024" width="1000" height="330" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1104" y="1044" width="200" height="290" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1104" y="1044" width="200" height="160" rx="0" fill="#e5e1d8" />
+<polygon points="1156.0,1085.6 1182.4,1076.0 1194.4,1085.6 1213.6,1085.6 1225.6,1076.0 1252.0,1085.6 1261.6,1112.0 1237.6,1121.6 1232.8,1172.0 1175.2,1172.0 1170.4,1121.6 1146.4,1112.0" fill="#ffffff" opacity="0.75"/>
+<circle cx="1282" cy="1066" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="1282" y="1072" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#686a63" text-anchor="middle" >♡</text>
+<text x="1116" y="1226" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >REMERAS</text>
+<text x="1116" y="1250" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="1116" y="1276" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 28.900</text>
+<rect x="1324" y="1044" width="200" height="290" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1324" y="1044" width="200" height="160" rx="0" fill="#e8dfd0" />
+<polygon points="1376.0,1085.6 1404.8,1076.0 1443.2,1076.0 1472.0,1085.6 1486.4,1148.0 1462.4,1152.8 1457.6,1176.8 1390.4,1176.8 1385.6,1152.8 1361.6,1148.0" fill="#ffffff" opacity="0.75"/>
+<circle cx="1502" cy="1066" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="1502" y="1072" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#686a63" text-anchor="middle" >♡</text>
+<rect x="1332" y="1052" width="77.4" height="20" rx="0" fill="#f4e4e1" />
+<text x="1370.7" y="1066" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >SIN STOCK</text>
+<text x="1336" y="1226" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >BUZOS</text>
+<text x="1336" y="1250" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Buzo Studio</text>
+<text x="1336" y="1276" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 69.500</text>
+<rect x="1544" y="1044" width="200" height="290" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1544" y="1044" width="200" height="160" rx="0" fill="#d6dbe0" />
+<polygon points="1596.0,1085.6 1624.8,1076.0 1663.2,1076.0 1692.0,1085.6 1706.4,1148.0 1682.4,1152.8 1677.6,1176.8 1610.4,1176.8 1605.6,1152.8 1581.6,1148.0" fill="#ffffff" opacity="0.75"/>
+<circle cx="1722" cy="1066" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="1722" y="1072" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<text x="1556" y="1226" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >ABRIGOS</text>
+<text x="1556" y="1250" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Campera Urban</text>
+<text x="1556" y="1276" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 124.500</text>
+<text x="1770" y="1070" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start" >Estados</text>
+<text x="1770" y="1096" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Normal</text>
+<text x="1770" y="1118" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Sin stock</text>
+<text x="1770" y="1140" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >En favoritos</text>
+<text x="1770" y="1162" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" ></text>
+<text x="1770" y="1184" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >Foto 4:3 con la prenda</text>
+<text x="1770" y="1206" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >centrada sobre fondo</text>
+<text x="1770" y="1228" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >de color suave.</text>
+<text x="40" y="1394" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ENCABEZADO, PIE Y PUNTOS DE QUIEBRE</text>
+<rect x="40" y="1408" width="1000" height="70" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="72" y="1444" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="290" y="1442" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="374.4" y="1442" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<line x1="374.4" y1="1450" x2="444.59999999999997" y2="1450" stroke="#9a593c" stroke-width="1"/>
+<text x="484.0" y="1442" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<text x="593.6" y="1442" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO (2)</text>
+<text x="840" y="1442" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="920" y="1420" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="970.0" y="1441.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="40" y1="1466" x2="1040" y2="1466" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="40" y="1494" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="72" y="1527" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="1008" y="1527" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<rect x="1080" y="1408" width="1000" height="142" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1104" y="1446" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start" >Escritorio</text>
+<text x="1280" y="1446" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >más de 900 px · menú horizontal, grillas de 3 a 4 columnas</text>
+<text x="1104" y="1482" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start" >Tablet / celular grande</text>
+<text x="1280" y="1482" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >hasta 900 px · menú plegable, 2 columnas</text>
+<text x="1104" y="1518" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start" >Celular</text>
+<text x="1280" y="1518" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >hasta 700 px · una columna, botones a ancho completo</text>
+<text x="40" y="1590" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESPACIADO Y FORMA</text>
+<rect x="40" y="1610" width="4" height="4" rx="0" fill="#9a593c" />
+<text x="40" y="1676" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >4 px</text>
+<rect x="130" y="1610" width="8" height="8" rx="0" fill="#9a593c" />
+<text x="130" y="1676" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >8 px</text>
+<rect x="220" y="1610" width="12" height="12" rx="0" fill="#9a593c" />
+<text x="220" y="1676" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >12 px</text>
+<rect x="310" y="1610" width="16" height="16" rx="0" fill="#9a593c" />
+<text x="310" y="1676" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >16 px</text>
+<rect x="400" y="1610" width="24" height="24" rx="0" fill="#9a593c" />
+<text x="400" y="1676" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >24 px</text>
+<rect x="490" y="1610" width="32" height="32" rx="0" fill="#9a593c" />
+<text x="490" y="1676" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >32 px</text>
+<rect x="580" y="1610" width="48" height="48" rx="0" fill="#9a593c" />
+<text x="580" y="1676" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >48 px</text>
+<text x="700" y="1624" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Bordes rectos (radio 0) salvo avatares circulares.</text>
+<text x="700" y="1648" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Sombra suave: 0 22 60 · #1E211C al 9 %.</text>
+<text x="700" y="1672" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Márgenes laterales de página: 5 vw.</text>
+</svg>

@@ -1,129 +1,289 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="1260" viewBox="0 0 1520 1260" role="img" aria-labelledby="title desc"><title id="title">TRAMA — Mockups de categorías</title><desc id="desc">Listado de categorías en escritorio y móvil, formulario de alta y edición, detalle y confirmación de eliminación.</desc><style>text{font-family:Arial,sans-serif;fill:#1e211c} .muted{fill:#686a63} .accent{fill:#9a593c} .white{fill:white} .heading{font-family:Georgia,serif}</style>
-<rect x="0" y="0" width="1520" height="1260" rx="0" fill="#efeee8" stroke="#efeee8"/>
-<text x="40" y="48" font-size="30" class="heading" font-weight="normal">TRAMA / CATEGORÍAS</text>
-<text x="40" y="77" font-size="15" class="muted" font-weight="normal">Julieta · Entrega 3 · Escritorio y móvil · Datos locales según CategoriaDTO</text>
-<text x="40" y="116" font-size="15" class="accent" font-weight="bold">01 / LISTADO Y BÚSQUEDA — /categorias</text>
-<rect x="40" y="130" width="870" height="490" rx="0" fill="#f8f7f3" stroke="#d8d5cc"/>
-<rect x="40" y="130" width="870" height="42" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="62" y="157" font-size="15" class="" font-weight="bold">TRAMA</text>
-<text x="710" y="157" font-size="11" class="" font-weight="normal">Usuarios   Categorías</text>
-<text x="70" y="207" font-size="11" class="accent" font-weight="bold">ADMINISTRACIÓN · COLECCIONES</text>
-<text x="70" y="248" font-size="36" class="heading" font-weight="normal">Categorías</text>
-<rect x="700" y="215" width="180" height="40" rx="0" fill="#1e211c" stroke="#1e211c"/>
-<text x="712" y="240" font-size="12" class="white" font-weight="bold">NUEVA CATEGORÍA</text>
-<text x="70" y="279" font-size="14" class="muted" font-weight="normal">Organizá las prendas de TRAMA y mantené actualizado el catálogo.</text>
-<rect x="70" y="301" width="810" height="97" rx="0" fill="#efeee8" stroke="#d8d5cc"/>
-<text x="85" y="325" font-size="11" class="" font-weight="normal">Buscar por</text>
-<text x="270" y="325" font-size="11" class="" font-weight="normal">Nombre de categoría</text>
-<rect x="85" y="336" width="165" height="37" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="96" y="359" font-size="12" class="" font-weight="normal">Nombre exacto ▾</text>
-<rect x="270" y="336" width="240" height="37" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="281" y="359" font-size="12" class="muted" font-weight="normal">Ej.: Remeras</text>
-<rect x="530" y="334" width="110" height="40" rx="0" fill="#1e211c" stroke="#1e211c"/>
-<text x="542" y="359" font-size="12" class="white" font-weight="bold">BUSCAR</text>
-<rect x="655" y="334" width="150" height="40" rx="0" fill="#fff" stroke="#1e211c"/>
-<text x="667" y="359" font-size="12" class="" font-weight="bold">VER TODAS</text>
-<text x="85" y="389" font-size="12" class="muted" font-weight="normal">☑ Ignorar mayúsculas y minúsculas</text>
-<text x="70" y="426" font-size="12" class="muted" font-weight="normal">6 categorías</text>
-<text x="740" y="426" font-size="12" class="muted" font-weight="normal">Probar estados ▾</text>
-<rect x="70" y="442" width="810" height="36" rx="0" fill="#e5e1d8" stroke="#d8d5cc"/>
-<text x="90" y="465" font-size="12" class="" font-weight="bold">ID</text>
-<text x="190" y="465" font-size="12" class="" font-weight="bold">CATEGORÍA</text>
-<text x="675" y="465" font-size="12" class="" font-weight="bold">ACCIONES</text>
-<rect x="70" y="478" width="810" height="39" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="90" y="503" font-size="13" class="muted" font-weight="normal">#4</text>
-<text x="190" y="503" font-size="14" class="" font-weight="bold">Abrigos</text>
-<text x="675" y="503" font-size="12" class="accent" font-weight="normal">Ver detalle   Editar</text>
-<rect x="70" y="517" width="810" height="39" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="90" y="542" font-size="13" class="muted" font-weight="normal">#5</text>
-<text x="190" y="542" font-size="14" class="" font-weight="bold">Buzos</text>
-<text x="675" y="542" font-size="12" class="accent" font-weight="normal">Ver detalle   Editar</text>
-<rect x="70" y="556" width="810" height="39" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="90" y="581" font-size="13" class="muted" font-weight="normal">#6</text>
-<text x="190" y="581" font-size="14" class="" font-weight="bold">Calzado</text>
-<text x="675" y="581" font-size="12" class="accent" font-weight="normal">Ver detalle   Editar</text>
-<text x="70" y="611" font-size="11" class="muted" font-weight="normal">Continúa: Camisas, Pantalones, Remeras</text>
-<text x="950" y="116" font-size="15" class="accent" font-weight="bold">02 / FORMULARIO — NUEVA O EDITAR</text>
-<rect x="950" y="130" width="530" height="490" rx="0" fill="#f8f7f3" stroke="#d8d5cc"/>
-<rect x="950" y="130" width="530" height="42" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="972" y="157" font-size="15" class="" font-weight="bold">TRAMA</text>
-<text x="1280" y="157" font-size="11" class="" font-weight="normal">Usuarios   Categorías</text>
-<text x="980" y="207" font-size="11" class="accent" font-weight="bold">ADMINISTRACIÓN · CATEGORÍAS</text>
-<text x="980" y="248" font-size="34" class="heading" font-weight="normal">Nueva categoría</text>
-<rect x="980" y="283" width="470" height="268" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="1000" y="317" font-size="13" class="muted" font-weight="normal">Agrupá las prendas de una nueva colección.</text>
-<text x="1000" y="353" font-size="13" class="" font-weight="bold">Nombre de la categoría</text>
-<rect x="1000" y="367" width="430" height="45" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="1013" y="395" font-size="15" class="" font-weight="normal">Accesorios</text>
-<text x="1000" y="440" font-size="12" class="muted" font-weight="normal">Nombre obligatorio, sin duplicados.</text>
-<rect x="1000" y="469" width="195" height="40" rx="0" fill="#1e211c" stroke="#1e211c"/>
-<text x="1012" y="494" font-size="12" class="white" font-weight="bold">CREAR CATEGORÍA</text>
-<rect x="1210" y="469" width="120" height="40" rx="0" fill="#fff" stroke="#1e211c"/>
-<text x="1222" y="494" font-size="12" class="" font-weight="bold">CANCELAR</text>
-<text x="980" y="578" font-size="12" class="muted" font-weight="normal">Edición: mismo formulario, con el nombre actual.</text>
-<text x="980" y="600" font-size="12" class="muted" font-weight="normal">Validaciones: nombre vacío / duplicado.</text>
-<text x="40" y="676" font-size="15" class="accent" font-weight="bold">03 / MÓVIL — LISTADO</text>
-<rect x="40" y="690" width="350" height="520" rx="0" fill="#f8f7f3" stroke="#d8d5cc"/>
-<rect x="40" y="690" width="350" height="42" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="62" y="717" font-size="15" class="" font-weight="bold">TRAMA</text>
-<text x="190" y="717" font-size="11" class="" font-weight="normal">Usuarios   Categorías</text>
-<rect x="40" y="690" width="350" height="42" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="64" y="717" font-size="15" class="" font-weight="bold">TRAMA</text>
-<rect x="175" y="695" width="200" height="32" rx="0" fill="#fff" stroke="#fff"/>
-<text x="342" y="717" font-size="18" class="" font-weight="normal">☰</text>
-<text x="63" y="768" font-size="32" class="heading" font-weight="normal">Categorías</text>
-<rect x="63" y="788" width="304" height="40" rx="0" fill="#1e211c" stroke="#1e211c"/>
-<text x="75" y="813" font-size="12" class="white" font-weight="bold">NUEVA CATEGORÍA</text>
-<rect x="63" y="850" width="304" height="133" rx="0" fill="#efeee8" stroke="#d8d5cc"/>
-<text x="77" y="873" font-size="13" class="" font-weight="normal">Nombre exacto ▾</text>
-<rect x="77" y="886" width="276" height="36" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="90" y="910" font-size="13" class="" font-weight="normal">Remeras</text>
-<rect x="77" y="931" width="130" height="40" rx="0" fill="#1e211c" stroke="#1e211c"/>
-<text x="89" y="956" font-size="12" class="white" font-weight="bold">BUSCAR</text>
-<rect x="220" y="931" width="133" height="40" rx="0" fill="#fff" stroke="#1e211c"/>
-<text x="232" y="956" font-size="12" class="" font-weight="bold">VER TODAS</text>
-<rect x="63" y="1007" width="304" height="159" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="80" y="1036" font-size="12" class="muted" font-weight="normal">ID</text>
-<text x="305" y="1036" font-size="14" class="" font-weight="normal">#1</text>
-<text x="80" y="1071" font-size="12" class="muted" font-weight="normal">Categoría</text>
-<text x="260" y="1071" font-size="14" class="" font-weight="bold">Remeras</text>
-<text x="80" y="1117" font-size="12" class="muted" font-weight="normal">Acciones</text>
-<text x="191" y="1117" font-size="12" class="accent" font-weight="normal">Ver detalle   Editar</text>
-<text x="430" y="676" font-size="15" class="accent" font-weight="bold">04 / DETALLE — /categorias/:id</text>
-<rect x="430" y="690" width="505" height="520" rx="0" fill="#f8f7f3" stroke="#d8d5cc"/>
-<rect x="430" y="690" width="505" height="42" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="452" y="717" font-size="15" class="" font-weight="bold">TRAMA</text>
-<text x="735" y="717" font-size="11" class="" font-weight="normal">Usuarios   Categorías</text>
-<text x="455" y="772" font-size="30" class="heading" font-weight="normal">Detalle de categoría</text>
-<rect x="455" y="800" width="455" height="294" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="480" y="833" font-size="11" class="accent" font-weight="normal">COLECCIÓN TRAMA</text>
-<text x="480" y="877" font-size="35" class="heading" font-weight="normal">Accesorios</text>
-<text x="480" y="919" font-size="13" class="muted" font-weight="normal">ID de categoría</text>
-<text x="760" y="919" font-size="14" class="" font-weight="normal">#7</text>
-<text x="480" y="957" font-size="13" class="muted" font-weight="normal">Nombre</text>
-<text x="700" y="957" font-size="14" class="" font-weight="normal">Accesorios</text>
-<rect x="480" y="993" width="210" height="40" rx="0" fill="#1e211c" stroke="#1e211c"/>
-<text x="492" y="1018" font-size="12" class="white" font-weight="bold">EDITAR CATEGORÍA</text>
-<rect x="480" y="1042" width="210" height="40" rx="0" fill="#fff" stroke="#1e211c"/>
-<text x="492" y="1067" font-size="12" class="" font-weight="bold">ELIMINAR CATEGORÍA</text>
-<text x="455" y="1132" font-size="13" class="accent" font-weight="normal">Volver al listado</text>
-<text x="975" y="676" font-size="15" class="accent" font-weight="bold">05 / CONFIRMACIÓN Y ESTADOS</text>
-<rect x="975" y="690" width="505" height="520" rx="0" fill="#f8f7f3" stroke="#d8d5cc"/>
-<rect x="975" y="690" width="505" height="42" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="997" y="717" font-size="15" class="" font-weight="bold">TRAMA</text>
-<text x="1280" y="717" font-size="11" class="" font-weight="normal">Usuarios   Categorías</text>
-<rect x="997" y="777" width="461" height="309" rx="0" fill="#fff" stroke="#d8d5cc"/>
-<text x="1020" y="818" font-size="28" class="heading" font-weight="normal">¿Eliminar Accesorios?</text>
-<text x="1020" y="855" font-size="14" class="muted" font-weight="normal">La categoría dejará de estar disponible.</text>
-<text x="1020" y="881" font-size="12" class="muted" font-weight="normal">Si tiene productos asociados, no se podrá eliminar.</text>
-<rect x="1020" y="913" width="135" height="40" rx="0" fill="#fff" stroke="#1e211c"/>
-<text x="1032" y="938" font-size="12" class="" font-weight="bold">CANCELAR</text>
-<rect x="1170" y="913" width="265" height="40" rx="0" fill="#1e211c" stroke="#1e211c"/>
-<text x="1182" y="938" font-size="12" class="white" font-weight="bold">CONFIRMAR ELIMINACIÓN</text>
-<rect x="1020" y="980" width="415" height="70" rx="0" fill="#f4e4e1" stroke="#f4e4e1"/>
-<text x="1034" y="1005" font-size="13" class="accent" font-weight="bold">No se pudo eliminar</text>
-<text x="1034" y="1030" font-size="12" class="" font-weight="normal">La categoría tiene productos asociados.</text>
-<text x="997" y="1128" font-size="12" class="muted" font-weight="normal">También: carga, lista vacía, error y reintento.</text>
-<text x="997" y="1154" font-size="12" class="muted" font-weight="normal">Alta / edición → detalle. Baja exitosa → listado.</text>
-<text x="40" y="1241" font-size="14" class="muted" font-weight="normal">Navegación: menú de administrador → listado → nueva / detalle / editar → confirmación de baja.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 2080" width="2120" height="2080" role="img" aria-labelledby="t d">
+<title id="t">TRAMA — Módulo de categorías</title>
+<desc id="d">Listado, búsqueda, alta, edición y eliminación de categorías con sus estados y mensajes de error.</desc>
+<rect x="0" y="0" width="2120" height="2080" rx="0" fill="#e9e6dd" />
+<text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start" >TRAMA — Módulo de categorías</text>
+<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Mockups de escritorio y celular · Pantallas asignadas a Julieta · Rutas: /categorias, /categorias/nueva, /categorias/:id</text>
+<text x="40" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESCRITORIO · listado de categorías (administración)</text>
+<rect x="40" y="130" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="72" y="166" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="290" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="374.4" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<text x="484.0" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<text x="593.6" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO</text>
+<text x="686.4000000000001" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >ADMINISTRACIÓN</text>
+<line x1="686.4000000000001" y1="172" x2="795.6000000000001" y2="172" stroke="#9a593c" stroke-width="1"/>
+<text x="840" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="920" y="142" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="970.0" y="163.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="40" y1="188" x2="1040" y2="188" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="40" y="854" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="72" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="1008" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<text x="88" y="238" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2.2" >ADMINISTRACIÓN</text>
+<text x="88" y="284" font-family="'Playfair Display', Georgia, serif" font-size="40" font-weight="500" fill="#1e211c" text-anchor="start" >Categorías</text>
+<rect x="802" y="242" width="190" height="42" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="897.0" y="267.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >NUEVA CATEGORÍA</text>
+<rect x="88" y="308" width="904" height="56" rx="0" fill="#e4ecdf" />
+<rect x="88" y="308" width="3" height="56" rx="0" fill="#45613c" />
+<text x="106" y="332" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start" >Categoría creada</text>
+<text x="106" y="351" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#45613c" text-anchor="start" >La categoría "Buzos" se guardó correctamente.</text>
+<rect x="88" y="384" width="640" height="42" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="410" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#979990" text-anchor="start" >Buscar por nombre…</text>
+<rect x="740" y="384" width="120" height="42" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="800.0" y="409.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >BUSCAR</text>
+<rect x="872" y="384" width="120" height="42" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="932.0" y="409.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >LIMPIAR</text>
+<rect x="88" y="448" width="904" height="40" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="472.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >ID</text>
+<text x="192" y="472.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" >NOMBRE</text>
+<text x="686" y="472.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" ></text>
+<text x="846" y="472.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1" ></text>
+<rect x="88" y="488" width="904" height="48" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="516.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >1</text>
+<text x="192" y="516.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >Remeras</text>
+<rect x="680" y="496" width="144" height="32" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="752.0" y="516.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="840" y="496" width="144" height="32" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="912.0" y="516.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="88" y="536" width="904" height="48" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="564.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >2</text>
+<text x="192" y="564.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >Camisas</text>
+<rect x="680" y="544" width="144" height="32" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="752.0" y="564.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="840" y="544" width="144" height="32" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="912.0" y="564.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="88" y="584" width="904" height="48" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="612.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >3</text>
+<text x="192" y="612.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >Pantalones</text>
+<rect x="680" y="592" width="144" height="32" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="752.0" y="612.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="840" y="592" width="144" height="32" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="912.0" y="612.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="88" y="632" width="904" height="48" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="660.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >4</text>
+<text x="192" y="660.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >Abrigos</text>
+<rect x="680" y="640" width="144" height="32" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="752.0" y="660.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="840" y="640" width="144" height="32" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="912.0" y="660.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="88" y="680" width="904" height="48" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="708.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >5</text>
+<text x="192" y="708.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >Buzos</text>
+<rect x="680" y="688" width="144" height="32" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="752.0" y="708.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="840" y="688" width="144" height="32" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="912.0" y="708.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="88" y="728" width="904" height="48" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="102" y="756.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >6</text>
+<text x="192" y="756.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#1e211c" text-anchor="start" >Calzado</text>
+<rect x="680" y="736" width="144" height="32" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="752.0" y="756.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="840" y="736" width="144" height="32" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="912.0" y="756.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<circle cx="68" cy="258" r="11" fill="#9a593c"/>
+<text x="68" y="262" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<circle cx="76" cy="405" r="11" fill="#9a593c"/>
+<text x="76" y="409" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<circle cx="1020" cy="263" r="11" fill="#9a593c"/>
+<text x="1020" y="267" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<circle cx="656" cy="478" r="11" fill="#9a593c"/>
+<text x="656" y="482" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<circle cx="820" cy="461" r="11" fill="#9a593c"/>
+<text x="820" y="465" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >5</text>
+<circle cx="980" cy="461" r="11" fill="#9a593c"/>
+<text x="980" y="465" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >6</text>
+<text x="1080" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESCRITORIO · alta y edición</text>
+<rect x="1080" y="130" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="1112" y="166" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="1330" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="1414.4" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<text x="1524.0" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<text x="1633.6" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO</text>
+<text x="1726.3999999999999" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >ADMINISTRACIÓN</text>
+<line x1="1726.3999999999999" y1="172" x2="1835.6" y2="172" stroke="#9a593c" stroke-width="1"/>
+<text x="1880" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="1960" y="142" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="2010.0" y="163.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="1080" y1="188" x2="2080" y2="188" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="1080" y="854" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="1112" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="2048" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<rect x="1300" y="224" width="560" height="290" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1328" y="268" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600" fill="#1e211c" text-anchor="start" >Nueva categoría</text>
+<text x="1328" y="306" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >NOMBRE</text>
+<rect x="1328" y="316" width="504" height="40" rx="0" fill="#fff" stroke="#9a473d" stroke-width="1" />
+<text x="1340" y="340.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#979990" text-anchor="start" >Ej.: Remeras</text>
+<text x="1328" y="372" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a473d" text-anchor="start" >El nombre de la categoría es obligatorio</text>
+<rect x="1328" y="438" width="150" height="44" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1403.0" y="464.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >GUARDAR</text>
+<rect x="1490" y="438" width="150" height="44" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1565.0" y="464.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CANCELAR</text>
+<rect x="1300" y="554" width="560" height="290" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1328" y="598" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600" fill="#1e211c" text-anchor="start" >Editar categoría</text>
+<text x="1328" y="636" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >NOMBRE</text>
+<rect x="1328" y="646" width="504" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1340" y="670.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Abrigos</text>
+<text x="1328" y="702" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >ID 4 · No se puede cambiar</text>
+<rect x="1328" y="768" width="150" height="44" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1403.0" y="794.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >GUARDAR</text>
+<rect x="1490" y="768" width="150" height="44" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1565.0" y="794.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CANCELAR</text>
+<circle cx="1312" cy="264" r="11" fill="#9a593c"/>
+<text x="1312" y="268" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<circle cx="1312" cy="594" r="11" fill="#9a593c"/>
+<text x="1312" y="598" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >5</text>
+<text x="40" y="978" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · listado</text>
+<rect x="40" y="990" width="360" height="760" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip1"><rect x="44" y="994" width="352" height="752" rx="34"/></clipPath>
+<g clip-path="url(#clip1)">
+<rect x="175.0" y="1002" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="68" y="1048" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="346" y="1036" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="346" y="1043" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="346" y="1050" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="44" y1="1066" x2="396" y2="1066" stroke="#d8d5cc" stroke-width="1"/>
+<text x="70" y="1112" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="500" fill="#1e211c" text-anchor="start" >Categorías</text>
+<rect x="70" y="1134" width="300" height="40" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="220.0" y="1158.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >NUEVA CATEGORÍA</text>
+<rect x="70" y="1188" width="300" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="82" y="1213" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#979990" text-anchor="start" >Buscar por nombre…</text>
+<rect x="70" y="1244" width="300" height="100" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="86" y="1274" font-family="'Playfair Display', Georgia, serif" font-size="17" font-weight="600" fill="#1e211c" text-anchor="start" >Remeras</text>
+<text x="86" y="1294" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >ID 1</text>
+<rect x="86" y="1302" width="128" height="30" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="150.0" y="1321.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="226" y="1302" width="128" height="30" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="290.0" y="1321.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="70" y="1356" width="300" height="100" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="86" y="1386" font-family="'Playfair Display', Georgia, serif" font-size="17" font-weight="600" fill="#1e211c" text-anchor="start" >Camisas</text>
+<text x="86" y="1406" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >ID 2</text>
+<rect x="86" y="1414" width="128" height="30" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="150.0" y="1433.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="226" y="1414" width="128" height="30" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="290.0" y="1433.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="70" y="1468" width="300" height="100" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="86" y="1498" font-family="'Playfair Display', Georgia, serif" font-size="17" font-weight="600" fill="#1e211c" text-anchor="start" >Pantalones</text>
+<text x="86" y="1518" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >ID 3</text>
+<rect x="86" y="1526" width="128" height="30" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="150.0" y="1545.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="226" y="1526" width="128" height="30" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="290.0" y="1545.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="70" y="1580" width="300" height="100" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="86" y="1610" font-family="'Playfair Display', Georgia, serif" font-size="17" font-weight="600" fill="#1e211c" text-anchor="start" >Abrigos</text>
+<text x="86" y="1630" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >ID 4</text>
+<rect x="86" y="1638" width="128" height="30" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="150.0" y="1657.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >EDITAR</text>
+<rect x="226" y="1638" width="128" height="30" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="290.0" y="1657.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+</g>
+<text x="440" y="978" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · formulario</text>
+<rect x="440" y="990" width="360" height="760" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip2"><rect x="444" y="994" width="352" height="752" rx="34"/></clipPath>
+<g clip-path="url(#clip2)">
+<rect x="575.0" y="1002" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="468" y="1048" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="746" y="1036" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="746" y="1043" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="746" y="1050" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="444" y1="1066" x2="796" y2="1066" stroke="#d8d5cc" stroke-width="1"/>
+<text x="470" y="1112" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="500" fill="#1e211c" text-anchor="start" >Editar categoría</text>
+<rect x="470" y="1138" width="300" height="230" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="486" y="1164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="0.6" >NOMBRE</text>
+<rect x="486" y="1174" width="268" height="40" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="498" y="1198.0" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Abrigos</text>
+<text x="486" y="1230" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >ID 4</text>
+<rect x="486" y="1272" width="268" height="42" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="620.0" y="1297.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >GUARDAR</text>
+<rect x="486" y="1324" width="268" height="42" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="620.0" y="1349.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CANCELAR</text>
+<rect x="470" y="1392" width="300" height="62" rx="0" fill="#e4ecdf" />
+<rect x="470" y="1392" width="3" height="62" rx="0" fill="#45613c" />
+<text x="488" y="1416" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start" >Cambios guardados</text>
+<text x="488" y="1435" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#45613c" text-anchor="start" >La categoría se actualizó.</text>
+</g>
+<text x="40" y="1784" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Menos de 900 px: el listado pasa a tarjetas apiladas y los botones ocupan el ancho disponible.</text>
+<text x="840" y="978" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESTADOS Y MENSAJES</text>
+<rect x="840" y="990" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="840" y="990" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="860" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Confirmar eliminación</text>
+<text x="1430" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >DELETE /api/categorias/{id}</text>
+<rect x="945" y="1070" width="400" height="200" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="970" y="1110" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >Eliminar categoría</text>
+<text x="970" y="1140" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >¿Querés eliminar "Calzado"? Esta acción</text>
+<text x="970" y="1160" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >no se puede deshacer.</text>
+<rect x="970" y="1196" width="170" height="44" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1055.0" y="1222.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CANCELAR</text>
+<rect x="1156" y="1196" width="170" height="44" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="1241.0" y="1222.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >ELIMINAR</text>
+<rect x="860" y="1286" width="570" height="44" rx="0" fill="#e4ecdf" />
+<rect x="860" y="1286" width="3" height="44" rx="0" fill="#45613c" />
+<text x="878" y="1310" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start" >Categoría eliminada</text>
+<rect x="1470" y="990" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1470" y="990" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1490" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Categoría en uso (409)</text>
+<text x="2060" y="1020" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >DELETE /api/categorias/{id}</text>
+<rect x="1490" y="1056" width="570" height="62" rx="0" fill="#f4e4e1" />
+<rect x="1490" y="1056" width="3" height="62" rx="0" fill="#9a473d" />
+<text x="1508" y="1080" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >No se puede eliminar</text>
+<text x="1508" y="1099" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >La categoría tiene productos asociados.</text>
+<rect x="1490" y="1136" width="570" height="139" rx="0" fill="#1e211c" />
+<text x="1504" y="1158" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >{</text>
+<text x="1504" y="1175" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "estado": 409,</text>
+<text x="1504" y="1192" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "error": "Conflict",</text>
+<text x="1504" y="1209" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "mensaje": "No se puede eliminar la categoría</text>
+<text x="1504" y="1226" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >              porque tiene productos asociados",</text>
+<text x="1504" y="1243" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "ruta": "/api/categorias/6"</text>
+<text x="1504" y="1260" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >}</text>
+<rect x="840" y="1370" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="840" y="1370" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="860" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Categoría no encontrada (404)</text>
+<text x="1430" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >GET/PUT /api/categorias/{id}</text>
+<rect x="860" y="1436" width="570" height="62" rx="0" fill="#f4e4e1" />
+<rect x="860" y="1436" width="3" height="62" rx="0" fill="#9a473d" />
+<text x="878" y="1460" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >Categoría no encontrada</text>
+<text x="878" y="1479" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >La categoría 99 no existe o ya fue eliminada.</text>
+<rect x="860" y="1520" width="220" height="42" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="970.0" y="1545.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >VOLVER AL LISTADO</text>
+<rect x="860" y="1584" width="570" height="122" rx="0" fill="#1e211c" />
+<text x="874" y="1606" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >{</text>
+<text x="874" y="1623" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "estado": 404,</text>
+<text x="874" y="1640" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "error": "Not Found",</text>
+<text x="874" y="1657" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "mensaje": "Categoría no encontrada",</text>
+<text x="874" y="1674" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >  "ruta": "/api/categorias/99"</text>
+<text x="874" y="1691" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#e9e5dc" text-anchor="start" >}</text>
+<rect x="1470" y="1370" width="610" height="360" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<rect x="1470" y="1370" width="610" height="48" rx="0" fill="#efeee8" stroke="#d8d5cc" stroke-width="1" />
+<text x="1490" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211c" text-anchor="start" >Sin resultados de búsqueda</text>
+<text x="2060" y="1400" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="end" >GET /api/categorias/buscar</text>
+<rect x="1490" y="1436" width="420" height="42" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1504" y="1462" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >zapatos</text>
+<rect x="1922" y="1436" width="138" height="42" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1991.0" y="1461.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >LIMPIAR</text>
+<rect x="1490" y="1500" width="570" height="200" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="1775.0" cy="1556.0" r="20" fill="none" stroke="#d8d5cc"/>
+<line x1="1767.0" y1="1556.0" x2="1783.0" y2="1556.0" stroke="#d8d5cc" stroke-width="2"/>
+<text x="1775.0" y="1608.0" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="middle" >Sin resultados</text>
+<text x="1775.0" y="1632.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle" >No hay categorías que coincidan con "zapatos".</text>
+<rect x="1717.0" y="1652.0" width="116" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1775.0" y="1675.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >VER TODAS</text>
+<text x="40" y="1856" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >COBERTURA DE ENDPOINTS (CategoriaController)</text>
+<circle cx="51" cy="1881" r="11" fill="#9a593c"/>
+<text x="51" y="1885" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<text x="72" y="1886" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >GET /api/categorias · listado completo</text>
+<circle cx="51" cy="1909" r="11" fill="#9a593c"/>
+<text x="51" y="1913" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="72" y="1914" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >GET /api/categorias/{id} · detalle al abrir una fila o entrar a editar</text>
+<circle cx="51" cy="1937" r="11" fill="#9a593c"/>
+<text x="51" y="1941" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<text x="72" y="1942" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >GET /api/categorias/buscar?nombre= · búsqueda por nombre</text>
+<circle cx="51" cy="1965" r="11" fill="#9a593c"/>
+<text x="51" y="1969" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >4</text>
+<text x="72" y="1970" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >POST /api/categorias · formulario "Nueva categoría" (CategoriaDTO: nombre obligatorio)</text>
+<circle cx="51" cy="1993" r="11" fill="#9a593c"/>
+<text x="51" y="1997" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >5</text>
+<text x="72" y="1998" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >PUT /api/categorias/{id} · formulario "Editar categoría"</text>
+<circle cx="51" cy="2021" r="11" fill="#9a593c"/>
+<text x="51" y="2025" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >6</text>
+<text x="72" y="2026" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >DELETE /api/categorias/{id} · confirmación, éxito, 409 en uso y 404</text>
 </svg>

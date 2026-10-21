@@ -194,3 +194,9 @@
     justify-self: end;
   }
 }
+.order-code {
+  margin: 0.35rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}

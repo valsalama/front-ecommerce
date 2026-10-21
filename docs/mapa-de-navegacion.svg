@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2440 1340" width="2440" height="1340" role="img" aria-labelledby="t d">
+<title id="t">TRAMA — Mapa de navegación</title>
+<desc id="d">Mapa de navegación de la aplicación Trama con las pantallas de cada módulo y los recorridos entre ellas.</desc>
+<rect x="0" y="0" width="2440" height="1340" rx="0" fill="#e9e6dd" />
+<text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start" >TRAMA — Mapa de navegación</text>
+<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Wireflow consolidado de todos los módulos · Rutas con línea llena: pantallas implementadas · línea punteada: pendiente (catálogo, a cargo de Alan) o componente integrado en otra pantalla</text>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e211c"/></marker></defs>
+<rect x="40" y="120" width="2360" height="170" rx="0" fill="#f1efe8" stroke="#d8d5cc" stroke-width="1" />
+<text x="60" y="144" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >USUARIOS Y SESIÓN</text>
+<rect x="40" y="320" width="2360" height="250" rx="0" fill="#f1efe8" stroke="#d8d5cc" stroke-width="1" />
+<text x="60" y="344" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >COMPRA</text>
+<rect x="40" y="600" width="2360" height="200" rx="0" fill="#f1efe8" stroke="#d8d5cc" stroke-width="1" />
+<text x="60" y="624" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CATÁLOGO COMPLEMENTARIO</text>
+<rect x="40" y="830" width="2360" height="200" rx="0" fill="#f1efe8" stroke="#d8d5cc" stroke-width="1" />
+<text x="60" y="854" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ADMINISTRACIÓN (solo con sesión de administrador)</text>
+<rect x="60" y="180" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="60" y="180" width="6" height="74" rx="0" fill="#405463" />
+<text x="80" y="208" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Crear cuenta</text>
+<text x="80" y="230" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/registro</text>
+<text x="298" y="246" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#405463" text-anchor="end" letter-spacing="1.2" >BENJA</text>
+<rect x="400" y="180" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="400" y="180" width="6" height="74" rx="0" fill="#405463" />
+<text x="420" y="208" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Iniciar sesión</text>
+<text x="420" y="230" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/login</text>
+<text x="638" y="246" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#405463" text-anchor="end" letter-spacing="1.2" >BENJA</text>
+<rect x="740" y="180" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="740" y="180" width="6" height="74" rx="0" fill="#405463" />
+<text x="760" y="208" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Mi perfil</text>
+<text x="760" y="230" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/mi-perfil</text>
+<text x="978" y="246" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#405463" text-anchor="end" letter-spacing="1.2" >BENJA</text>
+<rect x="1080" y="180" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1080" y="180" width="6" height="74" rx="0" fill="#405463" />
+<text x="1100" y="208" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Listado de usuarios</text>
+<text x="1100" y="230" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/usuarios</text>
+<text x="1318" y="246" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#405463" text-anchor="end" letter-spacing="1.2" >BENJA · ADMIN</text>
+<rect x="1420" y="180" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1420" y="180" width="6" height="74" rx="0" fill="#405463" />
+<text x="1440" y="208" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Detalle de usuario</text>
+<text x="1440" y="230" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/usuarios/:id</text>
+<text x="1658" y="246" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#405463" text-anchor="end" letter-spacing="1.2" >BENJA</text>
+<polyline points="310,217.0 400,217.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="314.9" y="197.0" width="80.2" height="18" rx="0" fill="#e9e6dd" />
+<text x="355.0" y="210.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >registro ok</text>
+<polyline points="650,217.0 740,217.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<polyline points="525.0,254 525.0,262 1140,262 1140,254" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="1020" y="282" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >cuenta admin</text>
+<polyline points="1330,217.0 1420,217.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="60" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="60" y="380" width="6" height="74" rx="0" fill="#45613c" />
+<text x="80" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Inicio</text>
+<text x="80" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/</text>
+<text x="298" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN</text>
+<rect x="400" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="400" y="380" width="6" height="74" rx="0" fill="#45613c" />
+<text x="420" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Listado y filtros</text>
+<text x="420" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/productos</text>
+<text x="638" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN</text>
+<rect x="740" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="740" y="380" width="6" height="74" rx="0" fill="#45613c" />
+<text x="760" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Detalle de producto</text>
+<text x="760" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/productos/:id</text>
+<text x="978" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN</text>
+<rect x="1080" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1080" y="380" width="6" height="74" rx="0" fill="#6a557d" />
+<text x="1100" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Carrito</text>
+<text x="1100" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/carrito</text>
+<text x="1318" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#6a557d" text-anchor="end" letter-spacing="1.2" >IAN</text>
+<rect x="1420" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1420" y="380" width="6" height="74" rx="0" fill="#3a6b6b" />
+<text x="1440" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Resumen de compra</text>
+<text x="1440" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/checkout</text>
+<text x="1658" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#3a6b6b" text-anchor="end" letter-spacing="1.2" >CASELLA</text>
+<rect x="1760" y="380" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1760" y="380" width="6" height="74" rx="0" fill="#3a6b6b" />
+<text x="1780" y="408" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Compra confirmada</text>
+<text x="1780" y="430" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/ordenes/:ordenId</text>
+<text x="1998" y="446" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#3a6b6b" text-anchor="end" letter-spacing="1.2" >CASELLA</text>
+<rect x="1760" y="470" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1760" y="470" width="6" height="74" rx="0" fill="#3a6b6b" />
+<text x="1780" y="498" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Mis órdenes</text>
+<text x="1780" y="520" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/ordenes</text>
+<text x="1998" y="536" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#3a6b6b" text-anchor="end" letter-spacing="1.2" >CASELLA</text>
+<rect x="2100" y="470" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="2100" y="470" width="6" height="74" rx="0" fill="#3a6b6b" />
+<text x="2120" y="498" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Detalle de orden</text>
+<text x="2120" y="520" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/ordenes/:ordenId</text>
+<text x="2338" y="536" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#3a6b6b" text-anchor="end" letter-spacing="1.2" >CASELLA</text>
+<polyline points="310,417.0 400,417.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="308.7" y="397.0" width="92.60000000000001" height="18" rx="0" fill="#e9e6dd" />
+<text x="355.0" y="410.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >ver productos</text>
+<polyline points="650,417.0 740,417.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<polyline points="990,417.0 1080,417.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="973.2" y="397.0" width="123.60000000000001" height="18" rx="0" fill="#e9e6dd" />
+<text x="1035.0" y="410.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >agregar al carrito</text>
+<polyline points="1330,417.0 1420,417.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="1341.1" y="397.0" width="67.80000000000001" height="18" rx="0" fill="#e9e6dd" />
+<text x="1375.0" y="410.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >finalizar</text>
+<polyline points="1670,417.0 1760,417.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="1681.1" y="397.0" width="67.80000000000001" height="18" rx="0" fill="#e9e6dd" />
+<text x="1715.0" y="410.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >confirmar</text>
+<polyline points="1885.0,454 1885.0,470" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<polyline points="2010,507.0 2100,507.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<polyline points="140,380 140,300 460,300 460,254" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="269.2" y="297.0" width="61.6" height="18" rx="0" fill="#e9e6dd" />
+<text x="300.0" y="310.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >ingresar</text>
+<rect x="740" y="650" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="740" y="650" width="6" height="74" rx="0" fill="#1e211c" />
+<text x="760" y="678" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Reseñas del producto</text>
+<text x="760" y="700" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/productos/:id/resenias</text>
+<text x="978" y="716" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#1e211c" text-anchor="end" letter-spacing="1.2" >VALU</text>
+<rect x="400" y="650" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="400" y="650" width="6" height="74" rx="0" fill="#9a473d" />
+<text x="420" y="678" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Favoritos</text>
+<text x="420" y="700" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/favoritos</text>
+<text x="638" y="716" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#9a473d" text-anchor="end" letter-spacing="1.2" >NACHO</text>
+<rect x="1080" y="650" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="1080" y="650" width="6" height="74" rx="0" fill="#8a7430" />
+<text x="1100" y="678" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Galería de fotos</text>
+<text x="1100" y="700" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >componente en el detalle</text>
+<text x="1318" y="716" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#8a7430" text-anchor="end" letter-spacing="1.2" >JULIAN</text>
+<polyline points="865.0,454 865.0,650" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="837.3" y="532.0" width="55.4" height="18" rx="0" fill="#e9e6dd" />
+<text x="865.0" y="545.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >reseñas</text>
+<polyline points="525.0,454 525.0,650" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="515.9" y="532.0" width="18.2" height="18" rx="0" fill="#e9e6dd" />
+<text x="525.0" y="545.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >♡</text>
+<polyline points="525,724 525,770 1205,770 1205,454" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="688.6" y="756" width="222.8" height="18" rx="0" fill="#e9e6dd" />
+<text x="800" y="769" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >agregar al carrito desde favoritos</text>
+<polyline points="960,454 960,610 1120,610 1120,650" fill="none" stroke="#1e211c" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<rect x="60" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="60" y="880" width="6" height="74" rx="0" fill="#45613c" />
+<text x="80" y="908" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Administrar productos</text>
+<text x="80" y="930" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/admin/productos</text>
+<text x="298" y="946" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN · ADMIN</text>
+<rect x="400" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#686a63" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="400" y="880" width="6" height="74" rx="0" fill="#45613c" />
+<text x="420" y="908" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Nuevo / editar producto</text>
+<text x="420" y="930" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/admin/productos/nuevo · /:id/editar</text>
+<text x="638" y="946" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#45613c" text-anchor="end" letter-spacing="1.2" >ALAN · ADMIN</text>
+<rect x="740" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="740" y="880" width="6" height="74" rx="0" fill="#8a7430" />
+<text x="760" y="908" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Gestión de fotos</text>
+<text x="760" y="930" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/admin/productos/:id/fotos</text>
+<text x="978" y="946" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#8a7430" text-anchor="end" letter-spacing="1.2" >JULIAN · ADMIN</text>
+<rect x="1080" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1080" y="880" width="6" height="74" rx="0" fill="#9a593c" />
+<text x="1100" y="908" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Administrar categorías</text>
+<text x="1100" y="930" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/categorias</text>
+<text x="1318" y="946" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#9a593c" text-anchor="end" letter-spacing="1.2" >JULIETA · ADMIN</text>
+<rect x="1420" y="880" width="250" height="74" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<rect x="1420" y="880" width="6" height="74" rx="0" fill="#9a593c" />
+<text x="1440" y="908" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Nueva / editar categoría</text>
+<text x="1440" y="930" font-family="'DM Mono', 'Courier New', monospace" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >/categorias/nueva</text>
+<text x="1658" y="946" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#9a593c" text-anchor="end" letter-spacing="1.2" >JULIETA · ADMIN</text>
+<polyline points="310,917.0 400,917.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<polyline points="650,917.0 740,917.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="673.5" y="897.0" width="43.0" height="18" rx="0" fill="#e9e6dd" />
+<text x="695.0" y="910.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >fotos</text>
+<polyline points="1330,917.0 1420,917.0" fill="none" stroke="#1e211c" stroke-width="1.5" marker-end="url(#ah)"/>
+<polyline points="525,954 525,980 1205,980 1205,954" fill="none" stroke="#1e211c" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<rect x="794.4" y="966" width="111.2" height="18" rx="0" fill="#e9e6dd" />
+<text x="850" y="979" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a593c" text-anchor="middle" >elegir categoría</text>
+<text x="40" y="1066" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >MÓDULOS Y RESPONSABLES</text>
+<rect x="40" y="1080" width="6" height="20" rx="0" fill="#405463" />
+<text x="56" y="1095" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Benja · usuarios y estructura</text>
+<rect x="340" y="1080" width="6" height="20" rx="0" fill="#9a593c" />
+<text x="356" y="1095" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Julieta · categorías</text>
+<rect x="640" y="1080" width="6" height="20" rx="0" fill="#45613c" />
+<text x="656" y="1095" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Alan · catálogo y productos</text>
+<rect x="940" y="1080" width="6" height="20" rx="0" fill="#8a7430" />
+<text x="956" y="1095" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Julian · fotos</text>
+<rect x="40" y="1110" width="6" height="20" rx="0" fill="#6a557d" />
+<text x="56" y="1125" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Ian · carrito</text>
+<rect x="340" y="1110" width="6" height="20" rx="0" fill="#3a6b6b" />
+<text x="356" y="1125" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Julián Casella · órdenes y checkout</text>
+<rect x="640" y="1110" width="6" height="20" rx="0" fill="#9a473d" />
+<text x="656" y="1125" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Nacho · favoritos</text>
+<rect x="940" y="1110" width="6" height="20" rx="0" fill="#1e211c" />
+<text x="956" y="1125" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Valu · reseñas</text>
+<text x="40" y="1176" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CONVENCIONES</text>
+<rect x="40" y="1192" width="40" height="22" rx="0" fill="#fff" stroke="#1e211c" stroke-width="1.5" />
+<text x="92" y="1208" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Ruta implementada en el front</text>
+<rect x="380" y="1192" width="40" height="22" rx="0" fill="#fff" stroke="#686a63" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="432" y="1208" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Pendiente (catálogo) o componente integrado en otra pantalla</text>
+<text x="40" y="1245" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >OWNER · ADMIN</text>
+<text x="160" y="1245" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Pantalla solo para administrador</text>
+<line x1="380" y1="1240" x2="420" y2="1240" stroke="#1e211c" stroke-width="1.5"/>
+<text x="432" y="1245" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Recorrido principal</text>
+<line x1="700" y1="1240" x2="740" y2="1240" stroke="#1e211c" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="752" y="1245" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >Recorrido secundario</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-21T18:30:00",
+  "estado": 403,
+  "error": "Forbidden",
+  "mensaje": "El usuario no puede modificar este producto",
+  "ruta": "/api/productos/1",
+  "errores": null
+}

@@ -1,18 +1,26 @@
-
 [
   {
     "id": 1,
     "usuarioId": 1,
-    "productoId": 1
+    "productoId": 1,
+    "nombreProducto": "Remera Essential",
+    "precioProducto": 28900.0,
+    "stockDisponible": true
   },
   {
     "id": 2,
     "usuarioId": 1,
-    "productoId": 3
+    "productoId": 3,
+    "nombreProducto": "Jean Wide Leg",
+    "precioProducto": 78900.0,
+    "stockDisponible": true
   },
   {
     "id": 3,
     "usuarioId": 5,
-    "productoId": 6
+    "productoId": 6,
+    "nombreProducto": "Zapatilla Nómade",
+    "precioProducto": 118000.0,
+    "stockDisponible": true
   }
 ]

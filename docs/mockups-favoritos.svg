@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 2760" width="2120" height="2760" role="img" aria-labelledby="t d">
+<title id="t">TRAMA — Favoritos</title>
+<desc id="d">Lista de favoritos con la tarjeta de producto reutilizable, botón de favorito, lista vacía y mensajes de error.</desc>
+<rect x="0" y="0" width="2120" height="2760" rx="0" fill="#e9e6dd" />
+<text x="40" y="56" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="600" fill="#1e211c" text-anchor="start" >TRAMA — Favoritos</text>
+<text x="40" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="400" fill="#686a63" text-anchor="start" >Mockups de escritorio y celular · Pantallas asignadas a Nacho · Ruta propuesta: /favoritos</text>
+<text x="40" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESCRITORIO · mis favoritos · /favoritos</text>
+<rect x="40" y="130" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="72" y="166" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="290" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="374.4" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<text x="484.0" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<line x1="484.0" y1="172" x2="554.2" y2="172" stroke="#9a593c" stroke-width="1"/>
+<text x="593.6" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO</text>
+<text x="840" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="920" y="142" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="970.0" y="163.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="40" y1="188" x2="1040" y2="188" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="40" y="854" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="72" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="1008" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<text x="88" y="218" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2.2" >MI CUENTA</text>
+<text x="88" y="264" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="500" fill="#1e211c" text-anchor="start" >Favoritos</text>
+<text x="88" y="294" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >4 prendas guardadas</text>
+<rect x="802" y="238" width="190" height="40" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="897.0" y="262.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >VACIAR FAVORITOS</text>
+<rect x="88" y="318" width="200" height="420" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="88" y="318" width="200" height="229" rx="0" fill="#e5e1d8" />
+<polygon points="128.0,384.5 161.0,372.5 176.0,384.5 200.0,384.5 215.0,372.5 248.0,384.5 260.0,417.5 230.0,429.5 224.0,492.5 152.0,492.5 146.0,429.5 116.0,417.5" fill="#ffffff" opacity="0.75"/>
+<circle cx="266" cy="340" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="266" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<text x="100" y="569" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >REMERAS</text>
+<text x="100" y="593" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="100" y="619" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 28.900</text>
+<rect x="100" y="640" width="176" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="188.0" y="663.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >AGREGAR AL CARRITO</text>
+<text x="188" y="718" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a593c" text-anchor="middle" >ver detalle</text>
+<rect x="322" y="318" width="200" height="420" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="322" y="318" width="200" height="229" rx="0" fill="#d9ddd0" />
+<polygon points="362.0,384.5 395.0,372.5 410.0,384.5 434.0,384.5 449.0,372.5 482.0,384.5 494.0,417.5 464.0,429.5 458.0,492.5 386.0,492.5 380.0,429.5 350.0,417.5" fill="#ffffff" opacity="0.75"/>
+<circle cx="500" cy="340" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="500" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<text x="334" y="569" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >CAMISAS</text>
+<text x="334" y="593" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Camisa Lino Arena</text>
+<text x="334" y="619" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 64.900</text>
+<rect x="334" y="640" width="176" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="422.0" y="663.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >AGREGAR AL CARRITO</text>
+<text x="422" y="718" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a593c" text-anchor="middle" >ver detalle</text>
+<rect x="556" y="318" width="200" height="420" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="556" y="318" width="200" height="229" rx="0" fill="#e3d6cc" />
+<polygon points="596.0,384.5 632.0,372.5 680.0,372.5 716.0,384.5 734.0,462.5 704.0,468.5 698.0,498.5 614.0,498.5 608.0,468.5 578.0,462.5" fill="#ffffff" opacity="0.75"/>
+<circle cx="734" cy="340" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="734" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<text x="568" y="569" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >ABRIGOS</text>
+<text x="568" y="593" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Campera Urban</text>
+<text x="568" y="619" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 124.500</text>
+<rect x="568" y="640" width="176" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="656.0" y="663.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >AGREGAR AL CARRITO</text>
+<text x="656" y="718" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a593c" text-anchor="middle" >ver detalle</text>
+<rect x="790" y="318" width="200" height="420" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="790" y="318" width="200" height="229" rx="0" fill="#d6dbe0" />
+<polygon points="830.0,384.5 866.0,372.5 914.0,372.5 950.0,384.5 968.0,462.5 938.0,468.5 932.0,498.5 848.0,498.5 842.0,468.5 812.0,462.5" fill="#ffffff" opacity="0.75"/>
+<circle cx="968" cy="340" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="968" y="346" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<rect x="798" y="326" width="77.4" height="20" rx="0" fill="#f4e4e1" />
+<text x="836.7" y="340" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >SIN STOCK</text>
+<text x="802" y="569" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >BUZOS</text>
+<text x="802" y="593" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Buzo Studio</text>
+<text x="802" y="619" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 69.500</text>
+<rect x="802" y="640" width="176" height="38" rx="0" fill="#e5e1d8" stroke="#d8d5cc" stroke-width="1" />
+<text x="890.0" y="663.0" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#979990" text-anchor="middle" letter-spacing="1" >SIN STOCK</text>
+<text x="890" y="718" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#9a593c" text-anchor="middle" >ver detalle</text>
+<circle cx="68" cy="244" r="11" fill="#9a593c"/>
+<text x="68" y="248" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<circle cx="792" cy="258" r="11" fill="#9a593c"/>
+<text x="792" y="262" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<circle cx="238" cy="340" r="11" fill="#9a593c"/>
+<text x="238" y="344" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="1080" y="118" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESCRITORIO · lista vacía · /favoritos</text>
+<rect x="1080" y="130" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="1112" y="166" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="1330" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="1414.4" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<text x="1524.0" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<line x1="1524.0" y1="172" x2="1594.2" y2="172" stroke="#9a593c" stroke-width="1"/>
+<text x="1633.6" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO</text>
+<text x="1880" y="164" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="1960" y="142" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="2010.0" y="163.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="1080" y1="188" x2="2080" y2="188" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="1080" y="854" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="1112" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="2048" y="887" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<text x="1128" y="218" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="2.2" >MI CUENTA</text>
+<text x="1128" y="264" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="500" fill="#1e211c" text-anchor="start" >Favoritos</text>
+<rect x="1128" y="298" width="904" height="400" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="1580.0" cy="454.0" r="20" fill="none" stroke="#d8d5cc"/>
+<line x1="1572.0" y1="454.0" x2="1588.0" y2="454.0" stroke="#d8d5cc" stroke-width="2"/>
+<text x="1580.0" y="506.0" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="middle" >Todavía no guardaste favoritos</text>
+<text x="1580.0" y="530.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle" >Tocá el corazón de una prenda para guardarla acá.</text>
+<rect x="1506.0" y="550.0" width="148" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="1580.0" y="573.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >VER PRODUCTOS</text>
+<circle cx="1108" cy="244" r="11" fill="#9a593c"/>
+<text x="1108" y="248" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<text x="40" y="958" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >COMPONENTE · botón de favorito en catálogo y detalle · /productos</text>
+<rect x="40" y="970" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="72" y="1006" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="290" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="374.4" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<line x1="374.4" y1="1012" x2="444.59999999999997" y2="1012" stroke="#9a593c" stroke-width="1"/>
+<text x="484.0" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<text x="593.6" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO</text>
+<text x="840" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="920" y="982" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="970.0" y="1003.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="40" y1="1028" x2="1040" y2="1028" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="40" y="1694" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="72" y="1727" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="1008" y="1727" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<text x="88" y="1078" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" >Botón en la tarjeta de producto</text>
+<rect x="88" y="1108" width="210" height="330" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="88" y="1108" width="210" height="241" rx="0" fill="#e5e1d8" />
+<polygon points="130.0,1178.1 164.7,1165.5 180.4,1178.1 205.6,1178.1 221.3,1165.5 256.0,1178.1 268.6,1212.8 237.1,1225.3 230.8,1291.5 155.2,1291.5 148.9,1225.3 117.4,1212.8" fill="#ffffff" opacity="0.75"/>
+<circle cx="276" cy="1130" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="276" y="1136" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#686a63" text-anchor="middle" >♡</text>
+<text x="100" y="1371" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >REMERAS</text>
+<text x="100" y="1395" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="100" y="1421" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 28.900</text>
+<text x="193" y="1464" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="middle" letter-spacing="1.2" >SIN GUARDAR</text>
+<rect x="338" y="1108" width="210" height="330" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="338" y="1108" width="210" height="241" rx="0" fill="#d9ddd0" />
+<polygon points="380.0,1178.1 414.6,1165.5 430.4,1178.1 455.6,1178.1 471.4,1165.5 506.0,1178.1 518.6,1212.8 487.1,1225.3 480.8,1291.5 405.2,1291.5 398.9,1225.3 367.4,1212.8" fill="#ffffff" opacity="0.75"/>
+<circle cx="526" cy="1130" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="526" y="1136" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<text x="350" y="1371" font-family="'DM Sans', Arial, sans-serif" font-size="9" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1.6" >REMERAS</text>
+<text x="350" y="1395" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="600" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="350" y="1421" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#1e211c" text-anchor="start" >$ 28.900</text>
+<text x="443" y="1464" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="middle" letter-spacing="1.2" >GUARDADO</text>
+<circle cx="276" cy="1130" r="11" fill="#9a593c"/>
+<text x="276" y="1134" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="610" y="1078" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" >Botón en el detalle</text>
+<text x="610" y="1118" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >SIN GUARDAR</text>
+<rect x="610" y="1130" width="380" height="46" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="800.0" y="1157.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >♡  AGREGAR A FAVORITOS</text>
+<text x="610" y="1218" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >GUARDADO</text>
+<rect x="610" y="1230" width="380" height="46" rx="0" fill="#efeee8" stroke="#9a593c" stroke-width="1" />
+<text x="800" y="1258" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="middle" letter-spacing="1" >♥  EN FAVORITOS</text>
+<text x="610" y="1318" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.2" >PROCESANDO</text>
+<rect x="610" y="1330" width="380" height="46" rx="0" fill="#e5e1d8" stroke="#d8d5cc" stroke-width="1" />
+<text x="800.0" y="1357.0" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#979990" text-anchor="middle" letter-spacing="1" >GUARDANDO…</text>
+<text x="610" y="1420" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="0.6" >Sin sesión: lleva a /login con aviso</text>
+<rect x="610" y="1432" width="380" height="44" rx="0" fill="#e3e8ed" />
+<rect x="610" y="1432" width="3" height="44" rx="0" fill="#405463" />
+<text x="628" y="1456" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#405463" text-anchor="start" >Ingresá para guardar favoritos</text>
+<circle cx="594" cy="1153" r="11" fill="#9a593c"/>
+<text x="594" y="1157" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="1080" y="958" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >ESTADOS · respuestas al guardar y al vaciar · /favoritos</text>
+<rect x="1080" y="970" width="1000" height="780" rx="0" fill="#f8f7f3" stroke="#d8d5cc" stroke-width="1" />
+<text x="1112" y="1006" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<text x="1330" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >INICIO</text>
+<text x="1414.4" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >PRODUCTOS</text>
+<line x1="1414.4" y1="1012" x2="1484.6000000000001" y2="1012" stroke="#9a593c" stroke-width="1"/>
+<text x="1524.0" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >FAVORITOS</text>
+<text x="1633.6" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >CARRITO</text>
+<text x="1880" y="1004" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#1e211c" text-anchor="start" letter-spacing="1" >MI PERFIL</text>
+<rect x="1960" y="982" width="100" height="34" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="2010.0" y="1003.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >SALIR</text>
+<line x1="1080" y1="1028" x2="2080" y2="1028" stroke="#d8d5cc" stroke-width="1"/>
+<rect x="1080" y="1694" width="1000" height="56" rx="0" fill="#1e211c" />
+<text x="1112" y="1727" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="start" letter-spacing="1.2" >TRAMA · INDUMENTARIA CONTEMPORÁNEA</text>
+<text x="2048" y="1727" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="400" fill="#e9e5dc" text-anchor="end" letter-spacing="1.2" >ENVÍOS A TODO EL PAÍS</text>
+<rect x="1128" y="1068" width="904" height="60" rx="0" fill="#e4ecdf" />
+<rect x="1128" y="1068" width="3" height="60" rx="0" fill="#45613c" />
+<text x="1146" y="1092" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#45613c" text-anchor="start" >Agregado a favoritos</text>
+<text x="1146" y="1111" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#45613c" text-anchor="start" >Remera Essential se guardó en tu lista.</text>
+<text x="1128" y="1158" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >POST /api/favoritos → 201</text>
+<rect x="1128" y="1178" width="904" height="60" rx="0" fill="#e3e8ed" />
+<rect x="1128" y="1178" width="3" height="60" rx="0" fill="#405463" />
+<text x="1146" y="1202" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#405463" text-anchor="start" >Ya está en tu lista</text>
+<text x="1146" y="1221" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#405463" text-anchor="start" >El producto ya se encuentra en la lista de favoritos</text>
+<text x="1128" y="1268" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >POST /api/favoritos → 409</text>
+<rect x="1128" y="1288" width="904" height="60" rx="0" fill="#f4e4e1" />
+<rect x="1128" y="1288" width="3" height="60" rx="0" fill="#9a473d" />
+<text x="1146" y="1312" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#9a473d" text-anchor="start" >Producto no encontrado</text>
+<text x="1146" y="1331" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#9a473d" text-anchor="start" >El producto ya no está disponible.</text>
+<text x="1128" y="1378" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >POST /api/favoritos → 404</text>
+<rect x="1330" y="1418" width="500" height="190" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<text x="1360" y="1458" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="600" fill="#1e211c" text-anchor="start" >¿Vaciar favoritos?</text>
+<text x="1360" y="1488" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >Se quitan todas las prendas de tu lista.</text>
+<rect x="1360" y="1524" width="200" height="44" rx="0" fill="none" stroke="#1e211c" stroke-width="1" />
+<text x="1460.0" y="1550.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#1e211c" text-anchor="middle" letter-spacing="1" >CANCELAR</text>
+<rect x="1576" y="1524" width="224" height="44" rx="0" fill="none" stroke="#9a473d" stroke-width="1" />
+<text x="1688.0" y="1550.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >VACIAR</text>
+<text x="1840" y="1588" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="400" fill="#686a63" text-anchor="start" >DELETE /usuario/{id} → 204</text>
+<circle cx="1312" cy="1438" r="11" fill="#9a593c"/>
+<text x="1312" y="1442" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<text x="40" y="1798" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · favoritos</text>
+<rect x="40" y="1810" width="360" height="780" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip1"><rect x="44" y="1814" width="352" height="772" rx="34"/></clipPath>
+<g clip-path="url(#clip1)">
+<rect x="175.0" y="1822" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="68" y="1868" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="346" y="1856" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="346" y="1863" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="346" y="1870" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="44" y1="1886" x2="396" y2="1886" stroke="#d8d5cc" stroke-width="1"/>
+<text x="70" y="1932" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="500" fill="#1e211c" text-anchor="start" >Favoritos</text>
+<text x="70" y="1954" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="start" >4 prendas guardadas</text>
+<rect x="70" y="1974" width="146" height="240" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="70" y="1974" width="146" height="131" rx="0" fill="#e5e1d8" />
+<polygon points="103.7,2008.1 125.3,2000.2 135.1,2008.1 150.9,2008.1 160.7,2000.2 182.3,2008.1 190.2,2029.7 170.5,2037.5 166.6,2078.8 119.4,2078.8 115.5,2037.5 95.8,2029.7" fill="#ffffff" opacity="0.75"/>
+<circle cx="194" cy="1996" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="194" y="2002" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<text x="82" y="2127" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >REMERAS</text>
+<text x="82" y="2151" font-family="'Playfair Display', Georgia, serif" font-size="12" font-weight="600" fill="#1e211c" text-anchor="start" >Remera Essential</text>
+<text x="82" y="2173" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >$ 28.900</text>
+<rect x="78" y="2164" width="130" height="32" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="143.0" y="2184.0" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >AGREGAR</text>
+<rect x="224" y="1974" width="146" height="240" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<rect x="224" y="1974" width="146" height="131" rx="0" fill="#d9ddd0" />
+<polygon points="257.7,2008.1 279.3,2000.2 289.1,2008.1 304.9,2008.1 314.7,2000.2 336.3,2008.1 344.2,2029.7 324.5,2037.5 320.6,2078.8 273.4,2078.8 269.5,2037.5 249.8,2029.7" fill="#ffffff" opacity="0.75"/>
+<circle cx="348" cy="1996" r="15" fill="#fff" stroke="#d8d5cc"/>
+<text x="348" y="2002" font-family="'DM Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#9a593c" text-anchor="middle" >♥</text>
+<text x="236" y="2127" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#9a593c" text-anchor="start" letter-spacing="1" >CAMISAS</text>
+<text x="236" y="2151" font-family="'Playfair Display', Georgia, serif" font-size="12" font-weight="600" fill="#1e211c" text-anchor="start" >Camisa Lino Arena</text>
+<text x="236" y="2173" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#1e211c" text-anchor="start" >$ 64.900</text>
+<rect x="232" y="2164" width="130" height="32" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="297.0" y="2184.0" font-family="'DM Sans', Arial, sans-serif" font-size="8" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >AGREGAR</text>
+<text x="220" y="2282" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#9a473d" text-anchor="middle" letter-spacing="1" >VACIAR FAVORITOS</text>
+</g>
+<text x="440" y="1798" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >CELULAR · lista vacía</text>
+<rect x="440" y="1810" width="360" height="780" rx="38" fill="#f8f7f3" stroke="#1e211c" stroke-width="3" />
+<clipPath id="clip2"><rect x="444" y="1814" width="352" height="772" rx="34"/></clipPath>
+<g clip-path="url(#clip2)">
+<rect x="575.0" y="1822" width="90" height="8" rx="4" fill="#1e211c" />
+<text x="468" y="1868" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="600" fill="#1e211c" text-anchor="start" letter-spacing="2" >TRAMA</text>
+<rect x="746" y="1856" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="746" y="1863" width="26" height="2.5" rx="1" fill="#1e211c" />
+<rect x="746" y="1870" width="26" height="2.5" rx="1" fill="#1e211c" />
+<line x1="444" y1="1886" x2="796" y2="1886" stroke="#d8d5cc" stroke-width="1"/>
+<text x="470" y="1932" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="500" fill="#1e211c" text-anchor="start" >Favoritos</text>
+<rect x="470" y="1962" width="300" height="330" rx="0" fill="#fff" stroke="#d8d5cc" stroke-width="1" />
+<circle cx="620.0" cy="2083.0" r="20" fill="none" stroke="#d8d5cc"/>
+<line x1="612.0" y1="2083.0" x2="628.0" y2="2083.0" stroke="#d8d5cc" stroke-width="2"/>
+<text x="620.0" y="2135.0" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#1e211c" text-anchor="middle" >Sin favoritos</text>
+<text x="620.0" y="2159.0" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#686a63" text-anchor="middle" >Tocá el corazón de una prenda.</text>
+<rect x="546.0" y="2179.0" width="148" height="38" rx="0" fill="#1e211c" stroke="#1e211c" stroke-width="1" />
+<text x="620.0" y="2202.0" font-family="'DM Sans', Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1" >VER PRODUCTOS</text>
+</g>
+<text x="840" y="1850" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" fill="#1e211c" text-anchor="start" >Menos de 900 px</text>
+<text x="840" y="1880" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >La grilla pasa a 2 columnas y el botón</text>
+<text x="840" y="1902" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#686a63" text-anchor="start" >"Vaciar favoritos" baja al final de la lista.</text>
+<text x="40" y="2626" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#686a63" text-anchor="start" letter-spacing="1.4" >COBERTURA DE ENDPOINTS (FavoritoController · /api/favoritos)</text>
+<circle cx="51" cy="2651" r="11" fill="#9a593c"/>
+<text x="51" y="2655" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >1</text>
+<text x="72" y="2656" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >GET /usuario/{usuarioId} · lista de favoritos (FavoritoDTO: id, usuarioId, productoId, nombreProducto, precioProducto, stockDisponible)</text>
+<circle cx="51" cy="2679" r="11" fill="#9a593c"/>
+<text x="51" y="2683" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >2</text>
+<text x="72" y="2684" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >POST ?usuarioId=&amp;productoId= · botón de favorito en catálogo y detalle (201; 409 si ya estaba)</text>
+<circle cx="51" cy="2707" r="11" fill="#9a593c"/>
+<text x="51" y="2711" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" >3</text>
+<text x="72" y="2712" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1e211c" text-anchor="start" >DELETE /usuario/{usuarioId} · "Vaciar favoritos" (204). El backend no quita una prenda individual.</text>
+</svg>

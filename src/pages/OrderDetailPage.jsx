@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import OrderStatusBadge from '../components/ordenes/OrderStatusBadge'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import OrderSummaryItem from '../components/ordenes/OrderSummaryItem'
 import '../components/ordenes/ordenes.css'
 import FeedbackMessage from '../components/ui/FeedbackMessage'
@@ -13,6 +12,7 @@ import { getOrderById } from '../services/orderService'
 function OrderDetailPage() {
   const { user } = useAuth()
   const { ordenId } = useParams()
+  const location = useLocation()
   const [state, setState] = useState({ status: 'loading', order: null })
 
   useEffect(() => {
@@ -29,13 +29,18 @@ function OrderDetailPage() {
   const date = order && new Intl.DateTimeFormat('es-AR', {
     dateStyle: 'long',
     timeStyle: 'short',
-  }).format(new Date(order.fecha))
+  }).format(new Date(order.fechaCreacion))
 
   return (
     <section className="page-shell orders-page" aria-labelledby="order-detail-title">
       <PageHeading eyebrow="Tu compra" title="Detalle de orden">
         <Link className="secondary-button" to="/ordenes">Volver al historial</Link>
       </PageHeading>
+      {location.state?.confirmation && (
+        <FeedbackMessage title="Compra realizada" type="success">
+          {location.state.confirmation}
+        </FeedbackMessage>
+      )}
       {state.status === 'loading' && <LoadingState label="Cargando orden…" />}
       {state.status === 'error' && <FeedbackMessage title="No pudimos cargar la orden" type="error" />}
       {state.status === 'not-found' && (
@@ -49,12 +54,12 @@ function OrderDetailPage() {
           <header className="order-detail__header">
             <div>
               <p className="order-card__eyebrow">Orden #{order.id}</p>
-              <h2>{date}</h2>
+              <h2 id="order-detail-title">{date}</h2>
+              <p className="order-code">Código de seguimiento {order.codigoSeguimiento}</p>
             </div>
-            <OrderStatusBadge estado={order.estado} />
           </header>
           <ul className="order-items">
-            {order.items.map((item) => <OrderSummaryItem key={item.id} item={item} />)}
+            {order.detalles.map((detalle) => <OrderSummaryItem key={detalle.id} item={detalle} />)}
           </ul>
           <div className="order-detail__total">
             <span>Total</span>
