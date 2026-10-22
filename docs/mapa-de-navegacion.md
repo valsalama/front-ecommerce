@@ -2,7 +2,7 @@
 
 Este documento reúne los mockups de todos los módulos y el mapa de navegación completo de la aplicación.
 
-> Los mockups se diseñaron a partir de los DTO, los endpoints y los mensajes de error reales del backend.
+> Los mockups se diseñaron a partir de los DTO, los endpoints y los mensajes de error reales del backend. Todas las rutas descriptas están implementadas.
 
 ## Mockups por módulo
 
@@ -13,7 +13,7 @@ Cada tablero reúne las pantallas de escritorio y celular del módulo, sus estad
 | Estilos y componentes | Todos | [estilos-y-componentes.svg](estilos-y-componentes.svg) |
 | Usuarios y estructura | Benja | [mockups-usuarios.svg](mockups-usuarios.svg) |
 | Categorías | Julieta | [mockups-categorias.svg](mockups-categorias.svg) |
-| Catálogo y productos | Alan | [mockups-productos.svg](mockups-productos.svg) |
+| Catálogo y productos | Alan | [mockups-catalogo.svg](mockups-catalogo.svg) |
 | Fotos de productos | Julian | [mockups-fotos.svg](mockups-fotos.svg) |
 | Carrito | Ian | [mockups-carrito.svg](mockups-carrito.svg) |
 | Checkout y órdenes | Julián Casella | [mockups-ordenes.svg](mockups-ordenes.svg) |
@@ -102,7 +102,7 @@ flowchart LR
 
 ## Rutas
 
-Las marcadas como "Admin" requieren una sesión de administrador; las marcadas como "Sesión" requieren iniciar sesión.
+Todas las rutas están implementadas en el front. Las marcadas como "Admin" requieren una sesión de administrador; las marcadas como "Sesión" requieren iniciar sesión.
 
 | Ruta | Pantalla | Responsable | Acceso |
 | --- | --- | --- | --- |
@@ -131,7 +131,7 @@ Las marcadas como "Admin" requieren una sesión de administrador; las marcadas c
 
 ## Cobertura de endpoints
 
-Fuente: controladores del backend. Son 35 endpoints. No hay una pantalla distinta por endpoint: cada fila indica qué pantalla, formulario o botón lo representa.
+Fuente: controladores del backend. Son 28 endpoints. No hay una pantalla distinta por endpoint: cada fila indica qué pantalla, formulario o botón lo representa.
 
 ### Usuarios · Benja
 
@@ -157,13 +157,13 @@ Fuente: controladores del backend. Son 35 endpoints. No hay una pantalla distint
 
 | Endpoint | Pantalla o acción | Estado |
 | --- | --- | --- |
-| `GET /api/productos` | Destacados del inicio e inventario de administración | Implementado |
-| `GET /api/productos/buscar` | Catálogo con búsqueda, filtros combinados, orden y paginación | Implementado |
-| `GET /api/productos/{id}` | Detalle de producto y carga del formulario de edición | Implementado |
+| `GET /api/productos` | Destacados del inicio y listado básico | Implementado |
+| `GET /api/productos/buscar` | Filtros combinados y paginación | Implementado |
+| `GET /api/productos/{id}` | Detalle de producto | Implementado |
 | `POST /api/productos` | Formulario de alta con validaciones | Implementado |
 | `PUT /api/productos/{id}` | Formulario de edición | Implementado |
-| `PATCH /api/productos/{id}/stock` | Campo de stock con "Guardar" en cada fila del inventario | Implementado |
-| `DELETE /api/productos/{id}` | "Eliminar" con diálogo de confirmación | Implementado |
+| `PATCH /api/productos/{id}/stock` | Modal "Actualizar stock" | Implementado |
+| `DELETE /api/productos/{id}` | Confirmación de eliminación | Implementado |
 
 ### Fotos · Julian
 

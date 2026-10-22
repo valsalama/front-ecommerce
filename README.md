@@ -33,7 +33,7 @@ La autenticación es simulada y se mantiene en `localStorage`. Desde `/login` se
 | Usuario | `benja@trama.com` | `trama123` |
 | Administrador | `admin@trama.com` | `admin123` |
 
-El administrador puede consultar el listado completo de usuarios. La cuenta común puede acceder a su perfil, pero recibe una pantalla de acceso restringido si intenta ingresar al panel administrativo.
+El administrador accede a los paneles de usuarios, categorías y productos (inventario, stock y fotos). La cuenta común puede comprar, guardar favoritos, dejar reseñas y ver sus órdenes, pero recibe una pantalla de acceso restringido si intenta ingresar al panel administrativo. El administrador de demostración es el dueño de los productos cargados (`usuarioId` 4), por eso es quien puede modificarlos.
 
 > El rol es un metadato exclusivo de la sesión simulada. No se agregó al JSON de `UsuarioRespuestaDTO` porque el backend actual no lo expone.
 
@@ -41,36 +41,55 @@ El administrador puede consultar el listado completo de usuarios. La cuenta com�
 
 | Ruta | Pantalla | Acceso |
 | --- | --- | --- |
-| `/` | Inicio y catálogo existente | Público |
+| `/` | Inicio con prendas destacadas | Público |
 | `/login` | Inicio de sesión | Público |
 | `/registro` | Registro de usuario | Público |
-| `/mi-perfil` | Perfil de la sesión | Usuario autenticado |
-| `/usuarios` | Listado y búsqueda | Administrador simulado |
-| `/usuarios/:id` | Detalle de usuario | Usuario autenticado |
-| `/sin-permiso` | Acceso restringido | Usuario autenticado |
+| `/productos` | Catálogo con búsqueda, filtros y paginación | Público |
+| `/productos/:id` | Detalle de producto con galería, carrito, favorito y reseñas | Público |
 | `/productos/:productoId/resenias` | Reseñas de un producto | Público |
+| `/mi-perfil` | Perfil de la sesión | Usuario autenticado |
+| `/usuarios/:id` | Detalle de usuario | Usuario autenticado |
 | `/carrito` | Carrito de compras | Usuario autenticado |
+| `/checkout` | Resumen y confirmación de compra | Usuario autenticado |
+| `/ordenes` | Historial de órdenes | Usuario autenticado |
+| `/ordenes/:ordenId` | Detalle de orden | Usuario autenticado |
+| `/favoritos` | Favoritos | Usuario autenticado |
+| `/usuarios` | Listado y búsqueda de usuarios | Administrador simulado |
+| `/categorias`, `/categorias/nueva`, `/categorias/:id`, `/categorias/:id/editar` | Gestión de categorías | Administrador simulado |
+| `/admin/productos`, `/admin/productos/nuevo`, `/admin/productos/:id/editar` | Inventario, alta, edición y stock de productos | Administrador simulado |
+| `/admin/productos/:id/fotos` | Gestión de fotos del producto | Administrador simulado |
+| `/sin-permiso` | Acceso restringido | Usuario autenticado |
 
 Las rutas desconocidas muestran una pantalla 404 y todas las pantallas comparten encabezado, navegación adaptable y pie de página.
 
 ## Correspondencia con el backend
 
-| Endpoint Java | Método del frontend | Pantalla o acción |
+Cada módulo tiene su archivo de servicio en `src/services/`, que hoy lee los JSON de `public/data/` y simula en memoria las altas, bajas y modificaciones. La cobertura endpoint por endpoint (28 en total) está en [docs/mapa-de-navegacion.md](docs/mapa-de-navegacion.md). Resumen:
+
+| Módulo | Endpoints representados | Servicio |
 | --- | --- | --- |
-| `POST /api/usuarios/registro` | `register()` | Formulario de registro |
-| `POST /api/usuarios/login` | `login()` | Formulario de acceso |
-| `GET /api/usuarios` | `getUsers()` | Listado administrativo |
-| `GET /api/usuarios/{id}` | `getUserById()` | Perfil/detalle |
+| Usuarios | registro, login, listado y detalle | `authService.js`, `userService.js` |
+| Categorías | listado, detalle, búsqueda, alta, edición y baja | `categoryService.js` |
+| Productos | listado, búsqueda paginada, detalle, alta, edición, stock y baja | `productService.js` |
+| Fotos | listado, alta por URL, portada y baja | `photoService.js` |
+| Carrito | consulta, agregar, cambiar cantidad, quitar, vaciar y checkout | `cartService.js` |
+| Órdenes | checkout e historial | `orderService.js` |
+| Favoritos | listado, alta y vaciado | `favoriteService.js` |
+| Reseñas | alta, listado por producto y promedio | `reseniaService.js` |
 
-Los archivos de `public/data/` respetan estos contratos:
+Los archivos de `public/data/` respetan los DTO del backend:
 
-- `UsuarioRegistroDTO`: `nombreUsuario`, `mail`, `contrasenia`, `nombre`, `apellido`.
-- `UsuarioRespuestaDTO`: `id`, `nombreUsuario`, `mail`, `nombre`, `apellido`.
-- `LoginDTO`: `mail`, `contrasenia`.
-- `LoginRespuestaDTO`: `token`, `tipo`, `usuario`.
+- `UsuarioRegistroDTO`, `UsuarioRespuestaDTO`, `LoginDTO` y `LoginRespuestaDTO`.
+- `CategoriaDTO`.
+- `ProductoRespuestaDTO` (con `fotos`) y la página de Spring (`Page`) de `GET /api/productos/buscar`.
+- `FotoRespuestaDTO`.
+- `CarritoRespuestaDTO`, `ItemCarritoRespuestaDTO` y `CheckoutRespuestaDTO`.
+- `OrdenRespuestaDTO` y `DetallePedidoRespuestaDTO`, con el código de seguimiento de 12 caracteres hexadecimales.
+- `FavoritoDTO`.
+- `ReseniaDTO`.
 - `ErrorRespuestaDTO`: `fecha`, `estado`, `error`, `mensaje`, `ruta`, `errores`.
 
-La contraseña solo se utiliza como entrada del formulario y nunca aparece en las respuestas ni en el perfil.
+La contraseña solo se utiliza como entrada del formulario y nunca aparece en las respuestas ni en el perfil. El backend solo permite vaciar la lista de favoritos; quitar una prenda individual se simula en memoria.
 
 ## Estados demostrables
 
@@ -83,6 +102,10 @@ La contraseña solo se utiliza como entrada del formulario y nunca aparece en la
 - Usuario inexistente.
 - Ruta protegida sin sesión y acceso administrativo denegado.
 - Persistencia y cierre de sesión.
+- Catálogo con resultados, sin coincidencias y producto inexistente.
+- Carrito vacío y checkout con carrito vacío o stock insuficiente.
+- Errores de validación en productos, fotos (URL inválida o límite de 10) y reseñas (calificación inválida o duplicada).
+- Categoría inexistente o en uso al eliminar.
 
 En el panel `/usuarios`, la sección “Probar estados de la interfaz” permite alternar entre datos, lista vacía y error sin modificar los JSON.
 
@@ -93,19 +116,48 @@ public/data/               Respuestas JSON simuladas
 src/components/layout/     Encabezado, pie y contenedor general
 src/components/routing/    Protección de rutas
 src/components/ui/         Componentes visuales reutilizables
-src/context/               Estado de la sesión
-src/pages/                 Pantallas de usuarios y autenticación
+src/components/<módulo>/   Componentes propios de carrito, órdenes, fotos, productos, categorías y reseñas
+src/context/               Sesión, carrito y favoritos
+src/pages/                 Pantallas de toda la aplicación
 src/services/              Capa de acceso a datos locales
-docs/                      Mockups, wireflow y cobertura funcional
+docs/                      Mockups, mapa de navegación y cobertura funcional
+tests/                     Pruebas del servicio de categorías (node --test)
 ```
 
 ## Migración futura a la API
 
-Los componentes no leen archivos JSON directamente: llaman a `authService.js` y `userService.js`. Para integrar Spring Boot solo se deben reemplazar esas lecturas por solicitudes `fetch` a los endpoints reales y enviar el token como `Authorization: Bearer <token>`. Las pantallas, los estados y las rutas pueden mantenerse sin cambios estructurales.
+Los componentes no leen archivos JSON directamente: llaman a los servicios de `src/services/`. Para integrar Spring Boot solo se deben reemplazar esas lecturas por solicitudes `fetch` a los endpoints reales y enviar el token como `Authorization: Bearer <token>`. Las pantallas, los estados y las rutas pueden mantenerse sin cambios estructurales.
 
 ## Diseño
 
-El tablero de mockups y el mapa de navegación están documentados en [docs/usuarios-diseno.md](docs/usuarios-diseno.md). El módulo de reseñas está en [docs/resenias-diseno.md](docs/resenias-diseno.md), el de carrito en [docs/carrito-diseno.md](docs/carrito-diseno.md) y el mapa de navegación de toda la aplicación en [docs/mapa-de-navegacion.md](docs/mapa-de-navegacion.md). La comprobación requisito por requisito se encuentra en [docs/evaluacion-consigna.md](docs/evaluacion-consigna.md).
+Los mockups están en Figma: [TRAMA - Mockups](https://www.figma.com/design/cXFsu9YbGmqkF3iAj7BfbI/TRAMA---Mockups?node-id=1-2&t=j84wcZQuG6hYl0bv-1). Reúnen los tableros de escritorio y celular de todos los módulos, la guía de estilos y componentes y el mapa de navegación. Los mismos tableros están en `docs/` en formato SVG.
+
+| Documento | Contenido |
+| --- | --- |
+| [docs/mapa-de-navegacion.md](docs/mapa-de-navegacion.md) | Mapa de navegación, rutas y cobertura de los 28 endpoints |
+| [docs/usuarios-diseno.md](docs/usuarios-diseno.md) | Usuarios y estructura |
+| [docs/categorias-diseno.md](docs/categorias-diseno.md) | Categorías |
+| [docs/productos-diseno.md](docs/productos-diseno.md) | Catálogo y productos |
+| [docs/carrito-diseno.md](docs/carrito-diseno.md) | Carrito |
+| [docs/resenias-diseno.md](docs/resenias-diseno.md) | Reseñas |
+| [docs/evaluacion-consigna.md](docs/evaluacion-consigna.md) | Comprobación requisito por requisito |
+
+Tableros SVG: [estilos y componentes](docs/estilos-y-componentes.svg), [usuarios](docs/mockups-usuarios.svg), [categorías](docs/mockups-categorias.svg), [productos](docs/mockups-productos.svg), [fotos](docs/mockups-fotos.svg), [carrito](docs/mockups-carrito.svg), [órdenes](docs/mockups-ordenes.svg), [favoritos](docs/mockups-favoritos.svg), [reseñas](docs/mockups-resenias.svg) y [mapa de navegación](docs/mapa-de-navegacion.svg).
+
+## Equipo
+
+Grupo 7, Aplicaciones Interactivas (UADE).
+
+| Integrante | Módulo |
+| --- | --- |
+| Benja | Usuarios y estructura inicial |
+| Julieta | Categorías |
+| Alan | Catálogo y productos |
+| Julian | Fotos de productos |
+| Ian | Carrito |
+| Julián Casella | Órdenes y checkout |
+| Nacho | Favoritos |
+| Valu | Reseñas y consolidación del diseño |
 
 ## Categorías — Julieta
 
