@@ -186,7 +186,7 @@
 
 @media (max-width: 900px) {
   .app-header {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr auto 1fr;
     min-height: 68px;
   }
 
@@ -246,4 +246,17 @@
   .app-footer__right {
     text-align: left;
   }
+}
+
+/* Contraste del botón principal en ambos temas y todos los tamaños. */
+.catalog-hero .hero-actions .button-link:not(.button-link--secondary) {
+  color: #ffffff;
+  background: #252a24;
+  border-color: #252a24;
+}
+
+.catalog-hero .hero-actions .button-link:not(.button-link--secondary):hover {
+  color: #ffffff;
+  background: #3d463a;
+  border-color: #3d463a;
 }
