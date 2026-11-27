@@ -65,3 +65,45 @@ img {
   color: #fff;
   background: var(--color-accent);
 }
+
+:root[data-theme='dark'] {
+  --color-background: #181b18;
+  --color-surface: #232823;
+  --color-surface-strong: #303730;
+  --color-ink: #f1f2ec;
+  --color-muted: #b9beb4;
+  --color-border: #495047;
+  --color-accent: #e4a482;
+  --color-accent-dark: #f0bc9f;
+  --color-success: #b3d6a3;
+  --color-success-soft: #293d28;
+  --color-danger: #ffb4a8;
+  --color-danger-soft: #472b28;
+  --color-info-soft: #293642;
+  --shadow-soft: 0 22px 60px rgb(0 0 0 / 30%);
+}
+
+.theme-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.75rem 5vw;
+  background: var(--color-background);
+}
+
+:root[data-theme='dark'] .app-header,
+:root[data-theme='dark'] .mobile-navigation {
+  background: var(--color-background);
+}
+
+:root[data-theme='dark'] input,
+:root[data-theme='dark'] textarea,
+:root[data-theme='dark'] select {
+  color: var(--color-ink);
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+:root[data-theme='dark'] input::placeholder,
+:root[data-theme='dark'] textarea::placeholder {
+  color: var(--color-muted);
+}

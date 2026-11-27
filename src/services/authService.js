@@ -1,65 +1,107 @@
-import { MockApiError, readJson, wait } from './http'
+import { MockApiError } from './http'
 
-export const DEMO_ACCOUNTS = {
-  user: {
-    mail: 'benja@trama.com',
-    contrasenia: 'trama123',
-    label: 'Usuario',
-  },
-  admin: {
-    mail: 'admin@trama.com',
-    contrasenia: 'admin123',
-    label: 'Administrador',
-  },
+const BASE_URL = '/api/usuarios'
+
+// Se retirarán los botones de demostración del formulario.
+export const DEMO_ACCOUNTS = {}
+
+async function readResponse(response) {
+  const text = await response.text()
+  let data = null
+
+  if (text) {
+    try {
+      data = JSON.parse(text)
+    } catch {
+      data = null
+    }
+  }
+
+  if (!response.ok) {
+    throw new MockApiError({
+      ...data,
+      estado: response.status,
+      mensaje:
+        data?.mensaje ||
+        data?.message ||
+        `No se pudo completar la solicitud (${response.status})`,
+    })
+  }
+
+  return data
 }
 
-async function getErrorPayload(path) {
-  return readJson(path)
+async function getCsrfToken() {
+  const response = await fetch(`${BASE_URL}/csrf`, {
+    credentials: 'same-origin',
+    cache: 'no-store',
+  })
+
+  return readResponse(response)
+}
+
+async function post(path, data) {
+  const csrf = await getCsrfToken()
+
+  const response = await fetch(`${BASE_URL}${path}`, {
+    method: 'POST',
+    credentials: 'same-origin',
+    headers: {
+      'Content-Type': 'application/json',
+      [csrf.headerName]: csrf.token,
+    },
+    ...(data !== undefined && {
+      body: JSON.stringify(data),
+    }),
+  })
+
+  return readResponse(response)
+}
+
+export async function getSession({ signal } = {}) {
+  const response = await fetch(`${BASE_URL}/me`, {
+    credentials: 'same-origin',
+    cache: 'no-store',
+    signal,
+  })
+
+  if (response.status === 401) {
+    return null
+  }
+
+  const data = await readResponse(response)
+
+  return {
+    response: { usuario: data.usuario },
+    access: data.access,
+  }
 }
 
 export async function login(credentials) {
-  await wait()
+  await post('/login', {
+    mail: credentials.mail.trim().toLowerCase(),
+    contrasenia: credentials.contrasenia,
+  })
 
-  const account = Object.values(DEMO_ACCOUNTS).find(
-    (candidate) =>
-      candidate.mail === credentials.mail.trim().toLowerCase() &&
-      candidate.contrasenia === credentials.contrasenia,
-  )
+  const session = await getSession()
 
-  if (!account) {
-    throw new MockApiError(await getErrorPayload('/data/error-login.json'))
+  if (!session) {
+    throw new Error('No se pudo recuperar la sesión. Intentá nuevamente.')
   }
 
-  const access = account === DEMO_ACCOUNTS.admin ? 'ADMIN' : 'USUARIO'
-  const responsePath =
-    access === 'ADMIN'
-      ? '/data/login-admin-response.json'
-      : '/data/login-response.json'
-  const response = await readJson(responsePath)
-
-  return { response, access }
+  return session
 }
 
 export async function register(data) {
-  await wait(550)
-
-  const users = await readJson('/data/usuarios.json')
-  const duplicated = users.some(
-    (user) =>
-      user.mail.toLowerCase() === data.mail.trim().toLowerCase() ||
-      user.nombreUsuario.toLowerCase() === data.nombreUsuario.trim().toLowerCase(),
-  )
-
-  if (duplicated) {
-    throw new MockApiError(await getErrorPayload('/data/error-registro-duplicado.json'))
-  }
-
-  const responseTemplate = await readJson('/data/registro-response.json')
-  return {
-    ...responseTemplate,
+  return post('/registro', {
     nombreUsuario: data.nombreUsuario.trim(),
     mail: data.mail.trim().toLowerCase(),
     nombre: data.nombre.trim(),
     apellido: data.apellido.trim(),
-  }
+    contrasenia: data.contrasenia,
+  })
+}
+
+export async function logout() {
+  await post('/logout')
 }

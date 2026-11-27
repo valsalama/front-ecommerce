@@ -7,12 +7,26 @@ const getNavClass = ({ isActive }) => (isActive ? 'active' : undefined)
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [loggingOut, setLoggingOut] = useState(false)
+  const [logoutError, setLogoutError] = useState('')
   const { access, isAuthenticated, logout, user } = useAuth()
   const navigate = useNavigate()
 
-  const handleLogout = () => {
-    logout()
-    navigate('/')
+  const handleLogout = async () => {
+    if (loggingOut) return
+
+    setLoggingOut(true)
+    setLogoutError('')
+
+    try {
+      await logout()
+      setMenuOpen(false)
+      navigate('/')
+    } catch {
+      setLogoutError('No se pudo cerrar la sesión. Intentá nuevamente.')
+    } finally {
+      setLoggingOut(false)
+    }
   }
 
   const navigation = (
@@ -20,9 +34,11 @@ function Header() {
       <NavLink to="/" end className={getNavClass}>
         Inicio
       </NavLink>
+
       <NavLink to="/productos" className={getNavClass}>
         Productos
       </NavLink>
+
       {access === 'ADMIN' && (
         <>
           <NavLink to="/usuarios" className={getNavClass}>
@@ -36,20 +52,24 @@ function Header() {
           </NavLink>
         </>
       )}
+
       {isAuthenticated && (
         <NavLink to="/mi-perfil" className={getNavClass}>
           Mi perfil
         </NavLink>
       )}
+
       {isAuthenticated && <CartLink />}
+
       {isAuthenticated && (
         <NavLink to="/ordenes" className={getNavClass}>
           Mis órdenes
         </NavLink>
       )}
+
       {isAuthenticated && (
         <NavLink to="/favoritos" className={getNavClass}>
-         Favoritos
+          Favoritos
         </NavLink>
       )}
     </>
@@ -69,9 +89,16 @@ function Header() {
         <div className="header-actions">
           {isAuthenticated ? (
             <>
-              <span className="visually-hidden">Sesión de {user.nombre}</span>
-              <button className="session-button" type="button" onClick={handleLogout}>
-                Cerrar sesión
+              <span className="visually-hidden">
+                Sesión de {user?.nombre}
+              </span>
+              <button
+                className="session-button"
+                type="button"
+                onClick={handleLogout}
+                disabled={loggingOut}
+              >
+                {loggingOut ? 'Cerrando sesión…' : 'Cerrar sesión'}
               </button>
             </>
           ) : (
@@ -98,6 +125,10 @@ function Header() {
         </button>
       </header>
 
+      {logoutError && (
+        <p role="alert">{logoutError}</p>
+      )}
+
       {menuOpen && (
         <nav
           className="mobile-navigation"
@@ -108,9 +139,14 @@ function Header() {
           }}
         >
           {navigation}
+
           {isAuthenticated ? (
-            <button type="button" onClick={handleLogout}>
-              Cerrar sesión
+            <button
+              type="button"
+              onClick={handleLogout}
+              disabled={loggingOut}
+            >
+              {loggingOut ? 'Cerrando sesión…' : 'Cerrar sesión'}
             </button>
           ) : (
             <>
